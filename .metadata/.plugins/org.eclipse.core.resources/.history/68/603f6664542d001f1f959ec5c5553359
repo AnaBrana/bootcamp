@@ -1,0 +1,13 @@
+package com.example.ioc;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class EntornoImpl {
+	
+	public void write(String cadena) {
+		
+		System.out.println(cadena);
+	}
+
+}

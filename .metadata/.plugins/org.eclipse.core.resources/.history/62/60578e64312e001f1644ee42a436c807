@@ -1,0 +1,34 @@
+package com.example;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
+public class PersonaTest {
+
+	@Nested
+	@DisplayName("Proceso de instanciación")
+	class Create {
+		@Nested
+		class OK{
+			@Test
+			void soloNombre() {
+				var persona= new Persona(1,"Pepito");
+				
+				assertNotNull(persona);
+			}
+		}
+		
+		@Nested
+		class KO{
+			
+		}
+	}
+	
+	@Test
+	void test() {
+		
+	}
+}

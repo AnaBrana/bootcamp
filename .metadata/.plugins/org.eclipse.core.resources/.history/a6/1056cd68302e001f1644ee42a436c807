@@ -1,0 +1,27 @@
+package com.example;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
+public class PersonaTest {
+
+	@Nested
+	@DisplayName("Proceso de instanciación")
+	class Create {
+		@Nested
+		class OK{
+			
+		}
+		
+		@Nested
+		class KO{
+			
+		}
+	}
+	
+	@Test
+	void test() {
+		
+	}
+}

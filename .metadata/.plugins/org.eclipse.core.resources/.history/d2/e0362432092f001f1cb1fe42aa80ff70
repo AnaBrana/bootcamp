@@ -1,0 +1,44 @@
+package com.gildedrose;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class GildedRoseTest {
+
+    @Test
+    void foo() {
+        Item[] items = new Item[] { new Item("foo", 0, 0) };
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+       // assertEquals("fixme", app.items[0].name);
+    }
+    
+    @Test
+    public void testEdadBrieIncrementaEnCalidad() {
+        Item[] items = new Item[] { new Item("Aged Brie", 2, 0) };
+        GildedRose app = new GildedRose(items);
+
+        app.updateQuality();
+
+        assertEquals("Aged Brie", app.items[0].name);
+        assertEquals(1, app.items[0].sellIn);
+        assertEquals(1, app.items[0].quality);
+    }
+    
+    @Test
+    public void testBackstagePassesIncrementaEnCualidad() {
+        Item[] items = new Item[] { new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20) };
+        GildedRose app = new GildedRose(items);
+
+        app.updateQuality();
+
+        assertEquals("Backstage passes to a TAFKAL80ETC concert", app.items[0].name);
+        assertEquals(14, app.items[0].sellIn);
+        assertEquals(21, app.items[0].quality);
+    }
+
+
+    
+
+}

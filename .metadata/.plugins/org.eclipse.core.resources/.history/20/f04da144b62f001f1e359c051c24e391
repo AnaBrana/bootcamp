@@ -1,0 +1,13 @@
+package com.example;
+
+public class PersonaService {
+	
+	private PersonaRepository dao;
+
+	public PersonaService(PersonaRepository dao) {
+		super();
+		this.dao = dao;
+	}
+	
+	
+}
