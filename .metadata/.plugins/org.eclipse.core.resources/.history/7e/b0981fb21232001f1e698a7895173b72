@@ -1,0 +1,5 @@
+package com.example.doamins.cotracts.repositories;
+
+public interface ActorRepository {
+
+}
