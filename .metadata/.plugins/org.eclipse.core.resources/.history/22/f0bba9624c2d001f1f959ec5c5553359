@@ -1,6 +1,0 @@
-package com.example.ioc;
-
-@Service
-public class Entorno {
-
-}

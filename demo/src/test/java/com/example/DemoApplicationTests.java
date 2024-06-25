@@ -17,11 +17,11 @@ import com.example.ioc.Saluda;
 @ActiveProfiles("test")
 class DemoApplicationTests {
 
-	@TestConfiguration
-	static class Contexto{
+	@TestConfiguration 
+	static class Contexto {
 		@Bean
 		Saluda saluda() {
-			var simula=mock(Saluda.class);
+			var simula = mock(Saluda.class);
 			when(simula.getContador()).thenReturn(666);
 			return simula;
 		}
@@ -30,11 +30,9 @@ class DemoApplicationTests {
 	@Autowired
 	Saluda saluda;
 	
-	
-	
 	@Test
 	void contextLoads() {
-		assertEquals(666,saluda.getContador());
+		assertEquals(666, saluda.getContador());
 	}
 
 }

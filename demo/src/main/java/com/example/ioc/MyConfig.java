@@ -23,6 +23,6 @@ public class MyConfig {
 	
 	@EventListener
 	void trataEvento(SaludaImpl.SaludaEvent ev) {
-		System.err.println("Evento -> "+ev.tipo()+ " -> "+ ev.destination());
+		System.err.println("Evento -> " + ev.tipo() + " -> " + ev.detinatario());
 	}
 }
