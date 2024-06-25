@@ -1,0 +1,7 @@
+package com.example.domains.entities.models;
+
+public class ActorDTO {
+	private int actorId;
+	private String firstName;
+	private String lastName;
+}
