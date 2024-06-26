@@ -43,7 +43,7 @@ public class CatalogoApplication implements CommandLineRunner {
 		//actorService.getByProjection(Actor.class).forEach(System.out::println);
 		//categoryService.getByProjection(Category.class).forEach(System.out::println);
 		//filmService.getByProjection(Film.class).forEach(System.out::println);
-		languageService.getByProjection(Language.class).forEach(System.out::println);
+		//languageService.getByProjection(Language.class).forEach(System.out::println);
 		
 	
 	}

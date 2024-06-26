@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="com.example.domains.contracts.repositories.ActorRepository"/>
     <fullyQualifiedTypeName name="com.example.exceptions.InvalidDataException"/>
     <fullyQualifiedTypeName name="com.example.exceptions.DuplicateKeyException"/>
+    <fullyQualifiedTypeName name="com.example.domains.entities.Actor"/>
 </qualifiedTypeNameHistroy>
