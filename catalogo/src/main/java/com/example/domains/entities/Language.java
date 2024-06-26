@@ -36,11 +36,11 @@ public class Language  extends EntityBase<Language> implements Serializable {
 	private String name;
 
 	//bi-directional many-to-one association to Film
-	@OneToMany(mappedBy="language1")
+	@OneToMany(mappedBy="language")
 	private List<Film> films1;
 
 	//bi-directional many-to-one association to Film
-	@OneToMany(mappedBy="language2")
+	@OneToMany(mappedBy="languageVO")
 	private List<Film> films2;
 
 	public Language() {
@@ -79,7 +79,7 @@ public class Language  extends EntityBase<Language> implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Language [languageId=" + languageId + ", lastUpdate=" + lastUpdate + ", name=" + name + "]";
+		return "Language: id: " + languageId + ", lastUpdate: " + lastUpdate + ", idioma: " + name;
 	}
 
 

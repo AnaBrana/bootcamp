@@ -126,10 +126,18 @@ public class Film  extends EntityBase<Film>implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Film [filmId=" + filmId + ", description=" + description + ", lastUpdate=" + lastUpdate + ", length="
-				+ length + ", rating=" + rating + ", releaseYear=" + releaseYear + ", rentalDuration=" + rentalDuration
-				+ ", rentalRate=" + rentalRate + ", replacementCost=" + replacementCost + ", title=" + title
-				+ ", language=" + language + ", languageVO=" + languageVO + "]";
+		return "Film: id: " + filmId  + ",\n" + 
+	" descripcion: " + description  + ",\n" +
+	" lastUpdate: " + lastUpdate  + ",\n" +
+	" duracion: "+ length +",\n" +
+	" clasificacion: " + rating  + ",\n" + 
+	" anioEstreno: " + releaseYear +",\n" +
+	" duracionAlquiler: " + rentalDuration + ",\n" +
+	" tarifaAlquiler: " + rentalRate +",\n" +
+	" penalizacion: " + replacementCost + ",\n"  +
+	" titulo: " + title+",\n" +
+	" idioma: " + language.getName() + ",\n" +
+	" idiomaVO: " + languageVO;
 	}
 
 
@@ -228,24 +236,36 @@ public class Film  extends EntityBase<Film>implements Serializable {
 	}
 
 	// Gestión de actores
-
+	//Devuelve una lista de actores asociados con la película.
 	public List<Actor> getActors() {
+		//Usa stream para recorrer filmActors (lista de FilmActor).
+		//Para cada FilmActor, obtiene el Actor asociado y lo convierte en una lista.
 		return this.filmActors.stream().map(item -> item.getActor()).toList();
 	}
+	//Reemplaza la lista de actores asociada con la película con una nueva lista.
+	//Limpia la lista de actores actual usando clearActors() si no está vacía.
+	//Añade cada actor de la lista source usando addActor(item).
 	public void setActors(List<Actor> source) {
 		if(filmActors == null || !filmActors.isEmpty()) clearActors();
 		source.forEach(item -> addActor(item));
 	}
+	//Limpia la lista de FilmActor.
+	//Inicializa filmActors como una nueva lista vacía 
 	public void clearActors() {
 		filmActors = new ArrayList<FilmActor>() ;
 	}
+	//Añade un actor a la lista de filmActors
 	public void addActor(Actor actor) {
+		//Crea una nueva instancia de FilmActor con la película (this) y el actor.
 		FilmActor filmActor = new FilmActor(this, actor);
 		filmActors.add(filmActor);
 	}
+	//Añade un actor usando su ID.
 	public void addActor(int actorId) {
 		addActor(new Actor(actorId));
 	}
+	//Elimina un actor de la lista de filmActors
+	//Encuentra el FilmActor correspondiente al actor dado usando stream y filter
 	public void removeActor(Actor actor) {
 		var filmActor = filmActors.stream().filter(item -> item.getActor().equals(actor)).findFirst();
 		if(filmActor.isEmpty())
@@ -255,23 +275,34 @@ public class Film  extends EntityBase<Film>implements Serializable {
 
 	// Gestión de categorias
 
+	//Devuelve una lista de categorías asociadas con la película
+	//Usa stream para recorrer filmCategories.
+	//Para cada FilmCategory, obtiene la Category asociada y la convierte en una lista.
 	public List<Category> getCategories() {
 		return this.filmCategories.stream().map(item -> item.getCategory()).toList();
 	}
+	//Reemplaza la lista de categorías asociada con la película con una nueva lista.
+	//Limpia la lista de categorías actual usando clearCategories() si no está vacía.
+	//Añade cada categoría de la lista source usando addCategory(item)
 	public void setCategories(List<Category> source) {
 		if(filmCategories == null || !filmCategories.isEmpty()) clearCategories();
 		source.forEach(item -> addCategory(item));
 	}
+	//Limpia la lista de FilmCategory
 	public void clearCategories() {
 		filmCategories = new ArrayList<FilmCategory>() ;
 	}
+	//Añade una categoría a la lista de filmCategories
+	//Crea una nueva instancia de FilmCategory con la película (this) y la categoría
 	public void addCategory(Category item) {
 		FilmCategory filmCategory = new FilmCategory(this, item);
 		filmCategories.add(filmCategory);
 	}
+	//Añade una categoría usando su ID
 	public void addCategory(int id) {
 		addCategory(new Category(id));
 	}
+	//Elimina una categoría de la lista de filmCategories
 	public void removeCategory(Category ele) {
 		var filmCategory = filmCategories.stream().filter(item -> item.getCategory().equals(ele)).findFirst();
 		if(filmCategory.isEmpty())

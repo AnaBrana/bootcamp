@@ -135,7 +135,7 @@ public class Actor extends EntityBase<Actor> implements Serializable {
 
 	@Override
 	public String toString() {
-		return "Actor [actorId=" + actorId + ", firstName=" + firstName + ", lastName=" + lastName + ", lastUpdate="
+		return "Actor [id=" + actorId + ", nombre=" + firstName + ", apellido=" + lastName + ", lastUpdate="
 				+ lastUpdate + "]";
 	}
 
