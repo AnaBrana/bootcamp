@@ -11,6 +11,8 @@ import java.util.Objects;
 
 import com.example.domains.core.entities.EntityBase;
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 
 /**
@@ -26,6 +28,7 @@ public class Category extends EntityBase<Category> implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="category_id", unique=true, nullable=false)
+	@JsonProperty("id")
 	private int categoryId;
 
 	@Column(name="last_update", insertable=false, updatable=false)
@@ -35,60 +38,21 @@ public class Category extends EntityBase<Category> implements Serializable {
 	@Column(name="name", nullable=false, length=45)
 	@NotBlank
 	@Size(max=45, min=2)
+	@JsonProperty("categoria")
 	private String name;
 
 	//bi-directional many-to-one association to FilmCategory
 	@OneToMany(mappedBy="category")
+	@JsonIgnore
 	private List<FilmCategory> filmCategories;
 
 	public Category() {
 	}
-	
-	
-
-	public Category(int categoryId, @NotBlank @Size(max = 45, min = 2) String name) {
-		super();
-		this.categoryId = categoryId;
-		this.name = name;
-	}
-
-
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(categoryId);
-	}
-
-
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Category other = (Category) obj;
-		return categoryId == other.categoryId;
-	}
-
-
-
-	@Override
-	public String toString() {
-		return "Category [categoryId=" + categoryId + ", lastUpdate=" + lastUpdate + ", name=" + name
-				+ ", filmCategories=" + filmCategories + "]";
-	}
-
-
 
 	public Category(int categoryId) {
 		super();
 		this.categoryId = categoryId;
 	}
-
-
 
 	public int getCategoryId() {
 		return this.categoryId;
@@ -136,4 +100,25 @@ public class Category extends EntityBase<Category> implements Serializable {
 		return filmCategory;
 	}
 
+	@Override
+	public int hashCode() {
+		return Objects.hash(categoryId);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Category other = (Category) obj;
+		return categoryId == other.categoryId;
+	}
+
+	@Override
+	public String toString() {
+		return "Category [categoryId=" + categoryId + ", name=" + name + ", lastUpdate=" + lastUpdate + "]";
+	}
 }

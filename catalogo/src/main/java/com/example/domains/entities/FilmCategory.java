@@ -35,6 +35,12 @@ public class FilmCategory  extends EntityBase<FilmCategory> implements Serializa
 
 	public FilmCategory() {
 	}
+	
+	public FilmCategory(Film film, Category category) {
+		this.film = film;
+		this.category = category;
+		setId(new FilmCategoryPK(film.getFilmId(), category.getCategoryId()));
+	}
 
 	public FilmCategoryPK getId() {
 		return this.id;

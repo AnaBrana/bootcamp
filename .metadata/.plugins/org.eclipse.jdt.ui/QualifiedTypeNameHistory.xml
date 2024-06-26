@@ -9,4 +9,12 @@
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="com.example.domains.entities.models.ActorDTO"/>
+    <fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.core.JsonProcessingException"/>
+    <fullyQualifiedTypeName name="com.example.domains.core.contracts.repositories.ProjectionsAndSpecificationJpaRepository"/>
+    <fullyQualifiedTypeName name="com.example.domains.core.contracts.services.ProjectionDomainService"/>
+    <fullyQualifiedTypeName name="com.example.domains.contracts.repositories.ActorRepository"/>
+    <fullyQualifiedTypeName name="com.example.exceptions.InvalidDataException"/>
+    <fullyQualifiedTypeName name="com.example.exceptions.DuplicateKeyException"/>
 </qualifiedTypeNameHistroy>
