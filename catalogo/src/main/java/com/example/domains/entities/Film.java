@@ -40,13 +40,13 @@ public class Film  extends EntityBase<Film>implements Serializable {
 	@Lob
 	private String description;
 
-	@Column(name="last_update", insertable=false, updatable=false, nullable=false)
+	@Column(name="last_update", insertable=false, updatable=false/*, nullable=false*/)
 	@JsonFormat(pattern="yyyy-MM-dd hh:mm:ss")
-	@NotNull
+	//@NotNull
 	private Timestamp lastUpdate;
 
 	@Positive
-	private int length;
+	private Integer length;
 
 	@Column(length=1)
 	private String rating;
@@ -100,28 +100,20 @@ public class Film  extends EntityBase<Film>implements Serializable {
 	public Film() {
 	}
 	
-
-	public Film(int filmId) {
+	public Film(int filmId, @Positive @NotNull byte rentalDuration,
+			@NotNull @Digits(integer = 2, fraction = 2) BigDecimal rentalRate,
+			@NotNull @Digits(integer = 3, fraction = 2) BigDecimal replacementCost,
+			@NotBlank @Size(max = 128) String title, @NotNull Language language) {
 		super();
 		this.filmId = filmId;
-	}
-	
-	
-	public Film(int filmId, String description, int length, String rating, Short releaseYear, byte rentalDuration,
-			BigDecimal rentalRate, BigDecimal replacementCost, String title, Language language, Language languageVO) {
-		super();
-		this.filmId = filmId;
-		this.description = description;
-		this.length = length;
-		this.rating = rating;
-		this.releaseYear = releaseYear;
 		this.rentalDuration = rentalDuration;
 		this.rentalRate = rentalRate;
 		this.replacementCost = replacementCost;
 		this.title = title;
 		this.language = language;
-		this.languageVO = languageVO;
 	}
+
+
 
 
 	@Override
