@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -44,6 +46,22 @@ public class CatalogoApplication implements CommandLineRunner {
 		//categoryService.getByProjection(Category.class).forEach(System.out::println);
 		//filmService.getByProjection(Film.class).forEach(System.out::println);
 		//languageService.getByProjection(Language.class).forEach(System.out::println);
+		
+		//Optional<Actor>actor=actorService.getOne(1);
+		//System.err.println("Valor presente: " + actor.get());
+		//Optional<Category>category=categoryService.getOne(1);
+		//System.err.println("Valor presente: " + category.get());
+		//Optional<Film>film=filmService.getOne(1);
+		//System.err.println("Valor presente: " + film.get());
+		//Optional<Language>idioma=languageService.getOne(1);
+		//System.err.println("Valor presente: " + idioma.get());
+		
+		/*var actor = new Actor(0, "Pepito", "Grillo");
+		if(actor.isValid()) {
+			System.out.println(actorService.add(actor));
+			} else {
+			actor.getErrors().forEach(System.out::println);
+		}*/
 		
 	
 	}
