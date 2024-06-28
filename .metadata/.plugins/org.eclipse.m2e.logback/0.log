@@ -5051,3 +5051,1121 @@ org.apache.maven.settings.building.SettingsBuildingException: 1 problem was enco
 2024-06-28 09:21:44,366 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-06-28 09:21:44,368 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-06-28 09:21:44,377 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 09:22:47,449 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 09:22:47,451 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 09:22:47,456 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 09:34:32,688 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 09:34:32,689 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 09:34:32,695 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 09:35:09,588 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 09:35:09,590 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 09:35:09,597 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 09:44:00,759 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/jaxb2-maven-plugin/3.1.0/jaxb2-maven-plugin-3.1.0.pom
+2024-06-28 09:44:00,856 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/jaxb2-maven-plugin/3.1.0/jaxb2-maven-plugin-3.1.0.pom
+2024-06-28 09:44:00,935 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/67/mojo-parent-67.pom
+2024-06-28 09:44:00,981 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/67/mojo-parent-67.pom
+2024-06-28 09:44:01,057 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/jaxb2-maven-plugin/3.1.0/jaxb2-maven-plugin-3.1.0.jar
+2024-06-28 09:44:01,180 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/jaxb2-maven-plugin/3.1.0/jaxb2-maven-plugin-3.1.0.jar
+2024-06-28 09:44:01,260 [Worker-76: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-ws:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo-ws\pom.xml.
+2024-06-28 09:44:01,949 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-xjc/3.0.0/jaxb-xjc-3.0.0.pom
+2024-06-28 09:44:01,973 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-xjc/3.0.0/jaxb-xjc-3.0.0.pom
+2024-06-28 09:44:02,062 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/3.0.0/jaxb-bundles-3.0.0.pom
+2024-06-28 09:44:02,073 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-bundles/3.0.0/jaxb-bundles-3.0.0.pom
+2024-06-28 09:44:02,157 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/3.0.0/jaxb-parent-3.0.0.pom
+2024-06-28 09:44:02,171 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/mvn/jaxb-parent/3.0.0/jaxb-parent-3.0.0.pom
+2024-06-28 09:44:02,255 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/3.0.0/jaxb-bom-ext-3.0.0.pom
+2024-06-28 09:44:02,275 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-bom-ext/3.0.0/jaxb-bom-ext-3.0.0.pom
+2024-06-28 09:44:02,355 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/3.0.0/jaxb-bom-3.0.0.pom
+2024-06-28 09:44:02,367 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-bom/3.0.0/jaxb-bom-3.0.0.pom
+2024-06-28 09:44:02,455 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.pom
+2024-06-28 09:44:02,465 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.pom
+2024-06-28 09:44:02,540 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.pom
+2024-06-28 09:44:02,562 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.pom
+2024-06-28 09:44:02,646 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/3.0.0/jakarta.xml.bind-api-parent-3.0.0.pom
+2024-06-28 09:44:02,656 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api-parent/3.0.0/jakarta.xml.bind-api-parent-3.0.0.pom
+2024-06-28 09:44:02,731 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.pom
+2024-06-28 09:44:02,749 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.pom
+2024-06-28 09:44:02,828 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/all/2.0.0/all-2.0.0.pom
+2024-06-28 09:44:02,849 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/all/2.0.0/all-2.0.0.pom
+2024-06-28 09:44:02,938 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-jxc/3.0.0/jaxb-jxc-3.0.0.pom
+2024-06-28 09:44:02,949 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-jxc/3.0.0/jaxb-jxc-3.0.0.pom
+2024-06-28 09:44:03,029 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/3.0.0/jaxb-impl-3.0.0.pom
+2024-06-28 09:44:03,049 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/3.0.0/jaxb-impl-3.0.0.pom
+2024-06-28 09:44:03,127 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom
+2024-06-28 09:44:03,141 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.pom
+2024-06-28 09:44:03,221 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+2024-06-28 09:44:03,248 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.pom
+2024-06-28 09:44:03,332 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+2024-06-28 09:44:03,342 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.11.1/plexus-compiler-2.11.1.pom
+2024-06-28 09:44:03,414 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+2024-06-28 09:44:03,433 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.6/plexus-components-6.6.pom
+2024-06-28 09:44:03,509 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+2024-06-28 09:44:03,529 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.4.1/plexus-utils-3.4.1.pom
+2024-06-28 09:44:03,603 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom
+2024-06-28 09:44:03,622 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.pom
+2024-06-28 09:44:03,722 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.0.0/istack-commons-runtime-4.0.0.pom
+2024-06-28 09:44:03,732 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.0.0/istack-commons-runtime-4.0.0.pom
+2024-06-28 09:44:03,812 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.0.0/istack-commons-4.0.0.pom
+2024-06-28 09:44:03,833 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons/4.0.0/istack-commons-4.0.0.pom
+2024-06-28 09:44:03,929 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-xjc/3.0.0/jaxb-xjc-3.0.0.jar
+2024-06-28 09:44:04,855 [Worker-76: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-xjc/3.0.0/jaxb-xjc-3.0.0.jar
+2024-06-28 09:44:04,927 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.jar
+2024-06-28 09:44:04,960 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/activation/jakarta.activation/2.0.0/jakarta.activation-2.0.0.jar
+2024-06-28 09:44:05,024 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
+2024-06-28 09:44:05,037 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.jar
+2024-06-28 09:44:05,050 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.jar
+2024-06-28 09:44:05,059 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-jxc/3.0.0/jaxb-jxc-3.0.0.jar
+2024-06-28 09:44:05,069 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/3.0.0/jaxb-impl-3.0.0.jar
+2024-06-28 09:44:05,302 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/3.0.0/jakarta.xml.bind-api-3.0.0.jar
+2024-06-28 09:44:05,359 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+2024-06-28 09:44:05,386 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.11.1/plexus-compiler-api-2.11.1.jar
+2024-06-28 09:44:05,455 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+2024-06-28 09:44:05,671 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-jxc/3.0.0/jaxb-jxc-3.0.0.jar
+2024-06-28 09:44:05,748 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.0.0/istack-commons-runtime-4.0.0.jar
+2024-06-28 09:44:05,766 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar
+2024-06-28 09:44:05,766 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-core/3.0.0/jaxb-core-3.0.0.jar
+2024-06-28 09:44:05,769 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/3.0.0/jaxb-impl-3.0.0.jar
+2024-06-28 09:44:05,819 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/4.0.0/istack-commons-runtime-4.0.0.jar
+2024-06-28 09:44:06,076 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.1/qdox-2.0.1.jar
+2024-06-28 09:44:06,240 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 09:44:06,243 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 09:44:06,257 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 09:44:06,903 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 09:44:06,905 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 09:44:06,909 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 09:44:06,919 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 09:44:06,926 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 09:44:06,984 [Worker-75: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-28 09:44:07,552 [Worker-75: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-ws:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo-ws\pom.xml.
+2024-06-28 09:44:08,425 [Worker-75: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 09:44:08,436 [Worker-75: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 09:44:08,471 [Worker-75: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-ws/src/main/java
+2024-06-28 09:44:08,479 [Worker-75: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-ws/target/generated-sources/jaxb
+2024-06-28 09:44:08,480 [Worker-75: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-ws/src/main/resources
+2024-06-28 09:44:08,481 [Worker-75: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-ws/src/main/resources
+2024-06-28 09:44:08,482 [Worker-75: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-ws/src/test/java
+2024-06-28 09:44:08,482 [Worker-75: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-ws/src/test/resources
+2024-06-28 09:44:09,188 [Worker-75: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-06-28 09:44:09,492 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 09:44:09,493 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 09:44:09,658 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 09:44:09,679 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 09:44:09,687 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 09:46:56,765 [main] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settingsCacheMap.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings C:\Users\abranasa\.m2\settings.xml: attribute value must start with quotation or apostrophe not h (position: START_DOCUMENT seen ...e setting is not specified) are provided.\n|\n|-->\n<settings xmlns=h... @46:18)  @ C:\Users\abranasa\.m2\settings.xml, line 46, column 18
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:115)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$MavenSettings.getSettings(MavenImpl.java:1117)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:279)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:273)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:182)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.newLocalRepositoryInfo(RepositoryRegistry.java:95)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getLocalRepository(RepositoryRegistry.java:328)
+	at org.eclipse.m2e.core.ui.internal.M2EUIPluginActivator.start(M2EUIPluginActivator.java:118)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.<init>(MavenPomEditorPage.java:128)
+	at org.eclipse.m2e.editor.pom.OverviewPage.<init>(OverviewPage.java:246)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addPages(MavenPomEditor.java:327)
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:143)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:332)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1389)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:48)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1079)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+2024-06-28 09:46:59,238 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-28 09:59:17,178 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 09:59:17,184 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 09:59:17,335 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 09:59:17,353 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 09:59:17,359 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 10:02:24,456 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 10:02:24,457 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 10:02:24,466 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:02:24,474 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:02:24,480 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 10:03:14,807 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 10:03:14,808 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 10:03:14,816 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:03:14,823 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:03:14,830 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 10:46:47,134 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 10:46:47,136 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 10:46:47,142 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:46:47,157 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:46:47,160 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 10:48:48,858 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 10:48:48,859 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 10:48:48,864 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:48:48,870 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:48:48,874 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 10:53:57,934 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 10:53:57,935 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 10:53:57,941 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:53:57,957 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 10:53:57,960 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo-ws\src\test\resources
+2024-06-28 11:05:00,236 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 11:05:00,236 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 11:05:00,241 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:05:00,244 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:05:00,248 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 11:31:23,256 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:31:26,239 [Worker-74: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:32:02,842 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:32:03,647 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.3.0/spring-boot-starter-web-services-3.3.0.pom
+2024-06-28 11:32:03,659 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.3.0/spring-boot-starter-web-services-3.3.0.pom
+2024-06-28 11:32:03,735 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.1.8/spring-oxm-6.1.8.pom
+2024-06-28 11:32:03,744 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.1.8/spring-oxm-6.1.8.pom
+2024-06-28 11:32:04,009 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.3.0/spring-boot-starter-web-services-3.3.0.jar
+2024-06-28 11:32:04,018 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.3.0/spring-boot-starter-web-services-3.3.0.jar
+2024-06-28 11:32:04,073 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.1.8/spring-oxm-6.1.8.jar
+2024-06-28 11:32:04,124 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.1.8/spring-oxm-6.1.8.jar
+2024-06-28 11:32:04,569 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:32:04,604 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:32:04,609 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:32:05,139 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-28 11:32:06,395 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:32:06,500 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.3.0/spring-boot-starter-web-services-3.3.0-sources.jar
+2024-06-28 11:32:06,529 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.3.0/spring-boot-starter-web-services-3.3.0-sources.jar
+2024-06-28 11:32:06,539 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web-services:3.3.0
+2024-06-28 11:32:06,728 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.1.8/spring-oxm-6.1.8-sources.jar
+2024-06-28 11:32:06,833 [Worker-71: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.1.8/spring-oxm-6.1.8-sources.jar
+2024-06-28 11:32:06,841 [Worker-71: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-oxm:6.1.8
+2024-06-28 11:32:07,494 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-06-28 11:32:07,497 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:32:07,497 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:32:07,498 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-06-28 11:32:07,499 [Worker-72: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-06-28 11:32:08,345 [Worker-72: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 2,00 sec, update config takes 0,00 sec 
+2024-06-28 11:32:09,572 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:32:09,596 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:32:09,606 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:38:59,317 [Worker-76: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:39:00,585 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 11:39:00,588 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 11:39:00,589 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default sources [C:\Users\abranasa\bootcamp\demo/src/main/resources/calculator.xsd], since it is not an existent file or directory.
+2024-06-28 11:39:00,589 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - No XSD files found. Please check your plugin configuration.
+2024-06-28 11:39:00,680 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 11:39:00,681 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-06-28 11:39:00,682 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 11:39:00,687 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:39:00,775 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-28 11:39:01,449 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:39:02,621 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 11:39:02,623 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 11:39:02,624 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default sources [C:\Users\abranasa\bootcamp\demo/src/main/resources/calculator.xsd], since it is not an existent file or directory.
+2024-06-28 11:39:02,624 [Worker-68: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - No XSD files found. Please check your plugin configuration.
+2024-06-28 11:39:02,687 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-06-28 11:39:02,687 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:39:02,688 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:39:02,688 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/target/generated-sources/jaxb
+2024-06-28 11:39:02,697 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-06-28 11:39:02,698 [Worker-68: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-06-28 11:39:03,265 [Worker-68: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-06-28 11:39:03,275 [Worker-78: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-28 11:39:03,655 [Worker-78: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:39:04,817 [Worker-78: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 11:39:04,819 [Worker-78: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 11:39:04,819 [Worker-78: Updating Maven Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default sources [C:\Users\abranasa\bootcamp\demo/src/main/resources/calculator.xsd], since it is not an existent file or directory.
+2024-06-28 11:39:04,819 [Worker-78: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - No XSD files found. Please check your plugin configuration.
+2024-06-28 11:39:04,853 [Worker-78: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-06-28 11:39:04,853 [Worker-78: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:39:04,854 [Worker-78: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:39:04,855 [Worker-78: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/target/generated-sources/jaxb
+2024-06-28 11:39:04,855 [Worker-78: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-06-28 11:39:04,856 [Worker-78: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-06-28 11:39:05,412 [Worker-78: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-06-28 11:39:06,155 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 11:39:06,157 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 11:39:06,157 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default sources [C:\Users\abranasa\bootcamp\demo/src/main/resources/calculator.xsd], since it is not an existent file or directory.
+2024-06-28 11:39:06,157 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - No XSD files found. Please check your plugin configuration.
+2024-06-28 11:39:06,246 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:39:06,262 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:39:06,267 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 11:39:06,271 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:41:54,184 [main] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settingsCacheMap.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings C:\Users\abranasa\.m2\settings.xml: attribute value must start with quotation or apostrophe not h (position: START_DOCUMENT seen ...e setting is not specified) are provided.\n|\n|-->\n<settings xmlns=h... @46:18)  @ C:\Users\abranasa\.m2\settings.xml, line 46, column 18
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:115)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$MavenSettings.getSettings(MavenImpl.java:1117)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:279)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:273)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getLocalRepositoryPath(MavenImpl.java:182)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.newLocalRepositoryInfo(RepositoryRegistry.java:95)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.getLocalRepository(RepositoryRegistry.java:328)
+	at org.eclipse.m2e.core.ui.internal.M2EUIPluginActivator.start(M2EUIPluginActivator.java:118)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:833)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:825)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:775)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1057)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:387)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:639)
+	at org.eclipse.osgi.container.Module.start(Module.java:498)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:348)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:516)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:434)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:174)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.<init>(MavenPomEditorPage.java:128)
+	at org.eclipse.m2e.editor.pom.OverviewPage.<init>(OverviewPage.java:246)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.addPages(MavenPomEditor.java:327)
+	at org.eclipse.ui.forms.editor.FormEditor.createPages(FormEditor.java:143)
+	at org.eclipse.ui.part.MultiPageEditorPart.createPartControl(MultiPageEditorPart.java:332)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:158)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:96)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:365)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:977)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:939)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:386)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:312)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:203)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:90)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:59)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1389)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.run(PartRenderingEngine.java:543)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:527)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.createWidget(ElementReferenceRenderer.java:73)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:991)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:658)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:48)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:79)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)
+	at org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:61)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:676)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:72)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:660)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:672)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:762)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:727)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:711)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1079)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+2024-06-28 11:41:56,429 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-28 11:50:56,670 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-maven-plugin/3.0.0/jaxws-maven-plugin-3.0.0.pom
+2024-06-28 11:50:56,720 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-maven-plugin/3.0.0/jaxws-maven-plugin-3.0.0.pom
+2024-06-28 11:50:56,789 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-maven-plugin/3.0.0/jaxws-maven-plugin-3.0.0.jar
+2024-06-28 11:50:56,834 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-maven-plugin/3.0.0/jaxws-maven-plugin-3.0.0.jar
+2024-06-28 11:50:57,245 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:50:58,692 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-tools/3.0.0/jaxws-tools-3.0.0.pom
+2024-06-28 11:50:58,710 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-tools/3.0.0/jaxws-tools-3.0.0.pom
+2024-06-28 11:50:58,774 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/project/3.0.0/project-3.0.0.pom
+2024-06-28 11:50:58,802 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/project/3.0.0/project-3.0.0.pom
+2024-06-28 11:50:58,864 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-ri-bom-ext/3.0.0/jaxws-ri-bom-ext-3.0.0.pom
+2024-06-28 11:50:58,876 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-ri-bom-ext/3.0.0/jaxws-ri-bom-ext-3.0.0.pom
+2024-06-28 11:50:58,936 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-ri-bom/3.0.0/jaxws-ri-bom-3.0.0.pom
+2024-06-28 11:50:58,944 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-ri-bom/3.0.0/jaxws-ri-bom-3.0.0.pom
+2024-06-28 11:50:59,005 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-rt/3.0.0/jaxws-rt-3.0.0.pom
+2024-06-28 11:50:59,021 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-rt/3.0.0/jaxws-rt-3.0.0.pom
+2024-06-28 11:50:59,103 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.pom
+2024-06-28 11:50:59,116 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.pom
+2024-06-28 11:50:59,175 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom
+2024-06-28 11:50:59,195 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/ee4j/project/1.0.5/project-1.0.5.pom
+2024-06-28 11:50:59,260 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/external/management-api/3.2.3/management-api-3.2.3.pom
+2024-06-28 11:50:59,276 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/external/management-api/3.2.3/management-api-3.2.3.pom
+2024-06-28 11:50:59,521 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/gmbal/gmbal-api-only/4.0.2/gmbal-api-only-4.0.2.pom
+2024-06-28 11:50:59,531 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/gmbal/gmbal-api-only/4.0.2/gmbal-api-only-4.0.2.pom
+2024-06-28 11:50:59,597 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/gmbal/gmbal-project/4.0.2/gmbal-project-4.0.2.pom
+2024-06-28 11:50:59,625 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/gmbal/gmbal-project/4.0.2/gmbal-project-4.0.2.pom
+2024-06-28 11:50:59,737 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.0.0/stax-ex-2.0.0.pom
+2024-06-28 11:50:59,764 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.0.0/stax-ex-2.0.0.pom
+2024-06-28 11:50:59,846 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/stream/buffer/streambuffer/2.0.1/streambuffer-2.0.1.pom
+2024-06-28 11:50:59,857 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/stream/buffer/streambuffer/2.0.1/streambuffer-2.0.1.pom
+2024-06-28 11:50:59,940 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/mimepull/mimepull/1.9.13/mimepull-1.9.13.pom
+2024-06-28 11:50:59,966 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/mimepull/mimepull/1.9.13/mimepull-1.9.13.pom
+2024-06-28 11:51:00,035 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/2.0.0/FastInfoset-2.0.0.pom
+2024-06-28 11:51:00,046 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/2.0.0/FastInfoset-2.0.0.pom
+2024-06-28 11:51:00,113 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/2.0.0/fastinfoset-project-2.0.0.pom
+2024-06-28 11:51:00,132 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/fastinfoset-project/2.0.0/fastinfoset-project-2.0.0.pom
+2024-06-28 11:51:00,193 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/2.0.0/jakarta.mail-2.0.0.pom
+2024-06-28 11:51:00,211 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/2.0.0/jakarta.mail-2.0.0.pom
+2024-06-28 11:51:00,275 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/all/2.0.0/all-2.0.0.pom
+2024-06-28 11:51:00,305 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/all/2.0.0/all-2.0.0.pom
+2024-06-28 11:51:00,384 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/2.0.0/saaj-impl-2.0.0.pom
+2024-06-28 11:51:00,397 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/2.0.0/saaj-impl-2.0.0.pom
+2024-06-28 11:51:00,467 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/2.0.0/metro-saaj-2.0.0.pom
+2024-06-28 11:51:00,492 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/metro-saaj/2.0.0/metro-saaj-2.0.0.pom
+2024-06-28 11:51:00,596 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/2.0.0/jakarta.xml.soap-api-2.0.0.pom
+2024-06-28 11:51:00,630 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/2.0.0/jakarta.xml.soap-api-2.0.0.pom
+2024-06-28 11:51:00,711 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.pom
+2024-06-28 11:51:00,738 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.pom
+2024-06-28 11:51:00,802 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom
+2024-06-28 11:51:00,837 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/38/oss-parent-38.pom
+2024-06-28 11:51:00,896 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.pom
+2024-06-28 11:51:00,910 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.pom
+2024-06-28 11:51:00,972 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/3.0.0/jakarta.xml.ws-api-3.0.0.pom
+2024-06-28 11:51:01,003 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/3.0.0/jakarta.xml.ws-api-3.0.0.pom
+2024-06-28 11:51:01,062 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.pom
+2024-06-28 11:51:01,084 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.pom
+2024-06-28 11:51:01,142 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.pom
+2024-06-28 11:51:01,166 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.pom
+2024-06-28 11:51:01,346 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.pom
+2024-06-28 11:51:01,356 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.pom
+2024-06-28 11:51:01,435 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.5.2/maven-3.5.2.pom
+2024-06-28 11:51:01,451 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven/3.5.2/maven-3.5.2.pom
+2024-06-28 11:51:01,602 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+2024-06-28 11:51:01,728 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/27/maven-parent-27.pom
+2024-06-28 11:51:01,850 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2024-06-28 11:51:01,864 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/17/apache-17.pom
+2024-06-28 11:51:01,984 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.pom
+2024-06-28 11:51:02,001 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.pom
+2024-06-28 11:51:02,147 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
+2024-06-28 11:51:02,155 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.pom
+2024-06-28 11:51:02,300 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom
+2024-06-28 11:51:02,391 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/41/commons-parent-41.pom
+2024-06-28 11:51:02,535 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.pom
+2024-06-28 11:51:02,543 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.pom
+2024-06-28 11:51:02,705 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.pom
+2024-06-28 11:51:02,714 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.pom
+2024-06-28 11:51:02,859 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.3/sisu-plexus-0.3.3.pom
+2024-06-28 11:51:02,868 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-plexus/0.3.3/sisu-plexus-0.3.3.pom
+2024-06-28 11:51:03,033 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
+2024-06-28 11:51:03,040 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.pom
+2024-06-28 11:51:03,121 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom
+2024-06-28 11:51:03,132 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-parent/1.0/weld-api-parent-1.0.pom
+2024-06-28 11:51:03,294 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom
+2024-06-28 11:51:03,306 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-api-bom/1.0/weld-api-bom-1.0.pom
+2024-06-28 11:51:03,471 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom
+2024-06-28 11:51:03,492 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/weld/weld-parent/6/weld-parent-6.pom
+2024-06-28 11:51:03,644 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+2024-06-28 11:51:03,653 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.pom
+2024-06-28 11:51:03,800 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.pom
+2024-06-28 11:51:03,809 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.pom
+2024-06-28 11:51:03,936 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.3.3/sisu-inject-0.3.3.pom
+2024-06-28 11:51:03,948 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/sisu-inject/0.3.3/sisu-inject-0.3.3.pom
+2024-06-28 11:51:04,073 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+2024-06-28 11:51:04,082 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+2024-06-28 11:51:04,250 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.2/maven-core-3.5.2.pom
+2024-06-28 11:51:04,259 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.2/maven-core-3.5.2.pom
+2024-06-28 11:51:04,424 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.2/maven-settings-3.5.2.pom
+2024-06-28 11:51:04,431 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.2/maven-settings-3.5.2.pom
+2024-06-28 11:51:04,671 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.2/maven-settings-builder-3.5.2.pom
+2024-06-28 11:51:04,677 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.2/maven-settings-builder-3.5.2.pom
+2024-06-28 11:51:04,742 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.2/maven-builder-support-3.5.2.pom
+2024-06-28 11:51:04,750 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.2/maven-builder-support-3.5.2.pom
+2024-06-28 11:51:04,814 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+2024-06-28 11:51:04,823 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.pom
+2024-06-28 11:51:04,878 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+2024-06-28 11:51:04,891 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-containers/1.7.1/plexus-containers-1.7.1.pom
+2024-06-28 11:51:04,948 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom
+2024-06-28 11:51:04,957 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.pom
+2024-06-28 11:51:05,026 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.2/maven-repository-metadata-3.5.2.pom
+2024-06-28 11:51:05,034 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.2/maven-repository-metadata-3.5.2.pom
+2024-06-28 11:51:05,098 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.2/maven-model-builder-3.5.2.pom
+2024-06-28 11:51:05,109 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.2/maven-model-builder-3.5.2.pom
+2024-06-28 11:51:05,176 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom
+2024-06-28 11:51:05,187 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.pom
+2024-06-28 11:51:05,248 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+2024-06-28 11:51:05,277 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/20.0/guava-parent-20.0.pom
+2024-06-28 11:51:05,336 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.2/maven-resolver-provider-3.5.2.pom
+2024-06-28 11:51:05,349 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.2/maven-resolver-provider-3.5.2.pom
+2024-06-28 11:51:05,407 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.1.1/maven-resolver-api-1.1.1.pom
+2024-06-28 11:51:05,415 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.1.1/maven-resolver-api-1.1.1.pom
+2024-06-28 11:51:05,478 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.1.1/maven-resolver-1.1.1.pom
+2024-06-28 11:51:05,510 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.1.1/maven-resolver-1.1.1.pom
+2024-06-28 11:51:05,570 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
+2024-06-28 11:51:05,655 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/31/maven-parent-31.pom
+2024-06-28 11:51:05,714 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.1.0/maven-resolver-spi-1.1.0.pom
+2024-06-28 11:51:05,731 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.1.0/maven-resolver-spi-1.1.0.pom
+2024-06-28 11:51:05,791 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.1.0/maven-resolver-1.1.0.pom
+2024-06-28 11:51:05,820 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.1.0/maven-resolver-1.1.0.pom
+2024-06-28 11:51:05,882 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.1.1/maven-resolver-util-1.1.1.pom
+2024-06-28 11:51:05,895 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.1.1/maven-resolver-util-1.1.1.pom
+2024-06-28 11:51:05,955 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.1.0/maven-resolver-impl-1.1.0.pom
+2024-06-28 11:51:05,970 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.1.0/maven-resolver-impl-1.1.0.pom
+2024-06-28 11:51:06,031 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+2024-06-28 11:51:06,044 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom
+2024-06-28 11:51:06,127 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom
+2024-06-28 11:51:06,146 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0.pom
+2024-06-28 11:51:06,207 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+2024-06-28 11:51:06,241 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice-parent/4.0/guice-parent-4.0.pom
+2024-06-28 11:51:06,297 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/google/5/google-5.pom
+2024-06-28 11:51:06,305 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/google/5/google-5.pom
+2024-06-28 11:51:06,363 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2024-06-28 11:51:06,373 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom
+2024-06-28 11:51:06,434 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2024-06-28 11:51:06,451 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.pom
+2024-06-28 11:51:06,512 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2024-06-28 11:51:06,533 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/16.0.1/guava-parent-16.0.1.pom
+2024-06-28 11:51:06,630 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-tools/3.0.0/jaxws-tools-3.0.0.jar
+2024-06-28 11:51:07,678 [Worker-29: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-tools/3.0.0/jaxws-tools-3.0.0.jar
+2024-06-28 11:51:07,732 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-rt/3.0.0/jaxws-rt-3.0.0.jar
+2024-06-28 11:51:07,871 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/external/management-api/3.2.3/management-api-3.2.3.jar
+2024-06-28 11:51:07,871 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.jar
+2024-06-28 11:51:07,871 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/gmbal/gmbal-api-only/4.0.2/gmbal-api-only-4.0.2.jar
+2024-06-28 11:51:07,871 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.0.0/stax-ex-2.0.0.jar
+2024-06-28 11:51:07,946 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/gmbal/gmbal-api-only/4.0.2/gmbal-api-only-4.0.2.jar
+2024-06-28 11:51:07,954 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/2.0.0/stax-ex-2.0.0.jar
+2024-06-28 11:51:07,955 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/ha/ha-api/3.1.12/ha-api-3.1.12.jar
+2024-06-28 11:51:07,971 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/external/management-api/3.2.3/management-api-3.2.3.jar
+2024-06-28 11:51:07,999 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/stream/buffer/streambuffer/2.0.1/streambuffer-2.0.1.jar
+2024-06-28 11:51:08,010 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/mimepull/mimepull/1.9.13/mimepull-1.9.13.jar
+2024-06-28 11:51:08,011 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/2.0.0/FastInfoset-2.0.0.jar
+2024-06-28 11:51:08,030 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/2.0.0/jakarta.mail-2.0.0.jar
+2024-06-28 11:51:08,048 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/stream/buffer/streambuffer/2.0.1/streambuffer-2.0.1.jar
+2024-06-28 11:51:08,056 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/mimepull/mimepull/1.9.13/mimepull-1.9.13.jar
+2024-06-28 11:51:08,125 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/2.0.0/saaj-impl-2.0.0.jar
+2024-06-28 11:51:08,183 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/2.0.0/FastInfoset-2.0.0.jar
+2024-06-28 11:51:08,249 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar
+2024-06-28 11:51:08,398 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar
+2024-06-28 11:51:08,419 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/messaging/saaj/saaj-impl/2.0.0/saaj-impl-2.0.0.jar
+2024-06-28 11:51:08,489 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/3.0.0/jakarta.xml.ws-api-3.0.0.jar
+2024-06-28 11:51:08,529 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/ws/jakarta.xml.ws-api/3.0.0/jakarta.xml.ws-api-3.0.0.jar
+2024-06-28 11:51:08,550 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar
+2024-06-28 11:51:08,597 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/2.0.0/jakarta.xml.soap-api-2.0.0.jar
+2024-06-28 11:51:08,602 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.jar
+2024-06-28 11:51:08,609 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/xml/soap/jakarta.xml.soap-api/2.0.0/jakarta.xml.soap-api-2.0.0.jar
+2024-06-28 11:51:08,685 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar
+2024-06-28 11:51:08,698 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/annotation/jakarta.annotation-api/2.0.0/jakarta.annotation-api-2.0.0.jar
+2024-06-28 11:51:08,759 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar
+2024-06-28 11:51:08,767 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar
+2024-06-28 11:51:08,811 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/jakarta.mail/2.0.0/jakarta.mail-2.0.0.jar
+2024-06-28 11:51:08,833 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar
+2024-06-28 11:51:08,869 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.jar
+2024-06-28 11:51:08,942 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar
+2024-06-28 11:51:08,996 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar
+2024-06-28 11:51:09,004 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.jar
+2024-06-28 11:51:09,062 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+2024-06-28 11:51:09,073 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jakarta/jws/jakarta.jws-api/3.0.0/jakarta.jws-api-3.0.0.jar
+2024-06-28 11:51:09,126 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar
+2024-06-28 11:51:09,129 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2024-06-28 11:51:09,140 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+2024-06-28 11:51:09,140 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar
+2024-06-28 11:51:09,177 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
+2024-06-28 11:51:09,197 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.2/maven-core-3.5.2.jar
+2024-06-28 11:51:09,197 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.2/maven-settings-builder-3.5.2.jar
+2024-06-28 11:51:09,204 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar
+2024-06-28 11:51:09,272 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+2024-06-28 11:51:09,284 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar
+2024-06-28 11:51:09,284 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar
+2024-06-28 11:51:09,342 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.2/maven-builder-support-3.5.2.jar
+2024-06-28 11:51:09,342 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.2/maven-repository-metadata-3.5.2.jar
+2024-06-28 11:51:09,354 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-builder-support/3.5.2/maven-builder-support-3.5.2.jar
+2024-06-28 11:51:09,356 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/3.5.2/maven-repository-metadata-3.5.2.jar
+2024-06-28 11:51:09,414 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.2/maven-model-builder-3.5.2.jar
+2024-06-28 11:51:09,414 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.2/maven-resolver-provider-3.5.2.jar
+2024-06-28 11:51:09,457 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-resolver-provider/3.5.2/maven-resolver-provider-3.5.2.jar
+2024-06-28 11:51:09,504 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-model-builder/3.5.2/maven-model-builder-3.5.2.jar
+2024-06-28 11:51:09,508 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings-builder/3.5.2/maven-settings-builder-3.5.2.jar
+2024-06-28 11:51:09,520 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.1.0/maven-resolver-impl-1.1.0.jar
+2024-06-28 11:51:09,552 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.1.0/maven-resolver-spi-1.1.0.jar
+2024-06-28 11:51:09,557 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+2024-06-28 11:51:09,581 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-impl/1.1.0/maven-resolver-impl-1.1.0.jar
+2024-06-28 11:51:09,642 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar
+2024-06-28 11:51:09,642 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar
+2024-06-28 11:51:09,691 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-spi/1.1.0/maven-resolver-spi-1.1.0.jar
+2024-06-28 11:51:09,714 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0-no_aop.jar
+2024-06-28 11:51:09,754 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2024-06-28 11:51:09,767 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+2024-06-28 11:51:09,799 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar
+2024-06-28 11:51:09,826 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
+2024-06-28 11:51:09,850 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+2024-06-28 11:51:09,861 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar
+2024-06-28 11:51:09,932 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+2024-06-28 11:51:10,020 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/ws/jaxws-rt/3.0.0/jaxws-rt-3.0.0.jar
+2024-06-28 11:51:10,029 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/inject/guice/4.0/guice-4.0-no_aop.jar
+2024-06-28 11:51:10,081 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.2/maven-settings-3.5.2.jar
+2024-06-28 11:51:10,086 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.1.1/maven-resolver-api-1.1.1.jar
+2024-06-28 11:51:10,093 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/3.5.2/maven-settings-3.5.2.jar
+2024-06-28 11:51:10,165 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.1.1/maven-resolver-util-1.1.1.jar
+2024-06-28 11:51:10,186 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.1.1/maven-resolver-api-1.1.1.jar
+2024-06-28 11:51:10,248 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.1.1/maven-resolver-util-1.1.1.jar
+2024-06-28 11:51:10,248 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar
+2024-06-28 11:51:10,618 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-core/3.5.2/maven-core-3.5.2.jar
+2024-06-28 11:51:11,130 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar
+2024-06-28 11:51:11,413 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:51:11,418 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:51:11,420 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:51:12,985 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:51:13,000 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:51:13,005 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:51:13,432 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-28 11:51:13,971 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:51:15,203 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-06-28 11:51:15,205 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:51:15,206 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:51:15,207 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-06-28 11:51:15,208 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-06-28 11:51:16,087 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-06-28 11:51:16,107 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-06-28 11:51:16,694 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 11:51:17,916 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-06-28 11:51:17,917 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:51:17,918 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-06-28 11:51:17,918 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-06-28 11:51:17,919 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-06-28 11:51:18,431 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-06-28 11:51:21,345 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:51:21,349 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:51:21,351 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:51:22,767 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:51:22,783 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:51:22,792 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:51:48,978 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:51:48,984 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:51:48,985 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:51:50,631 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:51:50,637 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:51:50,642 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:53:40,627 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:53:40,635 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:53:40,635 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:53:42,307 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:53:42,313 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:53:42,317 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:54:05,596 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:54:05,600 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:54:05,600 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:54:07,064 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:54:07,071 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:54:07,076 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:54:12,635 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:54:12,638 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:54:12,638 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:54:14,145 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:54:14,152 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:54:14,155 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:55:59,743 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:55:59,750 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:55:59,751 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:56:01,178 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:56:01,183 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:56:01,187 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:57:40,629 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:57:40,634 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:57:40,635 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:57:41,889 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:57:41,894 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:57:41,897 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 11:58:53,595 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 11:58:53,600 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 11:58:53,600 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 11:58:54,830 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 11:58:54,836 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 11:58:54,839 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:00:20,859 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:00:20,864 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:00:20,864 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:00:22,164 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:00:22,173 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:00:22,179 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:00:56,081 [Worker-23: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:00:56,083 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:00:56,084 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:00:57,371 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:00:57,378 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:00:57,382 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:01:08,006 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:01:08,012 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:01:08,012 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:01:09,142 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:01:09,150 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:01:09,153 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:01:47,873 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:01:47,877 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:01:47,878 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:01:49,239 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:01:49,245 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:01:49,248 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:02:45,850 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:02:45,852 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:02:45,853 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:02:47,107 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:02:47,114 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:02:47,118 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:05:37,091 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:05:37,096 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:05:37,097 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:05:38,400 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:05:38,407 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:05:38,410 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:11:55,211 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:11:55,219 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:11:55,219 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:11:56,477 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:11:56,485 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:11:56,490 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:16:00,458 [Worker-66: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-06-28 12:16:01,160 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.pom
+2024-06-28 12:16:01,167 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.pom
+2024-06-28 12:16:01,640 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.jar
+2024-06-28 12:16:03,368 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 21.0.3+9-LTS
+2024-06-28 12:16:03,391 [Worker-66: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224.jar
+2024-06-28 12:16:03,436 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@11fce55f{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@39a8acea{STARTED}}
+2024-06-28 12:16:03,437 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-06-28 12:16:03,476 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1bd4f726{HTTP/1.1, (http/1.1)}{127.0.0.1:53364}
+2024-06-28 12:16:03,496 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@2283f674{STARTING}[12.0.9,sto=0] @2065942ms
+2024-06-28 12:16:04,275 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:16:04,276 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:16:04,283 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:16:04,284 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:16:04,973 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224-sources.jar
+2024-06-28 12:16:05,476 [Worker-69: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/h2database/h2/2.2.224/h2-2.2.224-sources.jar
+2024-06-28 12:16:05,485 [Worker-69: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.h2database:h2:2.2.224
+2024-06-28 12:16:05,737 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:16:05,759 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:16:05,774 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:16:07,389 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:16:07,390 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:16:07,395 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:16:07,395 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:16:08,688 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:16:08,704 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:16:08,715 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:17:20,327 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:17:20,328 [Worker-76: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:17:20,333 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:17:20,333 [Worker-76: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:17:21,447 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:17:21,454 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:17:21,457 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:40:32,198 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:40:32,200 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:40:32,308 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:40:32,383 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:40:32,389 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:43:57,493 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:43:57,526 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 12:43:57,529 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:43:57,549 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 12:43:57,898 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:43:57,908 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:43:57,912 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 12:43:57,917 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 12:43:57,920 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:43:59,032 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:43:59,033 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:43:59,039 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:43:59,046 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:43:59,053 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:45:15,376 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:45:15,377 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:45:15,381 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:45:15,388 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:45:15,391 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:46:01,630 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:46:01,632 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:46:01,637 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:46:01,638 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:46:03,060 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:46:03,071 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:46:03,076 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:46:56,613 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:46:56,614 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:46:56,618 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:46:56,618 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:46:57,756 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:46:57,762 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:46:57,766 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:48:53,623 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:48:53,624 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:48:53,627 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:48:53,628 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:48:54,782 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:48:54,788 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:48:54,791 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:49:15,548 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:49:15,549 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:49:15,553 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:49:15,553 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:49:16,688 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:49:16,693 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:49:16,697 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:50:16,274 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:50:16,291 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 12:50:16,292 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:50:16,307 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 12:50:16,352 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:50:16,356 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:50:16,359 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 12:50:16,364 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 12:50:16,367 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:50:17,472 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:50:17,472 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:50:17,475 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:50:17,478 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:50:17,481 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:51:27,594 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:51:27,596 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:51:27,603 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:51:27,608 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:51:27,612 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:51:51,320 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:51:51,321 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:51:51,326 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:51:51,326 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:51:52,662 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:51:52,669 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:51:52,673 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:52:27,620 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:52:27,621 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:52:27,624 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:52:27,627 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:52:27,631 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:52:50,926 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:52:50,927 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:52:50,931 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:52:50,931 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:52:52,113 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:52:52,118 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:52:52,122 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:52:58,982 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:52:58,983 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:52:58,986 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:52:58,987 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:53:00,319 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:53:00,326 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:53:00,330 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:54:24,253 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:54:24,254 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:54:24,257 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:54:24,257 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:54:25,487 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:54:25,494 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:54:25,497 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:54:32,554 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:54:32,555 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:54:32,558 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:54:32,558 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:54:33,805 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:54:33,812 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:54:33,815 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:55:18,647 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:55:18,663 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 12:55:18,664 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:55:18,680 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Created EpisodePath [C:\Users\abranasa\bootcamp\demo-ws\target\generated-sources\jaxb\META-INF\JAXB]: true
+2024-06-28 12:55:18,718 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:55:18,722 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:55:18,724 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 12:55:18,728 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from target\generated-sources\jaxb to target\classes
+2024-06-28 12:55:18,731 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:55:19,808 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:55:19,808 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:55:19,812 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:55:19,814 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:55:19,816 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:56:03,760 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:56:03,761 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:56:03,763 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:56:03,768 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:56:03,772 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:56:10,079 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 12:56:10,079 [Worker-97: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 12:56:10,084 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:56:10,087 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 12:56:10,089 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 12:56:27,730 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:56:27,734 [Worker-101: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:56:27,738 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:56:27,739 [Worker-101: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:56:28,531 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:56:28,536 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:56:28,539 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:57:30,347 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 12:57:30,349 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 12:57:30,354 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 12:57:30,354 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 12:57:31,173 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:57:31,180 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 12:57:31,183 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 12:58:05,682 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@2283f674{STOPPING}[12.0.9,sto=0]
+2024-06-28 12:58:05,686 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@1bd4f726{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-06-28 12:58:26,037 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-28 12:58:27,796 [Worker-0: Repository registry initialization] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settingsCacheMap.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-parseable settings C:\Users\abranasa\.m2\settings.xml: attribute value must start with quotation or apostrophe not h (position: START_DOCUMENT seen ...e setting is not specified) are provided.\n|\n|-->\n<settings xmlns=h... @46:18)  @ C:\Users\abranasa\.m2\settings.xml, line 46, column 18
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:115)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$MavenSettings.getSettings(MavenImpl.java:1117)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:279)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:273)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:229)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-06-28 13:00:06,020 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-06-28 13:00:06,023 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-06-28 13:00:06,029 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-06-28 13:00:06,029 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-06-28 13:00:06,838 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 13:00:06,864 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-06-28 13:00:06,870 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-06-28 13:01:39,706 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Ignored given or default xjbSources [C:\Users\abranasa\bootcamp\demo-ws\src\main\xjb], since it is not an existent file or directory.
+2024-06-28 13:01:39,708 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - No changes detected in schema or binding files - skipping JAXB generation.
+2024-06-28 13:01:39,776 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 13:01:39,798 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-06-28 13:01:39,809 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-06-28 13:06:13,688 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-06-28 13:06:29,478 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313 [645])
+2024-06-28 13:06:29,480 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313
+2024-06-28 13:06:29,481 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\aopalliance-1.0.jar
+2024-06-28 13:06:29,481 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\guice-5.1.0.jar
+2024-06-28 13:06:29,481 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpclient-4.5.14.jar
+2024-06-28 13:06:29,481 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\httpcore-4.4.16.jar
+2024-06-28 13:06:29,481 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jansi-2.4.1.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\jcl-over-slf4j-1.7.36.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-artifact-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-builder-support-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-compat-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-core-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-embedder-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-model-builder-3.9.7.jar
+2024-06-28 13:06:29,482 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-plugin-api-3.9.7.jar
+2024-06-28 13:06:29,483 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-repository-metadata-3.9.7.jar
+2024-06-28 13:06:29,483 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-api-1.9.20.jar
+2024-06-28 13:06:29,483 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-connector-basic-1.9.20.jar
+2024-06-28 13:06:29,483 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-impl-1.9.20.jar
+2024-06-28 13:06:29,483 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-named-locks-1.9.20.jar
+2024-06-28 13:06:29,483 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-provider-3.9.7.jar
+2024-06-28 13:06:29,484 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-spi-1.9.20.jar
+2024-06-28 13:06:29,484 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-file-1.9.20.jar
+2024-06-28 13:06:29,484 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-http-1.9.20.jar
+2024-06-28 13:06:29,484 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-transport-wagon-1.9.20.jar
+2024-06-28 13:06:29,484 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-resolver-util-1.9.20.jar
+2024-06-28 13:06:29,484 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-3.9.7.jar
+2024-06-28 13:06:29,485 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-settings-builder-3.9.7.jar
+2024-06-28 13:06:29,485 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\maven-shared-utils-3.4.2.jar
+2024-06-28 13:06:29,485 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2024-06-28 13:06:29,485 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-0.0.7.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-build-api-1.2.0.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-cipher-2.0.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-classworlds-2.8.0.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-component-annotations-2.1.0.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-interpolation-1.27.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-sec-dispatcher-2.0.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-utils-3.5.1.jar
+2024-06-28 13:06:29,486 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-file-3.5.3.jar
+2024-06-28 13:06:29,487 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-3.5.3.jar
+2024-06-28 13:06:29,487 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-http-shared-3.5.3.jar
+2024-06-28 13:06:29,487 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\wagon-provider-api-3.5.3.jar
+2024-06-28 13:06:29,488 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.2.0.jre [16])
+2024-06-28 13:06:29,488 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\com.google.guava_33.2.0.jre.jar
+2024-06-28 13:06:29,489 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.13 [1010])
+2024-06-28 13:06:29,489 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\slf4j.api_2.0.13.jar
+2024-06-28 13:06:29,489 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [33])
+2024-06-28 13:06:29,489 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2024-06-28 13:06:29,489 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=javax.annotation_1.3.5.v20200909-1856 [44])
+2024-06-28 13:06:29,490 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\javax.annotation_1.3.5.v20200909-1856.jar
+2024-06-28 13:06:29,490 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.8.0 [78])
+2024-06-28 13:06:29,490 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.cli_1.8.0.jar
+2024-06-28 13:06:29,490 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [81])
+2024-06-28 13:06:29,491 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2024-06-28 13:06:29,491 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [89])
+2024-06-28 13:06:29,491 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.apache.commons.lang3_3.14.0.jar
+2024-06-28 13:06:29,491 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [17])
+2024-06-28 13:06:29,491 [Worker-34: Launching demo (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.2.jar
+2024-06-28 13:06:29,496 [Worker-34: Launching demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\abranasa\bootcamp\demo":
+2024-06-28 13:06:29,497 [Worker-34: Launching demo (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always compile

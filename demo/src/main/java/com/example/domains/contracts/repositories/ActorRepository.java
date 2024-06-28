@@ -13,9 +13,8 @@ import com.example.domains.entities.models.ActorDTO;
 import com.example.domains.entities.models.ActorShort;
 
 
-public interface ActorRepository extends JpaRepository<Actor, Integer>, 
-JpaSpecificationExecutor<Actor> ,
-RepositoryWithProjections{
+public interface ActorRepository extends JpaRepository<Actor, Integer>, JpaSpecificationExecutor<Actor>,
+	RepositoryWithProjections {
 	List<Actor> findTop5ByLastNameStartingWithOrderByFirstNameDesc(String prefijo);
 	List<Actor> findTop5ByLastNameStartingWith(String prefijo, Sort orderBy);
 	

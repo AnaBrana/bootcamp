@@ -1,24 +1,22 @@
 package com.example;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
+import org.springframework.context.annotation.Bean;
+import org.springframework.oxm.jaxb.Jaxb2Marshaller;
+import org.springframework.ws.client.core.WebServiceTemplate;
+import org.springframework.ws.soap.client.core.SoapActionCallback;
 
-import com.example.domains.contracts.repositories.ActorRepository;
-import com.example.domains.contracts.services.ActorService;
-import com.example.domains.entities.Actor;
-import com.example.domains.entities.models.ActorDTO;
-import com.example.ioc.Entorno;
-import com.example.ioc.Rango;
-import com.example.ioc.Saluda;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-
-import jakarta.transaction.Transactional;
+import com.example.domains.contracts.proxies.CalculatorProxy;
+import com.example.webservice.schema.AddRequest;
+import com.example.webservice.schema.AddResponse;
+import com.example.webservice.schema.DivideRequest;
+import com.example.webservice.schema.DivideResponse;
+import com.example.webservice.schema.MultiplyRequest;
+import com.example.webservice.schema.MultiplyResponse;
+import com.example.webservice.schema.SustractRequest;
+import com.example.webservice.schema.SustractResponse;
 
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
@@ -27,14 +25,76 @@ public class DemoApplication implements CommandLineRunner {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 	
-	@Autowired
-	ActorService srv;
-	public void run(String...args)throws Exception{
-		System.err.println("Aplication arrancada ...");
-		srv.getByProjection(ActorDTO.class).forEach(System.out::println);
+//	@Autowired
+//	ActorService srv;
+//	
+	@Override
+	public void run(String... args) throws Exception {
+		System.err.println("Aplicación arrancada...");
+//		srv.getByProjection(ActorDTO.class).forEach(System.out::println);
+	}
+	
+//	@Bean
+//	CommandLineRunner lookup(CalculatorProxy client) {
+//		return args -> { System.err.println("Calculo remoto --> " + client.add(2, 3)); };
+//	}
+	
+	//sumar
+	@Bean
+	CommandLineRunner lookup(Jaxb2Marshaller marshaller) {
+		return args -> {		
+			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+			var request = new AddRequest();
+			request.setOp1(2);
+			request.setOp2(3);
+			var response = (AddResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+			System.err.println("Calculo remoto suma --> " + response.getAddResult());
+		};
+	}
+	//restar
+	@Bean
+	CommandLineRunner lookdown(Jaxb2Marshaller marshaller) {
+		return args -> {		
+			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+			var request = new SustractRequest();
+			request.setOp1(2);
+			request.setOp2(3);
+			var response = (SustractResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+			System.err.println("Calculo remoto resta--> " + response.getSustractResult());
+		};
+	}
+	//multiplicar
+	@Bean
+	CommandLineRunner lookmultiply(Jaxb2Marshaller marshaller) {
+		return args -> {		
+			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+			var request = new MultiplyRequest();
+			request.setOp1(2);
+			request.setOp2(3);
+			var response = (MultiplyResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+			System.err.println("Calculo remoto multiplicar--> " + response.getMultiplyResult());
+		};
+	}
+	
+	//dividir
+	@Bean
+	CommandLineRunner lookdivide(Jaxb2Marshaller marshaller) {
+		return args -> {		
+			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+			var request = new DivideRequest();
+			request.setOp1(2);
+			request.setOp2(3);
+			var response = (DivideResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+			System.err.println("Calculo remoto dividir--> " + response.getDivideResult());
+		};
 	}
 
-	/*@Autowired
+	/*
+	@Autowired
 	ActorRepository dao;
 
 	@Override
@@ -89,7 +149,7 @@ public class DemoApplication implements CommandLineRunner {
 //		dao.findByActorIdGreaterThanEqual(200, ActorDTO.class).forEach(System.out::println);
 //		dao.findByActorIdGreaterThanEqual(200, ActorShort.class).forEach(item -> System.out.println(item.getId() + " " + item.getNombre()));
 //		dao.findAll(PageRequest.of(3, 10, Sort.by("ActorId"))).forEach(System.out::println);
-		//var serializa = new ObjectMapper(); //Lo pinta como JSon
+//		var serializa = new ObjectMapper();
 //		dao.findByActorIdGreaterThanEqual(200, ActorDTO.class).forEach(item -> {
 //			try {
 //				System.out.println(serializa.writeValueAsString(item));
@@ -98,7 +158,7 @@ public class DemoApplication implements CommandLineRunner {
 //				e.printStackTrace();
 //			}
 //		});
-		var serializa= new XmlMapper();// Lo pinta como XML
+		var serializa = new XmlMapper();;
 		dao.findAll(PageRequest.of(3, 10, Sort.by("ActorId"))).forEach(item -> {
 			try {
 				System.out.println(serializa.writeValueAsString(item));
@@ -109,6 +169,7 @@ public class DemoApplication implements CommandLineRunner {
 		});
 
 	}
+	*/
 	/*
 	 * @Autowired // @Qualifier("es") Saluda saluda;
 	 * 

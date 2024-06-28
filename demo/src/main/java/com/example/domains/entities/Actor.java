@@ -12,6 +12,7 @@ import java.util.Objects;
 
 import com.example.domains.core.entities.EntityBase;
 import com.example.domains.core.validations.NIF;
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -43,13 +44,13 @@ public class Actor extends EntityBase<Actor> implements Serializable {
 //	@NIF
 	private String lastName;
 
-	@Column(name="last_update", insertable=false, updatable=false/*, nullable=false*/)
-	@JsonFormat(pattern="yyyy-MM-dd hh:mm:ss")
+	@Column(name="last_update", insertable=false, updatable=false, nullable=false)
+	@JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss")
 	private Timestamp lastUpdate;
 
 	//bi-directional many-to-one association to FilmActor
 	@OneToMany(mappedBy="actor", fetch = FetchType.LAZY)
-	@JsonIgnore
+	@JsonBackReference
 	private List<FilmActor> filmActors;
 
 	public Actor() {
