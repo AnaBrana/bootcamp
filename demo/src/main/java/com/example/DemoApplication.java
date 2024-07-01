@@ -39,59 +39,59 @@ public class DemoApplication implements CommandLineRunner {
 //		return args -> { System.err.println("Calculo remoto --> " + client.add(2, 3)); };
 //	}
 	
-	//sumar
-	@Bean
-	CommandLineRunner lookup(Jaxb2Marshaller marshaller) {
-		return args -> {		
-			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-			var request = new AddRequest();
-			request.setOp1(2);
-			request.setOp2(3);
-			var response = (AddResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-			System.err.println("Calculo remoto suma --> " + response.getAddResult());
-		};
-	}
-	//restar
-	@Bean
-	CommandLineRunner lookdown(Jaxb2Marshaller marshaller) {
-		return args -> {		
-			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-			var request = new SustractRequest();
-			request.setOp1(2);
-			request.setOp2(3);
-			var response = (SustractResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-			System.err.println("Calculo remoto resta--> " + response.getSustractResult());
-		};
-	}
-	//multiplicar
-	@Bean
-	CommandLineRunner lookmultiply(Jaxb2Marshaller marshaller) {
-		return args -> {		
-			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-			var request = new MultiplyRequest();
-			request.setOp1(2);
-			request.setOp2(3);
-			var response = (MultiplyResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-			System.err.println("Calculo remoto multiplicar--> " + response.getMultiplyResult());
-		};
-	}
-	
-	//dividir
-	@Bean
-	CommandLineRunner lookdivide(Jaxb2Marshaller marshaller) {
-		return args -> {		
-			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-			var request = new DivideRequest();
-			request.setOp1(2);
-			request.setOp2(3);
-			var response = (DivideResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-			System.err.println("Calculo remoto dividir--> " + response.getDivideResult());
-		};
-	}
+//	//sumar
+//	@Bean
+//	CommandLineRunner lookup(Jaxb2Marshaller marshaller) {
+//		return args -> {		
+//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+//			var request = new AddRequest();
+//			request.setOp1(2);
+//			request.setOp2(3);
+//			var response = (AddResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+//			System.err.println("Calculo remoto suma --> " + response.getAddResult());
+//		};
+//	}
+//	//restar
+//	@Bean
+//	CommandLineRunner lookdown(Jaxb2Marshaller marshaller) {
+//		return args -> {		
+//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+//			var request = new SustractRequest();
+//			request.setOp1(2);
+//			request.setOp2(3);
+//			var response = (SustractResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+//			System.err.println("Calculo remoto resta--> " + response.getSustractResult());
+//		};
+//	}
+//	//multiplicar
+//	@Bean
+//	CommandLineRunner lookmultiply(Jaxb2Marshaller marshaller) {
+//		return args -> {		
+//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+//			var request = new MultiplyRequest();
+//			request.setOp1(2);
+//			request.setOp2(3);
+//			var response = (MultiplyResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+//			System.err.println("Calculo remoto multiplicar--> " + response.getMultiplyResult());
+//		};
+//	}
+//	
+//	//dividir
+//	@Bean
+//	CommandLineRunner lookdivide(Jaxb2Marshaller marshaller) {
+//		return args -> {		
+//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
+//			var request = new DivideRequest();
+//			request.setOp1(2);
+//			request.setOp2(3);
+//			var response = (DivideResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
+//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
+//			System.err.println("Calculo remoto dividir--> " + response.getDivideResult());
+//		};
+//	}
 
 	/*
 	@Autowired

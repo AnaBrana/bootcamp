@@ -1894,3 +1894,279 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:04:59.399
 !MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:05:59.525
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:05:59.527
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:13:32.192
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:13:32.194
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:17:50.549
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:17:50.550
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:54:29.740
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:54:29.741
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:54:32.529
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:54:32.530
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:56:12.787
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 12:56:12.788
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:00:31.669
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:00:31.669
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:00:43.272
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:00:43.273
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:36:31.132
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:36:31.134
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:36:54.267
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:36:54.268
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:38:02.038
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:38:02.039
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:40:20.837
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:40:20.839
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:42:50.187
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:42:50.188
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:42:57.509
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:42:57.510
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:44:16.010
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:44:16.011
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:44:45.441
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:44:45.441
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:45:38.440
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:45:38.442
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:46:22.589
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:46:22.591
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-01 13:46:22.967
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:46:34.139
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:46:34.141
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:48:22.247
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:48:22.247
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:49:25.494
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:49:25.495
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:51:01.195
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:51:01.196
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:51:26.754
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:51:26.755
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:54:53.195
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:54:53.195
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:57:49.503
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 13:57:49.504
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:03:08.964
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:03:08.965
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:10:10.039
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:10:10.040
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:12:42.372
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:12:42.374
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:13:14.129
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:13:14.130
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:13:52.294
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:13:52.296
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:14:31.932
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:14:31.933
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:16:26.521
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:16:26.522
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:16:26.523
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:16:26.524
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:16:26.528
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:16:26.530
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:17:07.321
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-01 14:17:07.322
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-01 14:38:21.376
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-01 14:42:16.405
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-01 14:49:35.003
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:57:17.065
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:57:17.067
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:57:17.068
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:57:17.069
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:57:17.074
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-01 14:57:17.077
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access

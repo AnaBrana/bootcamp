@@ -11,3 +11,67 @@ Content-Type: text/xml
       </cal:addRequest>
    </soapenv:Body>
 </soapenv:Envelope>
+
+###
+
+get http://localhost:8001/api/actores/v1
+Accept: application/pdf,application/json
+
+###
+
+get http://localhost:8001/api/actores/v1?page=1
+Accept: application/pdf,application/json
+
+###
+
+get http://localhost:8001/api/actores/v1?modo=kk
+Accept: application/pdf,application/json
+
+###
+
+get http://localhost:8001/api/actores/v1/2/pelis
+Accept: application/pdf,application/json
+
+###
+
+get http://localhost:8001/api/actores/v1/2/jubilacion
+Accept: application/pdf,application/json
+
+###
+
+get http://localhost:8001/api/actores/v1
+Accept: application/xml
+
+###
+
+get http://localhost:8001/api/actores/v1/1
+Accept: application/pdf,application/json
+
+###
+
+post http://localhost:8001/api/actores/v1
+Content-Type: application/json
+
+{
+   "nombre":"Servicio",
+   "apellidos": "Rest"
+}
+
+###
+
+put http://localhost:8001/api/actores/v1/205
+Content-Type: application/json
+
+{
+   "id":205,
+   "nombre":"Servicio",
+   "apellidos": "Rest"
+}
+
+###
+
+delete http://localhost:8001/api/actores/v1/205
+
+
+###
+get http://localhost:8080/api/categories/v1
