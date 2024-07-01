@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="org.springframework.ws.server.endpoint.annotation.Endpoint"/>
     <fullyQualifiedTypeName name="com.example.domains.contracts.proxies.CalculatorProxy"/>
     <fullyQualifiedTypeName name="org.springframework.ws.client.core.WebServiceTemplate"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
