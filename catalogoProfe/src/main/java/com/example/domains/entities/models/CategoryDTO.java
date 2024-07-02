@@ -6,30 +6,18 @@ import com.example.domains.entities.Actor;
 import com.example.domains.entities.Category;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
 
 
+@Data 
 public class CategoryDTO implements Serializable{
 	@JsonProperty("id")
 	private int categoryId;
 	@JsonProperty("nombre")
 	private String name;
 	
-	
-	
-	
-	public int getCategoryId() {
-		return categoryId;
-	}
-	public void setCategoryId(int categoryId) {
-		this.categoryId = categoryId;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	
+
 	
 	public CategoryDTO(int categoryId, String name) {
 		super();

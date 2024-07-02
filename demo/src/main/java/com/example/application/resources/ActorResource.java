@@ -109,7 +109,7 @@ public class ActorResource {
 	
 	@DeleteMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void delete(@PathVariable int id, @Valid @RequestBody ActorDTO item) {
+	public void delete(@PathVariable int id) {
 		srv.deleteById(id);
 	}
 	

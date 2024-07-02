@@ -71,7 +71,7 @@ public class CategoryResource {
 	
 	@DeleteMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void delete(@PathVariable int id, @Valid @RequestBody CategoryDTO item) {
+	public void delete(@PathVariable int id) {
 		categoryService.deleteById(id);
 	}
 

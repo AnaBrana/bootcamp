@@ -14,42 +14,42 @@ Content-Type: text/xml
 
 ###
 
-get http://localhost:8001/api/actores/v1
+get http://localhost:8010/api/actores/v1
 Accept: application/pdf,application/json
 
 ###
 
-get http://localhost:8001/api/actores/v1?page=1
+get http://localhost:8010/api/actores/v1?page=1
 Accept: application/pdf,application/json
 
 ###
 
-get http://localhost:8001/api/actores/v1?modo=kk
+get http://localhost:8010/api/actores/v1?modo=kk
 Accept: application/pdf,application/json
 
 ###
 
-get http://localhost:8001/api/actores/v1/2/pelis
+get http://localhost:8010/api/actores/v1/2/pelis
 Accept: application/pdf,application/json
 
 ###
 
-get http://localhost:8001/api/actores/v1/2/jubilacion
+get http://localhost:8010/api/actores/v1/2/jubilacion
 Accept: application/pdf,application/json
 
 ###
 
-get http://localhost:8001/api/actores/v1
+get http://localhost:8010/api/actores/v1
 Accept: application/xml
 
 ###
 
-get http://localhost:8001/api/actores/v1/1
+get http://localhost:8010/api/actores/v1/1
 Accept: application/pdf,application/json
 
 ###
 
-post http://localhost:8001/api/actores/v1
+post http://localhost:8010/api/actores/v1
 Content-Type: application/json
 
 {
@@ -59,7 +59,7 @@ Content-Type: application/json
 
 ###
 
-put http://localhost:8001/api/actores/v1/205
+put http://localhost:8010/api/actores/v1/205
 Content-Type: application/json
 
 {
@@ -70,8 +70,120 @@ Content-Type: application/json
 
 ###
 
-delete http://localhost:8001/api/actores/v1/205
+delete http://localhost:8010/api/actores/v1/205
 
+###Categorias
+###
+get http://localhost:8010/api/categories/v1
 
 ###
-get http://localhost:8080/api/categories/v1
+get http://localhost:8010/api/categories/v1/1
+
+###
+
+post http://localhost:8010/api/categories/v1
+Content-Type: application/json
+
+{
+   "nombre":"Servicio" 
+}
+
+###
+
+put http://localhost:8010/api/categories/v1/17
+Content-Type: application/json
+
+{
+   "id":17,
+   "nombre":"Servicio cambiado"
+}
+
+###
+
+delete http://localhost:8010/api/categories/v1/17
+
+###Language
+###
+get http://localhost:8010/api/languages/v1
+
+###
+get http://localhost:8010/api/languages/v1/1
+
+###
+
+post http://localhost:8010/api/languages/v1
+Content-Type: application/json
+
+{
+   "name":"Servicio" 
+}
+
+###
+
+put http://localhost:8010/api/languages/v1/7
+Content-Type: application/json
+
+{
+   "id":7,
+   "name":"Servicio cambiado"
+}
+
+###
+
+delete http://localhost:8010/api/languages/v1/17
+
+
+###Films
+###
+get http://localhost:8010/api/films/v1
+
+###
+get http://localhost:8010/api/films/v1/1001
+
+###
+
+post http://localhost:8010/api/films/v1
+Content-Type: application/json
+
+{
+   "description": " Un servicio creado para probar",
+   "length": 8,
+   "rating":"G",
+   "releaseYear":2024,
+   "rentalDuration": 2,
+   "rentalRate": 0.99,
+   "replacementCost":0.99,
+   "title":"Servicio",
+   "language_id":1,
+   "original_language_id":1,
+   "actor-id":[1],
+   "category_id":[1]
+}
+
+###
+
+put http://localhost:8010/api/films/v1/1001
+Content-Type: application/json
+
+{
+   "id":1001,
+   "description": " Un servicio creado para probar",
+   "length": 8,
+   "rating":"G",
+   "releaseYear":2024,
+   "rentalDuration": 2,
+   "rentalRate": 0.99,
+   "replacementCost":0.99,
+   "title":"Servicio modificado",
+   "language_id":1,
+   "original_language_id":1,
+   "actor-id":[1],
+   "category_id":[1]
+}
+
+###
+
+delete http://localhost:8010/api/films/v1/1001
+
+
+
