@@ -53,7 +53,7 @@ class FilmRepositoryTest {
 	void modifyTest() {
 		try {
 			var item = dao.findAll().getLast();
-			item.setTitle("KKKKKKK");
+			item.setTitle("Peliculon");
 			item.removeActor(new Actor(1));
 			item.addActor(new Actor(4));
 			item.addActor(new Actor(5));
