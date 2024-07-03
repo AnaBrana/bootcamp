@@ -1,14 +1,12 @@
 package com.example.domains.contracts.repositories;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import java.sql.Timestamp;
+import java.util.List;
 
-import com.example.domains.core.contracts.repositories.RepositoryWithProjections;
+import org.springframework.data.repository.ListCrudRepository;
 
 import com.example.domains.entities.Category;
 
-public interface CategoryRepository extends JpaRepository<Category, Integer>, 
-JpaSpecificationExecutor<Category> ,
-RepositoryWithProjections{
-
+public interface CategoryRepository extends ListCrudRepository<Category, Integer> {
+	List<Category> findByLastUpdateGreaterThanEqualOrderByLastUpdate(Timestamp fecha);
 }

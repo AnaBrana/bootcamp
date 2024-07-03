@@ -3,16 +3,16 @@ package com.example.domains.entities;
 import java.io.Serializable;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
 import jakarta.validation.constraints.Size;
+
+import com.example.domains.core.entities.EntityBase;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Objects;
-
-import com.example.domains.core.entities.EntityBase;
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 
 /**
@@ -27,17 +27,17 @@ public class Category extends EntityBase<Category> implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="category_id", unique=true, nullable=false)
+	@Column(name="category_id")
 	@JsonProperty("id")
 	private int categoryId;
 
-	@Column(name="last_update", insertable=false, updatable=false)
-	@JsonFormat(pattern="yyyy-MM-dd hh:mm:ss")
+	@Column(name="last_update", insertable = false, updatable = false)
+	@PastOrPresent
+	@JsonIgnore
 	private Timestamp lastUpdate;
 
-	@Column(name="name", nullable=false, length=45)
 	@NotBlank
-	@Size(max=45, min=2)
+	@Size(max=25)
 	@JsonProperty("categoria")
 	private String name;
 
@@ -50,13 +50,10 @@ public class Category extends EntityBase<Category> implements Serializable {
 	}
 
 	public Category(int categoryId) {
-		super();
 		this.categoryId = categoryId;
 	}
-	
 
-	public Category(int categoryId, @NotBlank @Size(max = 45, min = 2) String name) {
-		super();
+	public Category(int categoryId, @NotBlank @Size(max = 25) String name) {
 		this.categoryId = categoryId;
 		this.name = name;
 	}
@@ -116,16 +113,15 @@ public class Category extends EntityBase<Category> implements Serializable {
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
-		if (obj == null)
+		if (obj instanceof Category o)
+			return categoryId == o.categoryId;
+		else
 			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Category other = (Category) obj;
-		return categoryId == other.categoryId;
 	}
 
 	@Override
 	public String toString() {
-		return "Category: id: " + categoryId + ", categoria=" + name + ", lastUpdate=" + lastUpdate + "]";
+		return "Category [categoryId=" + categoryId + ", name=" + name + ", lastUpdate=" + lastUpdate + "]";
 	}
+
 }

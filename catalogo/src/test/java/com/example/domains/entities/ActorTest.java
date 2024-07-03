@@ -17,7 +17,7 @@ class ActorTest {
 	@Test
 	@DisplayName("Es un actor valido")
 	void testIsValid() {
-		var fixture = new Actor(0, "Pepa", "FLORES");
+		var fixture = new Actor(0, "Ana", "BRAÑA");
 		assertTrue(fixture.isValid());
 	}
 
@@ -29,7 +29,7 @@ class ActorTest {
 			"A,'ERRORES: firstName: el tamaño debe estar entre 2 y 45.'",
 			"12345678901234567890123456789012345678901234567890,'ERRORES: firstName: el tamaño debe estar entre 2 y 45.'" })
 	void testNombreIsInvalid(String valor, String error) {
-		var fixture = new Actor(0, valor, "FLORES");
+		var fixture = new Actor(0, valor, "BRAÑA");
 //		assertTrue(fixture.isInvalid());
 		assertEquals(error, fixture.getErrorsMessage());
 	}
@@ -39,15 +39,15 @@ class ActorTest {
 	@ValueSource(strings = { " ", "    ", "p", "12345678901234567890123456789012345678901234567890"})
 	@NullAndEmptySource
 	void testApellidosIsInvalid(String valor) {
-		var fixture = new Actor(0, "FLORES", valor);
+		var fixture = new Actor(0, "B", valor);
 		assertTrue(fixture.isInvalid());
 	}
 
 	@Test
 	@DisplayName("Solo compara la PK")
 	void testPrimaryKeyOK() {
-		var fixture1 = new Actor(323, "Pepa", "FLORES");
-		var fixture2 = new Actor(323, "FLORES", "Pepa");
+		var fixture1 = new Actor(666, "Ana", "BRAÑA");
+		var fixture2 = new Actor(666, "BRAÑA", "Ana");
 		assertAll("PK", 
 				() -> assertTrue(fixture1.equals(fixture2)),
 				() -> assertTrue(fixture2.equals(fixture1)),
@@ -58,8 +58,8 @@ class ActorTest {
 	@Test
 	@DisplayName("Solo la PK diferente")
 	void testPrimaryKeyKO() {
-		var fixture1 = new Actor(323, "Pepa", "FLORES");
-		var fixture2 = new Actor(326, "Pepa", "FLORES");
+		var fixture1 = new Actor(666, "Ana", "BRAÑA");
+		var fixture2 = new Actor(665, "BRAÑA", "Ana");
 		assertAll("PK", 
 				() -> assertFalse(fixture1.equals(fixture2)),
 				() -> assertFalse(fixture2.equals(fixture1)),

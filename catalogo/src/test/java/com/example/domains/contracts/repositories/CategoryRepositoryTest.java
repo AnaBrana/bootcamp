@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.domains.contracts.repositories.CategoryRepository;
 import com.example.domains.entities.Category;
 
 @SpringBootTest
@@ -19,7 +18,7 @@ class CategoryRepositoryTest {
 		try {
 			dao.findAll();
 		} catch (Exception ex) {
-			fail("Fallo en el mapeo JPA: " + ex.getMessage());
+			fail("Error en el mapeo JPA: " + ex.getMessage());
 		}
 	}
 	@Test
@@ -27,21 +26,21 @@ class CategoryRepositoryTest {
 		try {
 			var item = dao.findAll().getFirst();
 			var aux = item.getName();
-			item.setName("kk");
+			item.setName("hola");
 			dao.save(item);
 			item.setName(aux);
 			dao.save(item);
 		} catch (Exception ex) {
-			fail("Fallo en actualización: " + ex.getMessage());
+			fail("Error en actualización: " + ex.getMessage());
 		}
 	}
 	@Test
 	void createDeleteTest() {
 		try {
-			var item = dao.save(new Category(0, "kk"));
+			var item = dao.save(new Category(0, "hola"));
 			dao.delete(item);
 		} catch (Exception ex) {
-			fail("Fallo en actualización: " + ex.getMessage());
+			fail("Error en actualización: " + ex.getMessage());
 		}
 	}
 

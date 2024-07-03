@@ -1,6 +1,5 @@
 package com.example.domains.contracts.repositories;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -13,7 +12,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestMethodOrder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.domains.entities.Actor;
@@ -53,7 +51,7 @@ class FilmRepositoryTest {
 	void modifyTest() {
 		try {
 			var item = dao.findAll().getLast();
-			item.setTitle("KKKKKKK");
+			item.setTitle("Peliculon");
 			item.removeActor(new Actor(1));
 			item.addActor(new Actor(4));
 			item.addActor(new Actor(5));

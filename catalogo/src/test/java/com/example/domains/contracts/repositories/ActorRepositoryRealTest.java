@@ -7,9 +7,10 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.domains.contracts.repositories.ActorRepository;
+import com.example.core.test.Lentos;
 
 @SpringBootTest
+@Lentos
 class ActorRepositoryRealTest {
 	@Autowired
 	ActorRepository dao;
@@ -21,7 +22,7 @@ class ActorRepositoryRealTest {
 	
 	@Test
 	void findTop5ByLastNameStartingWithOrderByFirstNameDescTest() {
-		assertThat(dao.findTop5ByLastNameStartingWithOrderByFirstNameDesc("P").size()).isEqualTo(5);
+		assertThat(dao.findTop5ByLastNameStartingWithOrderByFirstNameDesc("A").size()).isEqualTo(5);
 	}
 	
 	@Test

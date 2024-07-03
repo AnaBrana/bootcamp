@@ -12,7 +12,6 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
 import com.example.core.test.Lentos;
-import com.example.domains.contracts.repositories.ActorRepository;
 import com.example.domains.entities.Actor;
 
 @DataJpaTest
@@ -26,13 +25,13 @@ class ActorRepositoryMemoryTest {
 
 	@BeforeEach
 	void setUp() throws Exception {
-		var item = new Actor(0, "Pepito", "GRILLO");
+		var item = new Actor(0, "Ana", "BRAÑA");
 		item.setLastUpdate(Timestamp.valueOf("2019-01-01 00:00:00"));
 		em.persist(item);
-		item = new Actor(0, "Carmelo", "COTON");
+		item = new Actor(0, "Carmen", "MAURA");
 		item.setLastUpdate(Timestamp.valueOf("2019-01-01 00:00:00"));
 		em.persist(item);
-		item = new Actor(0, "Capitan", "TAN");
+		item = new Actor(0, "Keanu", "REEVES");
 		item.setLastUpdate(Timestamp.valueOf("2019-01-01 00:00:00"));
 		em.persist(item);
 	}
@@ -41,7 +40,7 @@ class ActorRepositoryMemoryTest {
 	void testGetAll_isNotEmpty() {
 		var rslt = dao.findAll();
 		assertThat(rslt.size()).isEqualTo(3);
-		assertThat(dao.findTop5ByLastNameStartingWithOrderByFirstNameDesc("C").size()).isEqualTo(1);
+		assertThat(dao.findTop5ByLastNameStartingWithOrderByFirstNameDesc("M").size()).isEqualTo(1);
 		assertThat(dao.findByJPQL(1).size()).isEqualTo(3);
 	}
 
@@ -49,7 +48,7 @@ class ActorRepositoryMemoryTest {
 	void testGetOne() {
 		var item = dao.findById(dao.findAll().get(0).getActorId());
 		assertThat(item.isPresent()).isTrue();
-		assertEquals("Pepito", item.get().getFirstName());
+		assertEquals("Ana", item.get().getFirstName());
 	}
 
 	

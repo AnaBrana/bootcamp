@@ -2,14 +2,18 @@ package com.example.domains.entities;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
+
+import com.example.domains.core.entities.EntityBase;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonView;
 
 import java.sql.Timestamp;
 import java.util.List;
 import java.util.Objects;
-
-import com.example.domains.core.entities.EntityBase;
-import com.fasterxml.jackson.annotation.JsonFormat;
 
 
 /**
@@ -19,77 +23,51 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 @Entity
 @Table(name="language")
 @NamedQuery(name="Language.findAll", query="SELECT l FROM Language l")
-public class Language  extends EntityBase<Language> implements Serializable {
+public class Language extends EntityBase<Language> implements Serializable {
 	private static final long serialVersionUID = 1L;
+    public static class Partial {}
+    public static class Complete extends Partial {}
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="language_id")
+	@JsonProperty("id")
+	@JsonView(Language.Partial.class)
 	private int languageId;
 
-	@Column(name="last_update", insertable=false, updatable=false)
-	@JsonFormat(pattern="yyyy-MM-dd hh:mm:ss")
-	private Timestamp lastUpdate;
-
-	@Column
+	@NotBlank
 	@Size(max=20)
+	@JsonProperty("idioma")
+	@JsonView(Language.Partial.class)
 	private String name;
+
+	@Column(name="last_update", insertable = false, updatable = false)
+	@JsonView(Language.Complete.class)
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd hh:mm:ss")
+	@JsonProperty("ultimaModificacion")
+	private Timestamp lastUpdate;
 
 	//bi-directional many-to-one association to Film
 	@OneToMany(mappedBy="language")
-	private List<Film> films1;
+	@JsonIgnore
+	private List<Film> films;
 
 	//bi-directional many-to-one association to Film
 	@OneToMany(mappedBy="languageVO")
-	private List<Film> films2;
+	@JsonIgnore
+	private List<Film> filmsVO;
 
 	public Language() {
 	}
-	
-	
 
 	public Language(int languageId) {
-		super();
 		this.languageId = languageId;
 	}
 
-
-
-	public Language(int languageId, String name) {
-		super();
+	public Language(int languageId, @NotBlank @Size(max = 20) String name) {
 		this.languageId = languageId;
 		this.name = name;
 	}
-
-
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(languageId);
-	}
-
-
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Language other = (Language) obj;
-		return languageId == other.languageId;
-	}
-
-
-
-	@Override
-	public String toString() {
-		return "Language: id: " + languageId + ", lastUpdate: " + lastUpdate + ", idioma: " + name;
-	}
-
-
 
 	public int getLanguageId() {
 		return this.languageId;
@@ -115,48 +93,68 @@ public class Language  extends EntityBase<Language> implements Serializable {
 		this.name = name;
 	}
 
-	public List<Film> getFilms1() {
-		return this.films1;
+	public List<Film> getFilms() {
+		return this.films;
 	}
 
-	public void setFilms1(List<Film> films1) {
-		this.films1 = films1;
+	public void setFilms(List<Film> films) {
+		this.films = films;
 	}
 
-	public Film addFilms1(Film films1) {
-		getFilms1().add(films1);
-		films1.setLanguage(this);
+	public Film addFilm(Film film) {
+		getFilms().add(film);
+		film.setLanguage(this);
 
-		return films1;
+		return film;
 	}
 
-	public Film removeFilms1(Film films1) {
-		getFilms1().remove(films1);
-		films1.setLanguage(null);
+	public Film removeFilm(Film film) {
+		getFilms().remove(film);
+		film.setLanguage(null);
 
-		return films1;
+		return film;
 	}
 
-	public List<Film> getFilms2() {
-		return this.films2;
+	public List<Film> getFilmsVO() {
+		return this.filmsVO;
 	}
 
-	public void setFilms2(List<Film> films2) {
-		this.films2 = films2;
+	public void setFilmsVO(List<Film> filmsVO) {
+		this.filmsVO = filmsVO;
 	}
 
-	public Film addFilms2(Film films2) {
-		getFilms2().add(films2);
-		films2.setLanguageVO(this);
+	public Film addFilmsVO(Film filmsVO) {
+		getFilmsVO().add(filmsVO);
+		filmsVO.setLanguageVO(this);
 
-		return films2;
+		return filmsVO;
 	}
 
-	public Film removeFilms2(Film films2) {
-		getFilms2().remove(films2);
-		films2.setLanguageVO(null);
+	public Film removeFilmsVO(Film filmsVO) {
+		getFilmsVO().remove(filmsVO);
+		filmsVO.setLanguageVO(null);
 
-		return films2;
+		return filmsVO;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(languageId);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj instanceof Language o)
+			return languageId == o.languageId;
+		else
+			return false;
+	}
+	
+	@Override
+	public String toString() {
+		return "Language [languageId=" + languageId + ", name=" + name + "]";
 	}
 
 }
