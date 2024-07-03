@@ -29,51 +29,51 @@ import com.example.exceptions.InvalidDataException;
 class ActorServiceImplTest {
 
 	@MockBean
-	ActorRepository dao;
+	ActorRepository actorRepository;
 
 	@Autowired
-	ActorService srv;
+	ActorService actorService;
 
 	@Test
-	void testGetAll_isNotEmpty() {
+	void getAll_isNotEmptyTest() {
 		List<Actor> lista = new ArrayList<>(Arrays.asList(
 				new Actor(1, "Ana", "BRAÑA"),
 				new Actor(2, "Carmen", "MAURA"), 
 				new Actor(3, "Keanu", "REEVES")));
 
-		when(dao.findAll()).thenReturn(lista);
-		var rslt = srv.getAll();
+		when(actorRepository.findAll()).thenReturn(lista);
+		var rslt = actorService.getAll();
 		assertThat(rslt.size()).isEqualTo(3);
-		verify(dao, times(1)).findAll();
+		verify(actorRepository, times(1)).findAll();
 	}
 
 	@Test
-	void testGetOne_valid() {
-		when(dao.findById(1)).thenReturn(Optional.of(new Actor(1, "Ana", "BRAÑA")));
-		var rslt = srv.getOne(1);
+	void GetByIdTest() {
+		when(actorRepository.findById(1)).thenReturn(Optional.of(new Actor(1, "Ana", "BRAÑA")));
+		var rslt = actorService.getOne(1);
 		assertThat(rslt.isPresent()).isTrue();
 
 	}
 
 	@Test
-	void testGetOne_notfound() {
-		when(dao.findById(1)).thenReturn(Optional.empty());
-		var rslt = srv.getOne(1);
+	void GetOneNotValidTest() {
+		when(actorRepository.findById(1)).thenReturn(Optional.empty());
+		var rslt = actorService.getOne(1);
 		assertThat(rslt.isEmpty()).isTrue();
 
 	}
 
 	@Test
-	void testAddKO() throws DuplicateKeyException, InvalidDataException {
-		when(dao.save(any(Actor.class))).thenReturn(null, null);
-		assertThrows(InvalidDataException.class, () -> srv.add(null));
-		verify(dao, times(0)).save(null);
+	void addTest() throws DuplicateKeyException, InvalidDataException {
+		when(actorRepository.save(any(Actor.class))).thenReturn(null, null);
+		assertThrows(InvalidDataException.class, () -> actorService.add(null));
+		verify(actorRepository, times(0)).save(null);
 	}
 	@Test
-	void testAddDuplicateKeyKO() throws DuplicateKeyException, InvalidDataException {
-		when(dao.findById(1)).thenReturn(Optional.of(new Actor(1, "Ana", "BRAÑA")));
-		when(dao.existsById(1)).thenReturn(true);
-		assertThrows(DuplicateKeyException.class, () -> srv.add(new Actor(1, "Ana", "BRAÑA")));
+	void addDuplicateKeyKOTest() throws DuplicateKeyException, InvalidDataException {
+		when(actorRepository.findById(1)).thenReturn(Optional.of(new Actor(1, "Ana", "BRAÑA")));
+		when(actorRepository.existsById(1)).thenReturn(true);
+		assertThrows(DuplicateKeyException.class, () -> actorService.add(new Actor(1, "Ana", "BRAÑA")));
 	}
 
 }

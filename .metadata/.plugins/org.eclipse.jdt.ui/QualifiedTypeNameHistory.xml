@@ -14,10 +14,7 @@
     <fullyQualifiedTypeName name="com.example.domains.contracts.repositories.ActorRepository"/>
     <fullyQualifiedTypeName name="com.example.exceptions.InvalidDataException"/>
     <fullyQualifiedTypeName name="com.example.exceptions.DuplicateKeyException"/>
-    <fullyQualifiedTypeName name="com.example.domains.entities.Actor"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.Min"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="org.springframework.ws.server.endpoint.annotation.Endpoint"/>
     <fullyQualifiedTypeName name="com.example.domains.contracts.proxies.CalculatorProxy"/>
@@ -27,4 +24,11 @@
     <fullyQualifiedTypeName name="org.springframework.web.servlet.support.ServletUriComponentsBuilder"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="com.example.domains.entities.Film.Rating"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.example.domains.entities.Language"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+    <fullyQualifiedTypeName name="com.example.domains.entities.Actor"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
 </qualifiedTypeNameHistroy>

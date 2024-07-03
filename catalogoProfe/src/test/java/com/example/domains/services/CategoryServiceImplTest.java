@@ -28,10 +28,10 @@ import com.example.exceptions.InvalidDataException;
 @ComponentScan(basePackages = "com.example")
 public class CategoryServiceImplTest {
 	@MockBean
-	CategoryRepository dao;
+	CategoryRepository categoryRepo;
 
 	@Autowired
-	CategoryService srv;
+	CategoryService categoryService;
 	
 	@Test
 	void testGetAll_isNotEmpty() {
@@ -40,39 +40,39 @@ public class CategoryServiceImplTest {
 				new Category(2, "Documentary"), 
 				new Category(3, "Romance")));
 
-		when(dao.findAll()).thenReturn(lista);
-		var rslt = srv.getAll();
+		when(categoryRepo.findAll()).thenReturn(lista);
+		var rslt = categoryService.getAll();
 		assertThat(rslt.size()).isEqualTo(3);
-		verify(dao, times(1)).findAll();
+		verify(categoryRepo, times(1)).findAll();
 	}
 
 	@Test
 	void testGetOne_valid() {
-		when(dao.findById(1)).thenReturn(Optional.of(new Category(1, "Horror")));
-		var rslt = srv.getOne(1);
+		when(categoryRepo.findById(1)).thenReturn(Optional.of(new Category(1, "Horror")));
+		var rslt = categoryService.getOne(1);
 		assertThat(rslt.isPresent()).isTrue();
 
 	}
 
 	@Test
 	void testGetOne_notfound() {
-		when(dao.findById(1)).thenReturn(Optional.empty());
-		var rslt = srv.getOne(1);
+		when(categoryRepo.findById(1)).thenReturn(Optional.empty());
+		var rslt = categoryService.getOne(1);
 		assertThat(rslt.isEmpty()).isTrue();
 
 	}
 
 	@Test
 	void testAddKO() throws DuplicateKeyException, InvalidDataException {
-		when(dao.save(any(Category.class))).thenReturn(null, null);
-		assertThrows(InvalidDataException.class, () -> srv.add(null));
-		verify(dao, times(0)).save(null);
+		when(categoryRepo.save(any(Category.class))).thenReturn(null, null);
+		assertThrows(InvalidDataException.class, () -> categoryService.add(null));
+		verify(categoryRepo, times(0)).save(null);
 	}
 	@Test
 	void testAddDuplicateKeyKO() throws DuplicateKeyException, InvalidDataException {
-		when(dao.findById(1)).thenReturn(Optional.of(new Category(1, "Horror")));
-		when(dao.existsById(1)).thenReturn(true);
-		assertThrows(DuplicateKeyException.class, () -> srv.add(new Category(1, "Horror")));
+		when(categoryRepo.findById(1)).thenReturn(Optional.of(new Category(1, "Horror")));
+		when(categoryRepo.existsById(1)).thenReturn(true);
+		assertThrows(DuplicateKeyException.class, () -> categoryService.add(new Category(1, "Horror")));
 	}
 
 }

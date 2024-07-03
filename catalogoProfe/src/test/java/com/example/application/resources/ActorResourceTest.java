@@ -1,6 +1,6 @@
 package com.example.application.resources;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -38,18 +38,12 @@ class ActorResourceTest {
     private MockMvc mockMvc;
 	
 	@MockBean
-	private ActorService srv;
+	private ActorService actorService;
 
 	@Autowired
 	ObjectMapper objectMapper;
 	
-	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	@AfterEach
-	void tearDown() throws Exception {
-	}
+	
 	
 	@Value
 	static class ActorShortMock implements ActorShort {
@@ -58,34 +52,29 @@ class ActorResourceTest {
 	}
 	
 	@Test
-	void testGetAllString() throws Exception {
+	void getAllStringTest() throws Exception {
 		List<ActorShort> lista = new ArrayList<>(
-		        Arrays.asList(new ActorShortMock(1, "Ana B"),
+		        Arrays.asList(new ActorShortMock(1, "Ana BRAÑA"),
 		        		new ActorShortMock(2, "Carmen Maura"),
 		        		new ActorShortMock(3, "Keanu Reeves")));
-		when(srv.getByProjection(ActorShort.class)).thenReturn(lista);
+		when(actorService.getByProjection(ActorShort.class)).thenReturn(lista);
 		mockMvc.perform(get("/api/actores/v1?modo=short").accept(MediaType.APPLICATION_JSON))
 			.andExpectAll(
 					status().isOk(), 
 					content().contentType("application/json"),
 					jsonPath("$.size()").value(3)
 					);
-//		mvc.perform(get("/api/actores/v1").accept(MediaType.APPLICATION_XML))
-//			.andExpectAll(
-//					status().isOk(), 
-//					content().contentType("application/json"),
-//					jsonPath("$.size()").value(3)
-//					);
+
 	}
 
 	@Test
-	void testGetAllPageable() throws Exception {
+	void getAllPageableTest() throws Exception {
 		List<ActorShort> lista = new ArrayList<>(
-		        Arrays.asList(new ActorShortMock(1, "Ana B"),
+		        Arrays.asList(new ActorShortMock(1, "Ana BRAÑA"),
 		        		new ActorShortMock(2, "Carmen Maura"),
 		        		new ActorShortMock(3, "Keanu Reeves")));
 
-		when(srv.getByProjection(PageRequest.of(0, 20), ActorShort.class))
+		when(actorService.getByProjection(PageRequest.of(0, 20), ActorShort.class))
 			.thenReturn(new PageImpl<>(lista));
 		mockMvc.perform(get("/api/actores/v1").queryParam("page", "0"))
 			.andExpectAll(
@@ -97,10 +86,10 @@ class ActorResourceTest {
 	}
 
 	@Test
-	void testGetOne() throws Exception {
+	void getByIdTest() throws Exception {
 		int id = 1;
-		var ele = new Actor(id, "Ana", "B");
-		when(srv.getOne(id)).thenReturn(Optional.of(ele));
+		var ele = new Actor(id, "Ana", "BRAÑA");
+		when(actorService.getOne(id)).thenReturn(Optional.of(ele));
 		mockMvc.perform(get("/api/actores/v1/{id}", id))
 			.andExpect(status().isOk())
 	        .andExpect(jsonPath("$.id").value(id))
@@ -109,31 +98,22 @@ class ActorResourceTest {
 	        .andDo(print());
 	}
 	@Test
-	void testGetOne404() throws Exception {
+	void getByIdNotValidTest() throws Exception {
 		int id = 1;
-		var ele = new Actor(id, "Ana", "B");
-		when(srv.getOne(id)).thenReturn(Optional.empty());
+		var ele = new Actor(id, "Ana", "BRAÑA");
+		when(actorService.getOne(id)).thenReturn(Optional.empty());
 		mockMvc.perform(get("/api/actores/v1/{id}", id))
 			.andExpect(status().isNotFound())
 			.andExpect(jsonPath("$.title").value("Not Found"))
 	        .andDo(print());
 	}
-//
-//	@Test
-//	void testGetPelis() {
-//		fail("Not yet implemented");
-//	}
-//
-//	@Test
-//	void testGetPeliculas() {
-//		fail("Not yet implemented");
-//	}
+
 
 	@Test
-	void testCreate() throws Exception {
+	void postTest() throws Exception {
 		int id = 1;
-		var ele = new Actor(id, "Ana", "B");
-		when(srv.add(ele)).thenReturn(ele);
+		var ele = new Actor(id, "Ana", "BRAÑA");
+		when(actorService.add(ele)).thenReturn(ele);
 		mockMvc.perform(post("/api/actores/v1")
 			.contentType(MediaType.APPLICATION_JSON)
 			.content(objectMapper.writeValueAsString(ActorDTO.from(ele)))
@@ -144,20 +124,7 @@ class ActorResourceTest {
 	        ;
 	}
 
-//	@Test
-//	void testDarPremio() {
-//		fail("Not yet implemented");
-//	}
-//
-//	@Test
-//	void testUpdate() {
-//		fail("Not yet implemented");
-//	}
-//
-//	@Test
-//	void testDelete() {
-//		fail("Not yet implemented");
-//	}
+
 
 }
 

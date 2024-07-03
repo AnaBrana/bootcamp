@@ -31,10 +31,10 @@ import com.example.exceptions.InvalidDataException;
 @ComponentScan(basePackages = "com.example")
 public class LanguageServiceImplTest {
 	@MockBean
-	LanguageRepository dao;
+	LanguageRepository languageRepo;
 
 	@Autowired
-	LanguageService srv;
+	LanguageService languageService;
 	
 	@Test
 	void testGetAll_isNotEmpty() {
@@ -43,39 +43,39 @@ public class LanguageServiceImplTest {
 				new Language(2, "French"), 
 				new Language(3, "Spanish")));
 
-		when(dao.findAll()).thenReturn(lista);
-		var rslt = srv.getAll();
+		when(languageRepo.findAll()).thenReturn(lista);
+		var rslt =  languageService.getAll();
 		assertThat(rslt.size()).isEqualTo(3);
-		verify(dao, times(1)).findAll();
+		verify(languageRepo, times(1)).findAll();
 	}
 
 	@Test
 	void testGetOne_valid() {
-		when(dao.findById(1)).thenReturn(Optional.of(new Language(1, "English")));
-		var rslt = srv.getOne(1);
+		when(languageRepo.findById(1)).thenReturn(Optional.of(new Language(1, "English")));
+		var rslt =  languageService.getOne(1);
 		assertThat(rslt.isPresent()).isTrue();
 
 	}
 
 	@Test
 	void testGetOne_notfound() {
-		when(dao.findById(1)).thenReturn(Optional.empty());
-		var rslt = srv.getOne(1);
+		when(languageRepo.findById(1)).thenReturn(Optional.empty());
+		var rslt =  languageService.getOne(1);
 		assertThat(rslt.isEmpty()).isTrue();
 
 	}
 
 	@Test
 	void testAddKO() throws DuplicateKeyException, InvalidDataException {
-		when(dao.save(any(Language.class))).thenReturn(null, null);
-		assertThrows(InvalidDataException.class, () -> srv.add(null));
-		verify(dao, times(0)).save(null);
+		when(languageRepo.save(any(Language.class))).thenReturn(null, null);
+		assertThrows(InvalidDataException.class, () ->  languageService.add(null));
+		verify(languageRepo, times(0)).save(null);
 	}
 	@Test
 	void testAddDuplicateKeyKO() throws DuplicateKeyException, InvalidDataException {
-		when(dao.findById(1)).thenReturn(Optional.of(new Language(1, "English")));
-		when(dao.existsById(1)).thenReturn(true);
-		assertThrows(DuplicateKeyException.class, () -> srv.add(new Language(1, "English")));
+		when(languageRepo.findById(1)).thenReturn(Optional.of(new Language(1, "English")));
+		when(languageRepo.existsById(1)).thenReturn(true);
+		assertThrows(DuplicateKeyException.class, () ->  languageService.add(new Language(1, "English")));
 	}
 
 }
