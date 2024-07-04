@@ -1,5 +1,8 @@
 package com.example;
 
+import java.util.TreeMap;
+
+import org.springdoc.core.customizers.OpenApiCustomizer;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,12 +14,6 @@ import org.springframework.ws.soap.client.core.SoapActionCallback;
 import com.example.domains.contracts.proxies.CalculatorProxy;
 import com.example.webservice.schema.AddRequest;
 import com.example.webservice.schema.AddResponse;
-import com.example.webservice.schema.DivideRequest;
-import com.example.webservice.schema.DivideResponse;
-import com.example.webservice.schema.MultiplyRequest;
-import com.example.webservice.schema.MultiplyResponse;
-import com.example.webservice.schema.SustractRequest;
-import com.example.webservice.schema.SustractResponse;
 
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
@@ -24,6 +21,15 @@ public class DemoApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
+	
+	@Bean
+	public OpenApiCustomizer sortSchemasAlphabetically() {
+	 return openApi -> {
+	 var schemas = openApi.getComponents().getSchemas();
+	 openApi.getComponents().setSchemas(new TreeMap<>(schemas));
+	 };
+	}
+
 	
 //	@Autowired
 //	ActorService srv;
@@ -33,14 +39,13 @@ public class DemoApplication implements CommandLineRunner {
 		System.err.println("Aplicación arrancada...");
 //		srv.getByProjection(ActorDTO.class).forEach(System.out::println);
 	}
-	
+//	
 //	@Bean
 //	CommandLineRunner lookup(CalculatorProxy client) {
-//		return args -> { System.err.println("Calculo remoto --> " + client.add(2, 3)); };
+//		return args -> { System.err.println("CalculatorProxy --> " + client.add(2, 3)); };
 //	}
-	
-//	//sumar
-//	@Bean
+//	
+////	@Bean
 //	CommandLineRunner lookup(Jaxb2Marshaller marshaller) {
 //		return args -> {		
 //			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
@@ -49,47 +54,7 @@ public class DemoApplication implements CommandLineRunner {
 //			request.setOp2(3);
 //			var response = (AddResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
 //					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-//			System.err.println("Calculo remoto suma --> " + response.getAddResult());
-//		};
-//	}
-//	//restar
-//	@Bean
-//	CommandLineRunner lookdown(Jaxb2Marshaller marshaller) {
-//		return args -> {		
-//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-//			var request = new SustractRequest();
-//			request.setOp1(2);
-//			request.setOp2(3);
-//			var response = (SustractResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-//			System.err.println("Calculo remoto resta--> " + response.getSustractResult());
-//		};
-//	}
-//	//multiplicar
-//	@Bean
-//	CommandLineRunner lookmultiply(Jaxb2Marshaller marshaller) {
-//		return args -> {		
-//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-//			var request = new MultiplyRequest();
-//			request.setOp1(2);
-//			request.setOp2(3);
-//			var response = (MultiplyResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-//			System.err.println("Calculo remoto multiplicar--> " + response.getMultiplyResult());
-//		};
-//	}
-//	
-//	//dividir
-//	@Bean
-//	CommandLineRunner lookdivide(Jaxb2Marshaller marshaller) {
-//		return args -> {		
-//			WebServiceTemplate ws = new WebServiceTemplate(marshaller);
-//			var request = new DivideRequest();
-//			request.setOp1(2);
-//			request.setOp2(3);
-//			var response = (DivideResponse) ws.marshalSendAndReceive("http://localhost:8090/ws/calculator", 
-//					 request, new SoapActionCallback("http://example.com/webservices/schemas/calculator"));
-//			System.err.println("Calculo remoto dividir--> " + response.getDivideResult());
+//			System.err.println("WebServiceTemplate --> " + response.getAddResult());
 //		};
 //	}
 

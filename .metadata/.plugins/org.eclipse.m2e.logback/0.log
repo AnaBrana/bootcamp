@@ -8943,3 +8943,753 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:s
 2024-07-03 13:36:34,709 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.0/spring-security-crypto-6.3.0-sources.jar
 2024-07-03 13:36:34,949 [Worker-7: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/6.3.0/spring-security-crypto-6.3.0-sources.jar
 2024-07-03 13:36:34,955 [Worker-7: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:6.3.0
+2024-07-03 13:37:58,453 [Worker-43: Importing Maven projects] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Project Java already exists
+2024-07-03 13:37:59,395 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:megusta:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\megusta\pom.xml.
+2024-07-03 13:37:59,871 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis-reactive/3.3.0/spring-boot-starter-data-redis-reactive-3.3.0.pom
+2024-07-03 13:37:59,889 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis-reactive/3.3.0/spring-boot-starter-data-redis-reactive-3.3.0.pom
+2024-07-03 13:37:59,972 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.pom
+2024-07-03 13:38:00,018 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.pom
+2024-07-03 13:38:00,162 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0.pom
+2024-07-03 13:38:00,172 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0.pom
+2024-07-03 13:38:00,265 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/3.3.0/spring-data-keyvalue-3.3.0.pom
+2024-07-03 13:38:00,276 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/3.3.0/spring-data-keyvalue-3.3.0.pom
+2024-07-03 13:38:00,806 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.pom
+2024-07-03 13:38:00,820 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.pom
+2024-07-03 13:38:00,911 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.pom
+2024-07-03 13:38:00,920 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.pom
+2024-07-03 13:38:00,994 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.pom
+2024-07-03 13:38:01,005 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.pom
+2024-07-03 13:38:01,080 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.pom
+2024-07-03 13:38:01,087 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.pom
+2024-07-03 13:38:01,161 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/6.0.3/brave-parent-6.0.3.pom
+2024-07-03 13:38:01,208 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-parent/6.0.3/brave-parent-6.0.3.pom
+2024-07-03 13:38:01,287 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.pom
+2024-07-03 13:38:01,296 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.pom
+2024-07-03 13:38:01,370 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/6.0.3/brave-context-parent-6.0.3.pom
+2024-07-03 13:38:01,378 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-parent/6.0.3/brave-context-parent-6.0.3.pom
+2024-07-03 13:38:01,453 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.pom
+2024-07-03 13:38:01,459 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.pom
+2024-07-03 13:38:01,535 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/6.0.3/brave-instrumentation-parent-6.0.3.pom
+2024-07-03 13:38:01,542 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-parent/6.0.3/brave-instrumentation-parent-6.0.3.pom
+2024-07-03 13:38:01,616 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.pom
+2024-07-03 13:38:01,623 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.pom
+2024-07-03 13:38:01,696 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/zipkin-aws-parent/1.2.4/zipkin-aws-parent-1.2.4.pom
+2024-07-03 13:38:01,810 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/zipkin-aws-parent/1.2.4/zipkin-aws-parent-1.2.4.pom
+2024-07-03 13:38:01,886 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.pom
+2024-07-03 13:38:01,911 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.pom
+2024-07-03 13:38:01,984 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-w3c-parent/0.2.0/brave-propagation-w3c-parent-0.2.0.pom
+2024-07-03 13:38:02,049 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-w3c-parent/0.2.0/brave-propagation-w3c-parent-0.2.0.pom
+2024-07-03 13:38:02,123 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.pom
+2024-07-03 13:38:02,136 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.pom
+2024-07-03 13:38:02,213 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/3.4.0/zipkin-reporter-parent-3.4.0.pom
+2024-07-03 13:38:02,288 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-parent/3.4.0/zipkin-reporter-parent-3.4.0.pom
+2024-07-03 13:38:02,364 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.pom
+2024-07-03 13:38:02,375 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.pom
+2024-07-03 13:38:02,510 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-test/3.6.6/reactor-test-3.6.6.pom
+2024-07-03 13:38:02,519 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-test/3.6.6/reactor-test-3.6.6.pom
+2024-07-03 13:38:02,944 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis-reactive/3.3.0/spring-boot-starter-data-redis-reactive-3.3.0.jar
+2024-07-03 13:38:02,985 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis-reactive/3.3.0/spring-boot-starter-data-redis-reactive-3.3.0.jar
+2024-07-03 13:38:03,053 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/3.3.0/spring-data-keyvalue-3.3.0.jar
+2024-07-03 13:38:03,211 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.jar
+2024-07-03 13:38:03,213 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.jar
+2024-07-03 13:38:03,224 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0.jar
+2024-07-03 13:38:03,246 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.jar
+2024-07-03 13:38:03,424 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0.jar
+2024-07-03 13:38:03,436 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/3.3.0/spring-data-keyvalue-3.3.0.jar
+2024-07-03 13:38:03,494 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.jar
+2024-07-03 13:38:03,501 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0.jar
+2024-07-03 13:38:03,517 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.jar
+2024-07-03 13:38:03,541 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1.jar
+2024-07-03 13:38:03,596 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.jar
+2024-07-03 13:38:03,605 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3.jar
+2024-07-03 13:38:03,610 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.jar
+2024-07-03 13:38:03,649 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3.jar
+2024-07-03 13:38:03,662 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3.jar
+2024-07-03 13:38:03,684 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.jar
+2024-07-03 13:38:03,706 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4.jar
+2024-07-03 13:38:03,717 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.jar
+2024-07-03 13:38:03,736 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.jar
+2024-07-03 13:38:03,765 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0.jar
+2024-07-03 13:38:03,785 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.jar
+2024-07-03 13:38:03,788 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0.jar
+2024-07-03 13:38:03,837 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-test/3.6.6/reactor-test-3.6.6.jar
+2024-07-03 13:38:03,872 [BasicRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0.jar
+2024-07-03 13:38:03,934 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-test/3.6.6/reactor-test-3.6.6.jar
+2024-07-03 13:38:04,171 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE.jar
+2024-07-03 13:38:04,248 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0.jar
+2024-07-03 13:38:05,242 [Worker-43: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /megusta/src/main/java
+2024-07-03 13:38:05,243 [Worker-43: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /megusta/src/main/resources
+2024-07-03 13:38:05,248 [Worker-43: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /megusta/src/main/resources
+2024-07-03 13:38:05,253 [Worker-43: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /megusta/src/test/java
+2024-07-03 13:38:05,254 [Worker-43: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /megusta/src/test/resources
+2024-07-03 13:38:05,941 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis-reactive/3.3.0/spring-boot-starter-data-redis-reactive-3.3.0-sources.jar
+2024-07-03 13:38:05,998 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-redis-reactive/3.3.0/spring-boot-starter-data-redis-reactive-3.3.0-sources.jar
+2024-07-03 13:38:06,008 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-redis-reactive:3.3.0
+2024-07-03 13:38:06,183 [Worker-43: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 2 project(s) in 7 sec
+2024-07-03 13:38:06,230 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE-sources.jar
+2024-07-03 13:38:06,966 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/lettuce/lettuce-core/6.3.2.RELEASE/lettuce-core-6.3.2.RELEASE-sources.jar
+2024-07-03 13:38:06,976 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.lettuce:lettuce-core:6.3.2.RELEASE
+2024-07-03 13:38:07,213 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0-sources.jar
+2024-07-03 13:38:07,243 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 13:38:07,267 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 13:38:07,277 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\megusta\src\test\resources
+2024-07-03 13:38:07,908 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-redis/3.3.0/spring-data-redis-3.3.0-sources.jar
+2024-07-03 13:38:07,918 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-redis:3.3.0
+2024-07-03 13:38:08,189 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/3.3.0/spring-data-keyvalue-3.3.0-sources.jar
+2024-07-03 13:38:08,453 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-keyvalue/3.3.0/spring-data-keyvalue-3.3.0-sources.jar
+2024-07-03 13:38:08,461 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-keyvalue:3.3.0
+2024-07-03 13:38:08,796 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-config/4.1.2/spring-cloud-starter-config-4.1.2-javadoc.jar
+2024-07-03 13:38:08,802 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-config:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-03 13:38:09,118 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.1.3/spring-cloud-starter-4.1.3-javadoc.jar
+2024-07-03 13:38:09,131 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter/4.1.3/spring-cloud-starter-4.1.3-javadoc.jar
+2024-07-03 13:38:09,141 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.cloud:spring-cloud-starter:4.1.3
+2024-07-03 13:38:09,477 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.1.2/spring-cloud-starter-netflix-eureka-client-4.1.2-javadoc.jar
+2024-07-03 13:38:09,482 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:4.1.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:jar:javadoc:4.1.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-03 13:38:09,705 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar
+2024-07-03 13:38:09,710 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-03 13:38:10,013 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.1.3/spring-cloud-starter-loadbalancer-4.1.3-javadoc.jar
+2024-07-03 13:38:10,018 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-loadbalancer:4.1.3
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-loadbalancer:jar:javadoc:4.1.3
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-03 13:38:10,325 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.17.14/swagger-ui-5.17.14-javadoc.jar
+2024-07-03 13:38:10,328 [Worker-33: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.webjars:swagger-ui:5.17.14
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:5.17.14
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-03 13:38:10,547 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0-sources.jar
+2024-07-03 13:38:10,742 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing-bridge-brave/1.3.0/micrometer-tracing-bridge-brave-1.3.0-sources.jar
+2024-07-03 13:38:10,747 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-tracing-bridge-brave:1.3.0
+2024-07-03 13:38:10,964 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0-sources.jar
+2024-07-03 13:38:11,175 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/micrometer-tracing/1.3.0/micrometer-tracing-1.3.0-sources.jar
+2024-07-03 13:38:11,180 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:micrometer-tracing:1.3.0
+2024-07-03 13:38:11,404 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1-sources.jar
+2024-07-03 13:38:11,569 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/micrometer/context-propagation/1.1.1/context-propagation-1.1.1-sources.jar
+2024-07-03 13:38:11,575 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.micrometer:context-propagation:1.1.1
+2024-07-03 13:38:11,799 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2024-07-03 13:38:11,957 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar
+2024-07-03 13:38:11,962 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for aopalliance:aopalliance:1.0
+2024-07-03 13:38:12,216 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3-sources.jar
+2024-07-03 13:38:12,528 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave/6.0.3/brave-6.0.3-sources.jar
+2024-07-03 13:38:12,536 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave:6.0.3
+2024-07-03 13:38:12,803 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3-sources.jar
+2024-07-03 13:38:12,988 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-context-slf4j/6.0.3/brave-context-slf4j-6.0.3-sources.jar
+2024-07-03 13:38:12,996 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-context-slf4j:6.0.3
+2024-07-03 13:38:13,284 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3-sources.jar
+2024-07-03 13:38:13,571 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/brave/brave-instrumentation-http/6.0.3/brave-instrumentation-http-6.0.3-sources.jar
+2024-07-03 13:38:13,578 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.brave:brave-instrumentation-http:6.0.3
+2024-07-03 13:38:13,962 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4-sources.jar
+2024-07-03 13:38:14,115 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/aws/brave-propagation-aws/1.2.4/brave-propagation-aws-1.2.4-sources.jar
+2024-07-03 13:38:14,121 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.aws:brave-propagation-aws:1.2.4
+2024-07-03 13:38:14,448 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0-sources.jar
+2024-07-03 13:38:14,730 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/contrib/brave-propagation-w3c/brave-propagation-tracecontext/0.2.0/brave-propagation-tracecontext-0.2.0-sources.jar
+2024-07-03 13:38:14,737 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.contrib.brave-propagation-w3c:brave-propagation-tracecontext:0.2.0
+2024-07-03 13:38:15,040 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0-sources.jar
+2024-07-03 13:38:15,286 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter-brave/3.4.0/zipkin-reporter-brave-3.4.0-sources.jar
+2024-07-03 13:38:15,293 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter-brave:3.4.0
+2024-07-03 13:38:15,693 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0-sources.jar
+2024-07-03 13:38:15,950 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/zipkin/reporter2/zipkin-reporter/3.4.0/zipkin-reporter-3.4.0-sources.jar
+2024-07-03 13:38:15,955 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.zipkin.reporter2:zipkin-reporter:3.4.0
+2024-07-03 13:38:16,289 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-test/3.6.6/reactor-test-3.6.6-sources.jar
+2024-07-03 13:38:16,678 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-test/3.6.6/reactor-test-3.6.6-sources.jar
+2024-07-03 13:38:16,684 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.projectreactor:reactor-test:3.6.6
+2024-07-03 14:20:58,343 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-03 14:20:59,017 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.3.0/spring-boot-starter-data-rest-3.3.0.pom
+2024-07-03 14:20:59,024 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.3.0/spring-boot-starter-data-rest-3.3.0.pom
+2024-07-03 14:20:59,099 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.3.0/spring-data-rest-webmvc-4.3.0.pom
+2024-07-03 14:20:59,107 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.3.0/spring-data-rest-webmvc-4.3.0.pom
+2024-07-03 14:20:59,181 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-parent/4.3.0/spring-data-rest-parent-4.3.0.pom
+2024-07-03 14:20:59,190 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-parent/4.3.0/spring-data-rest-parent-4.3.0.pom
+2024-07-03 14:20:59,270 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.3.0/spring-data-rest-core-4.3.0.pom
+2024-07-03 14:20:59,280 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.3.0/spring-data-rest-core-4.3.0.pom
+2024-07-03 14:20:59,362 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.3.0/spring-hateoas-2.3.0.pom
+2024-07-03 14:20:59,417 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.3.0/spring-hateoas-2.3.0.pom
+2024-07-03 14:20:59,494 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.pom
+2024-07-03 14:20:59,501 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.pom
+2024-07-03 14:20:59,582 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.3/evo-inflector-1.3.pom
+2024-07-03 14:20:59,591 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.3/evo-inflector-1.3.pom
+2024-07-03 14:20:59,664 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/parent/1.19/parent-1.19.pom
+2024-07-03 14:20:59,673 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/parent/1.19/parent-1.19.pom
+2024-07-03 14:20:59,748 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.3.0/spring-boot-starter-hateoas-3.3.0.pom
+2024-07-03 14:20:59,756 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.3.0/spring-boot-starter-hateoas-3.3.0.pom
+2024-07-03 14:21:00,042 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.3.0/spring-boot-starter-data-rest-3.3.0.jar
+2024-07-03 14:21:00,049 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.3.0/spring-boot-starter-data-rest-3.3.0.jar
+2024-07-03 14:21:00,118 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.3.0/spring-data-rest-webmvc-4.3.0.jar
+2024-07-03 14:21:00,246 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.3.0/spring-data-rest-webmvc-4.3.0.jar
+2024-07-03 14:21:00,264 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.3.0/spring-data-rest-core-4.3.0.jar
+2024-07-03 14:21:00,267 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.3.0/spring-hateoas-2.3.0.jar
+2024-07-03 14:21:00,277 [BasicRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar
+2024-07-03 14:21:00,300 [BasicRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.3.0/spring-boot-starter-hateoas-3.3.0.jar
+2024-07-03 14:21:00,314 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar
+2024-07-03 14:21:00,326 [BasicRepositoryConnector-repo.maven.apache.org-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0.jar
+2024-07-03 14:21:00,367 [BasicRepositoryConnector-repo.maven.apache.org-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.3.0/spring-boot-starter-hateoas-3.3.0.jar
+2024-07-03 14:21:00,384 [BasicRepositoryConnector-repo.maven.apache.org-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.3/evo-inflector-1.3.jar
+2024-07-03 14:21:00,511 [BasicRepositoryConnector-repo.maven.apache.org-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.3.0/spring-data-rest-core-4.3.0.jar
+2024-07-03 14:21:00,663 [BasicRepositoryConnector-repo.maven.apache.org-3-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.3.0/spring-hateoas-2.3.0.jar
+2024-07-03 14:21:01,784 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-03 14:21:01,784 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-03 14:21:01,788 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-03 14:21:01,789 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-03 14:21:02,382 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.3.0/spring-boot-starter-data-rest-3.3.0-sources.jar
+2024-07-03 14:21:02,437 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.3.0/spring-boot-starter-data-rest-3.3.0-sources.jar
+2024-07-03 14:21:02,444 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-rest:3.3.0
+2024-07-03 14:21:02,662 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.3.0/spring-data-rest-webmvc-4.3.0-sources.jar
+2024-07-03 14:21:02,911 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-03 14:21:02,926 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 14:21:02,931 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-03 14:21:02,952 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.3.0/spring-data-rest-webmvc-4.3.0-sources.jar
+2024-07-03 14:21:02,958 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-webmvc:4.3.0
+2024-07-03 14:21:03,175 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.3.0/spring-data-rest-core-4.3.0-sources.jar
+2024-07-03 14:21:03,255 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-07-03 14:21:03,431 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.3.0/spring-data-rest-core-4.3.0-sources.jar
+2024-07-03 14:21:03,437 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-core:4.3.0
+2024-07-03 14:21:04,817 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-03 14:21:04,956 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.3/evo-inflector-1.3-sources.jar
+2024-07-03 14:21:05,055 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/atteo/evo-inflector/1.3/evo-inflector-1.3-sources.jar
+2024-07-03 14:21:05,064 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.atteo:evo-inflector:1.3
+2024-07-03 14:21:05,280 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.3.0/spring-boot-starter-hateoas-3.3.0-sources.jar
+2024-07-03 14:21:05,337 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.3.0/spring-boot-starter-hateoas-3.3.0-sources.jar
+2024-07-03 14:21:05,345 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-hateoas:3.3.0
+2024-07-03 14:21:05,572 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.3.0/spring-hateoas-2.3.0-sources.jar
+2024-07-03 14:21:05,919 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.3.0/spring-hateoas-2.3.0-sources.jar
+2024-07-03 14:21:05,928 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.hateoas:spring-hateoas:2.3.0
+2024-07-03 14:21:06,158 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0-sources.jar
+2024-07-03 14:21:06,359 [Worker-33: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/plugin/spring-plugin-core/3.0.0/spring-plugin-core-3.0.0-sources.jar
+2024-07-03 14:21:06,369 [Worker-33: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.plugin:spring-plugin-core:3.0.0
+2024-07-03 14:21:06,583 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-07-03 14:21:06,583 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-07-03 14:21:06,584 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-07-03 14:21:06,584 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-07-03 14:21:06,584 [Worker-48: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-07-03 14:21:07,546 [Worker-48: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 0,00 sec 
+2024-07-03 14:21:09,214 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-03 14:21:09,214 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-03 14:21:09,221 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-03 14:21:09,221 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-03 14:21:09,993 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-03 14:21:10,009 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 14:21:10,017 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-03 14:27:40,129 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-03 14:27:40,131 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-03 14:27:40,141 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-03 14:27:40,142 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-03 14:27:41,134 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-03 14:27:41,146 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 14:27:41,150 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-03 14:29:06,035 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-03 14:29:06,036 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-03 14:29:06,039 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-03 14:29:06,039 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-03 14:29:06,902 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-03 14:29:06,925 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 14:29:06,928 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-03 14:54:52,713 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-03 14:54:52,714 [Worker-70: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-03 14:54:52,722 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-03 14:54:52,723 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-03 14:54:53,771 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-03 14:54:53,782 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-03 14:54:53,786 [Worker-70: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:05:31,106 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-07-04 08:05:37,500 [Worker-11: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 08:05:42,895 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:05:42,897 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:05:42,913 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:05:42,918 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:05:45,499 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:05:45,569 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:05:45,627 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:05:50,729 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:05:50,730 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:05:50,737 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:05:50,737 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:05:52,036 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:05:52,059 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:05:52,081 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:11:42,384 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:11:42,388 [Worker-11: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:11:42,398 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:11:42,398 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:11:43,628 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:11:43,637 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:11:43,643 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:12:03,917 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:12:03,918 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:12:03,922 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:12:03,922 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:12:04,952 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:04,961 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:04,968 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:12:19,152 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:12:19,153 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:12:19,160 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:12:19,160 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:12:20,218 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:20,226 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:20,232 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:12:37,528 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:12:37,530 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:12:37,534 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:12:37,534 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:12:38,562 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:38,570 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:38,575 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:12:47,497 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:12:47,499 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:12:47,511 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:12:47,513 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:12:48,543 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:48,553 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:12:48,559 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:13:31,740 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:13:31,742 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:13:31,745 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:13:31,746 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:13:32,684 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:13:32,692 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:13:32,696 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:17:25,339 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:17:25,340 [Worker-1: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:17:25,347 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:17:25,349 [Worker-1: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:17:26,374 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:17:26,384 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:17:26,390 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:42:15,482 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:42:15,487 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:42:15,494 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:42:15,494 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:42:16,710 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:42:16,730 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:42:16,736 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:43:09,624 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:43:09,657 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:43:09,664 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 08:44:47,786 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 08:44:49,335 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.1.12/spring-boot-starter-web-services-3.1.12.pom
+2024-07-04 08:44:49,360 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.1.12/spring-boot-starter-web-services-3.1.12.pom
+2024-07-04 08:44:49,481 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.21/spring-oxm-6.0.21.pom
+2024-07-04 08:44:49,504 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.21/spring-oxm-6.0.21.pom
+2024-07-04 08:44:49,646 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.1.12/spring-boot-starter-data-rest-3.1.12.pom
+2024-07-04 08:44:49,661 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.1.12/spring-boot-starter-data-rest-3.1.12.pom
+2024-07-04 08:44:49,754 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.1.12/spring-data-rest-webmvc-4.1.12.pom
+2024-07-04 08:44:49,776 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.1.12/spring-data-rest-webmvc-4.1.12.pom
+2024-07-04 08:44:49,860 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-parent/4.1.12/spring-data-rest-parent-4.1.12.pom
+2024-07-04 08:44:49,878 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-parent/4.1.12/spring-data-rest-parent-4.1.12.pom
+2024-07-04 08:44:49,959 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.1.12/spring-data-rest-core-4.1.12.pom
+2024-07-04 08:44:49,979 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.1.12/spring-data-rest-core-4.1.12.pom
+2024-07-04 08:44:50,206 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.1.5/spring-hateoas-2.1.5.pom
+2024-07-04 08:44:50,236 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.1.5/spring-hateoas-2.1.5.pom
+2024-07-04 08:44:50,354 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2022.0.18/reactor-bom-2022.0.18.pom
+2024-07-04 08:44:50,378 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/projectreactor/reactor-bom/2022.0.18/reactor-bom-2022.0.18.pom
+2024-07-04 08:44:50,508 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.1.12/spring-boot-starter-hateoas-3.1.12.pom
+2024-07-04 08:44:50,528 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.1.12/spring-boot-starter-hateoas-3.1.12.pom
+2024-07-04 08:44:50,888 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4.pom
+2024-07-04 08:44:50,900 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4.pom
+2024-07-04 08:44:51,391 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.1.12/spring-boot-starter-web-services-3.1.12.jar
+2024-07-04 08:44:51,417 [Worker-4: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.1.12/spring-boot-starter-web-services-3.1.12.jar
+2024-07-04 08:44:51,500 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.1.12/spring-boot-starter-data-rest-3.1.12.jar
+2024-07-04 08:44:51,517 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.1.12/spring-boot-starter-data-rest-3.1.12.jar
+2024-07-04 08:44:51,596 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.1.5/spring-hateoas-2.1.5.jar
+2024-07-04 08:44:51,648 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.1.12/spring-data-rest-core-4.1.12.jar
+2024-07-04 08:44:51,659 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.1.12/spring-boot-starter-hateoas-3.1.12.jar
+2024-07-04 08:44:51,672 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.21/spring-oxm-6.0.21.jar
+2024-07-04 08:44:51,677 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.1.12/spring-data-rest-webmvc-4.1.12.jar
+2024-07-04 08:44:51,710 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.1.12/spring-boot-starter-hateoas-3.1.12.jar
+2024-07-04 08:44:51,778 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4.jar
+2024-07-04 08:44:52,077 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.21/spring-oxm-6.0.21.jar
+2024-07-04 08:44:52,641 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4.jar
+2024-07-04 08:44:52,651 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.1.12/spring-data-rest-core-4.1.12.jar
+2024-07-04 08:44:53,230 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.1.5/spring-hateoas-2.1.5.jar
+2024-07-04 08:44:53,459 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.1.12/spring-data-rest-webmvc-4.1.12.jar
+2024-07-04 08:44:55,304 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo-ws:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo-ws\pom.xml.
+2024-07-04 08:44:56,796 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:lotes-java:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\lotes-java\pom.xml.
+2024-07-04 08:44:58,106 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:lotes-xml:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\lotes-xml\pom.xml.
+2024-07-04 08:45:00,919 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:contactos:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\contactos\pom.xml.
+2024-07-04 08:45:02,458 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:megusta:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\megusta\pom.xml.
+2024-07-04 08:45:03,106 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 08:45:06,013 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.1.12/spring-boot-starter-web-services-3.1.12-sources.jar
+2024-07-04 08:45:06,064 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-web-services/3.1.12/spring-boot-starter-web-services-3.1.12-sources.jar
+2024-07-04 08:45:06,077 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-web-services:3.1.12
+2024-07-04 08:45:06,428 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.21/spring-oxm-6.0.21-sources.jar
+2024-07-04 08:45:06,750 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-oxm/6.0.21/spring-oxm-6.0.21-sources.jar
+2024-07-04 08:45:06,762 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-oxm:6.0.21
+2024-07-04 08:45:07,245 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.1.12/spring-boot-starter-data-rest-3.1.12-sources.jar
+2024-07-04 08:45:07,363 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-data-rest/3.1.12/spring-boot-starter-data-rest-3.1.12-sources.jar
+2024-07-04 08:45:07,372 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-data-rest:3.1.12
+2024-07-04 08:45:07,722 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.1.12/spring-data-rest-webmvc-4.1.12-sources.jar
+2024-07-04 08:45:08,179 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-webmvc/4.1.12/spring-data-rest-webmvc-4.1.12-sources.jar
+2024-07-04 08:45:08,187 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-webmvc:4.1.12
+2024-07-04 08:45:08,704 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.1.12/spring-data-rest-core-4.1.12-sources.jar
+2024-07-04 08:45:08,994 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-rest-core/4.1.12/spring-data-rest-core-4.1.12-sources.jar
+2024-07-04 08:45:09,005 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-rest-core:4.1.12
+2024-07-04 08:45:09,449 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.1.12/spring-boot-starter-hateoas-3.1.12-sources.jar
+2024-07-04 08:45:09,512 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-hateoas/3.1.12/spring-boot-starter-hateoas-3.1.12-sources.jar
+2024-07-04 08:45:09,524 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-hateoas:3.1.12
+2024-07-04 08:45:09,878 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.1.5/spring-hateoas-2.1.5-sources.jar
+2024-07-04 08:45:10,674 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/hateoas/spring-hateoas/2.1.5/spring-hateoas-2.1.5-sources.jar
+2024-07-04 08:45:10,684 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.hateoas:spring-hateoas:2.1.5
+2024-07-04 08:45:10,689 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:45:10,707 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:45:10,718 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 08:45:10,947 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar
+2024-07-04 08:45:11,959 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0-sources.jar
+2024-07-04 08:45:11,969 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-lang3:3.12.0
+2024-07-04 08:45:12,320 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4-sources.jar
+2024-07-04 08:45:12,478 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.15.4/jackson-dataformat-yaml-2.15.4-sources.jar
+2024-07-04 08:45:12,486 [Worker-37: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.15.4
+2024-07-04 08:45:48,010 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:45:48,012 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:45:48,020 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:45:48,021 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:45:49,145 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:45:49,188 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:45:49,192 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 08:45:54,943 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 08:45:54,945 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 08:45:54,952 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 08:45:54,953 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 08:45:56,021 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 08:45:56,033 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 08:45:56,039 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 09:59:53,434 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 09:59:54,190 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.5.0/springdoc-openapi-starter-webmvc-ui-2.5.0.pom
+2024-07-04 09:59:54,202 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.5.0/springdoc-openapi-starter-webmvc-ui-2.5.0.pom
+2024-07-04 09:59:54,285 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi/2.5.0/springdoc-openapi-2.5.0.pom
+2024-07-04 09:59:54,354 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi/2.5.0/springdoc-openapi-2.5.0.pom
+2024-07-04 09:59:54,687 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.5.0/springdoc-openapi-starter-webmvc-api-2.5.0.pom
+2024-07-04 09:59:54,705 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.5.0/springdoc-openapi-starter-webmvc-api-2.5.0.pom
+2024-07-04 09:59:54,793 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.5.0/springdoc-openapi-starter-common-2.5.0.pom
+2024-07-04 09:59:54,805 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.5.0/springdoc-openapi-starter-common-2.5.0.pom
+2024-07-04 09:59:54,900 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-core-jakarta/2.2.21/swagger-core-jakarta-2.2.21.pom
+2024-07-04 09:59:54,909 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-core-jakarta/2.2.21/swagger-core-jakarta-2.2.21.pom
+2024-07-04 09:59:55,066 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-project-jakarta/2.2.21/swagger-project-jakarta-2.2.21.pom
+2024-07-04 09:59:55,082 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-project-jakarta/2.2.21/swagger-project-jakarta-2.2.21.pom
+2024-07-04 09:59:55,175 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations-jakarta/2.2.21/swagger-annotations-jakarta-2.2.21.pom
+2024-07-04 09:59:55,192 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations-jakarta/2.2.21/swagger-annotations-jakarta-2.2.21.pom
+2024-07-04 09:59:55,414 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.21/swagger-models-jakarta-2.2.21.pom
+2024-07-04 09:59:55,432 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.21/swagger-models-jakarta-2.2.21.pom
+2024-07-04 09:59:55,516 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0.pom
+2024-07-04 09:59:55,565 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0.pom
+2024-07-04 09:59:55,924 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.5.0/springdoc-openapi-starter-webmvc-ui-2.5.0.jar
+2024-07-04 09:59:55,938 [Worker-46: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.5.0/springdoc-openapi-starter-webmvc-ui-2.5.0.jar
+2024-07-04 09:59:56,026 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations-jakarta/2.2.21/swagger-annotations-jakarta-2.2.21.jar
+2024-07-04 09:59:56,076 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations-jakarta/2.2.21/swagger-annotations-jakarta-2.2.21.jar
+2024-07-04 09:59:56,165 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0.jar
+2024-07-04 09:59:56,181 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.21/swagger-models-jakarta-2.2.21.jar
+2024-07-04 09:59:56,181 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.5.0/springdoc-openapi-starter-webmvc-api-2.5.0.jar
+2024-07-04 09:59:56,181 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-core-jakarta/2.2.21/swagger-core-jakarta-2.2.21.jar
+2024-07-04 09:59:56,207 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.5.0/springdoc-openapi-starter-common-2.5.0.jar
+2024-07-04 09:59:56,654 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.5.0/springdoc-openapi-starter-webmvc-api-2.5.0.jar
+2024-07-04 09:59:56,856 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.21/swagger-models-jakarta-2.2.21.jar
+2024-07-04 09:59:56,895 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-core-jakarta/2.2.21/swagger-core-jakarta-2.2.21.jar
+2024-07-04 09:59:57,068 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.5.0/springdoc-openapi-starter-common-2.5.0.jar
+2024-07-04 10:00:04,424 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0.jar
+2024-07-04 10:00:06,244 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 10:00:06,245 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 10:00:06,253 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 10:00:06,254 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 10:00:06,846 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.5.0/springdoc-openapi-starter-webmvc-ui-2.5.0-sources.jar
+2024-07-04 10:00:07,008 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-ui/2.5.0/springdoc-openapi-starter-webmvc-ui-2.5.0-sources.jar
+2024-07-04 10:00:07,016 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0
+2024-07-04 10:00:07,330 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.5.0/springdoc-openapi-starter-webmvc-api-2.5.0-sources.jar
+2024-07-04 10:00:07,507 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-webmvc-api/2.5.0/springdoc-openapi-starter-webmvc-api-2.5.0-sources.jar
+2024-07-04 10:00:07,517 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-webmvc-api:2.5.0
+2024-07-04 10:00:07,585 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:00:07,636 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:00:07,644 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:00:07,771 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.5.0/springdoc-openapi-starter-common-2.5.0-sources.jar
+2024-07-04 10:00:08,526 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springdoc/springdoc-openapi-starter-common/2.5.0/springdoc-openapi-starter-common-2.5.0-sources.jar
+2024-07-04 10:00:08,536 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springdoc:springdoc-openapi-starter-common:2.5.0
+2024-07-04 10:00:08,924 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-core-jakarta/2.2.21/swagger-core-jakarta-2.2.21-sources.jar
+2024-07-04 10:00:09,354 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-core-jakarta/2.2.21/swagger-core-jakarta-2.2.21-sources.jar
+2024-07-04 10:00:09,368 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger.core.v3:swagger-core-jakarta:2.2.21
+2024-07-04 10:00:09,503 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 10:00:09,504 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 10:00:09,513 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 10:00:09,515 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 10:00:09,683 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations-jakarta/2.2.21/swagger-annotations-jakarta-2.2.21-sources.jar
+2024-07-04 10:00:09,909 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-annotations-jakarta/2.2.21/swagger-annotations-jakarta-2.2.21-sources.jar
+2024-07-04 10:00:09,916 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger.core.v3:swagger-annotations-jakarta:2.2.21
+2024-07-04 10:00:10,406 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.21/swagger-models-jakarta-2.2.21-sources.jar
+2024-07-04 10:00:10,513 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:00:10,525 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:00:10,532 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:00:10,925 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/core/v3/swagger-models-jakarta/2.2.21/swagger-models-jakarta-2.2.21-sources.jar
+2024-07-04 10:00:10,931 [Worker-41: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger.core.v3:swagger-models-jakarta:2.2.21
+2024-07-04 10:00:11,685 [Worker-41: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0-sources.jar
+2024-07-04 10:00:11,691 [Worker-41: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.webjars:swagger-ui:5.13.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:sources:5.13.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-04 10:00:25,590 [Worker-52: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 10:00:26,775 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:00:26,776 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:00:26,781 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:00:27,876 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:00:27,896 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:00:27,907 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:00:27,928 [Worker-42: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0-javadoc.jar
+2024-07-04 10:00:36,800 [Worker-42: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/5.13.0/swagger-ui-5.13.0-javadoc.jar
+2024-07-04 10:00:36,808 [Worker-42: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.webjars:swagger-ui:5.13.0
+2024-07-04 10:02:53,462 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 10:02:53,464 [Worker-4: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 10:02:53,470 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 10:02:53,470 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 10:02:54,311 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:02:54,339 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:02:54,343 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:03:39,417 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:03:39,424 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:03:39,427 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:43:13,245 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 10:43:14,247 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:43:14,247 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:43:14,253 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:43:14,264 [Worker-54: Building] WARN  o.a.m.l.i.DefaultMojoExecutionConfigurator - [1;33mParameter '[0;1;33mannotationProcessorPaths[0;1;33m' is unknown for plugin '[0;1;33mspring-boot-maven-plugin[0;1;33m:[0;1;33m3.1.12[0;1;33m:[0;1;33mrepackage[0;1;33m ([0;1;33mrepackage[0;1;33m)[0;1;33m'[m
+2024-07-04 10:43:16,775 [Worker-50: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 10:43:18,690 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 10:43:18,693 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 10:43:18,703 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 10:43:18,704 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 10:43:19,941 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:43:20,062 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:43:20,075 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:43:20,081 [Worker-50: Building] WARN  o.a.m.l.i.DefaultMojoExecutionConfigurator - [1;33mParameter '[0;1;33mannotationProcessorPaths[0;1;33m' is unknown for plugin '[0;1;33mspring-boot-maven-plugin[0;1;33m:[0;1;33m3.3.0[0;1;33m:[0;1;33mrepackage[0;1;33m ([0;1;33mrepackage[0;1;33m)[0;1;33m'[m
+2024-07-04 10:45:48,911 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 10:45:49,975 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:45:49,976 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:45:49,980 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:45:50,078 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-07-04 10:45:50,402 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 10:45:51,338 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /catalogo/src/main/java
+2024-07-04 10:45:51,340 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /catalogo/src/main/resources
+2024-07-04 10:45:51,340 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /catalogo/src/main/resources
+2024-07-04 10:45:51,341 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /catalogo/src/test/java
+2024-07-04 10:45:51,341 [Worker-55: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /catalogo/src/test/resources
+2024-07-04 10:45:52,174 [Worker-55: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-07-04 10:45:53,150 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:45:53,170 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:45:53,181 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:46:12,479 [Worker-81: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 10:46:13,793 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 10:46:13,794 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 10:46:13,800 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 10:46:13,801 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 10:46:14,528 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:46:14,574 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:46:14,585 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:46:14,753 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-07-04 10:46:15,097 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 10:46:16,030 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/main/java
+2024-07-04 10:46:16,031 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-07-04 10:46:16,032 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/main/resources
+2024-07-04 10:46:16,032 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo/src/test/java
+2024-07-04 10:46:16,033 [Worker-81: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo/src/test/resources
+2024-07-04 10:46:16,754 [Worker-81: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2024-07-04 10:46:17,884 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 10:46:17,885 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 10:46:17,891 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 10:46:17,891 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 10:46:18,702 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:46:18,716 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:46:18,724 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:58:08,061 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 10:58:09,786 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/$%7Btherapi.version%7D/therapi-runtime-javadoc-$%7Btherapi.version%7D.pom
+2024-07-04 10:58:09,788 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.github.therapi:therapi-runtime-javadoc:jar:${therapi.version} is missing, no dependency information available
+2024-07-04 10:58:10,367 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/$%7Btherapi.version%7D/therapi-runtime-javadoc-$%7Btherapi.version%7D.jar
+2024-07-04 10:58:11,329 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 10:58:11,344 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 10:58:11,348 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 10:58:12,347 [Worker-67: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/$%7Btherapi.version%7D/therapi-runtime-javadoc-$%7Btherapi.version%7D-sources.jar
+2024-07-04 10:58:12,350 [Worker-67: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.github.therapi:therapi-runtime-javadoc:${therapi.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.therapi:therapi-runtime-javadoc:jar:sources:${therapi.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-04 10:58:20,599 [Worker-85: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 10:58:20,990 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.github.therapi:therapi-runtime-javadoc:jar:${therapi.version} is missing, no dependency information available
+2024-07-04 10:58:21,631 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:58:21,632 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 10:58:21,636 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 10:58:22,961 [Worker-70: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/$%7Btherapi.version%7D/therapi-runtime-javadoc-$%7Btherapi.version%7D-javadoc.jar
+2024-07-04 10:58:22,965 [Worker-70: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.github.therapi:therapi-runtime-javadoc:${therapi.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.therapi:therapi-runtime-javadoc:jar:javadoc:${therapi.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2024-07-04 11:02:07,233 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\demo\pom.xml.
+2024-07-04 11:02:08,284 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/0.13.0/therapi-runtime-javadoc-0.13.0.pom
+2024-07-04 11:02:08,292 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/0.13.0/therapi-runtime-javadoc-0.13.0.pom
+2024-07-04 11:02:09,324 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/0.13.0/therapi-runtime-javadoc-0.13.0.jar
+2024-07-04 11:02:10,343 [Worker-67: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/0.13.0/therapi-runtime-javadoc-0.13.0.jar
+2024-07-04 11:02:10,657 [Worker-67: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 11:02:10,897 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.github.therapi:therapi-runtime-javadoc:jar:${therapi.version} is missing, no dependency information available
+2024-07-04 11:02:12,547 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 11:02:12,547 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 11:02:12,553 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 11:02:12,553 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 11:02:13,556 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 11:02:13,571 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:02:13,574 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 11:02:13,603 [Worker-85: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/0.13.0/therapi-runtime-javadoc-0.13.0-sources.jar
+2024-07-04 11:02:13,846 [Worker-85: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/therapi/therapi-runtime-javadoc/0.13.0/therapi-runtime-javadoc-0.13.0-sources.jar
+2024-07-04 11:02:13,855 [Worker-85: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.github.therapi:therapi-runtime-javadoc:0.13.0
+2024-07-04 11:02:15,914 [Worker-90: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:catalogo:0.0.1-SNAPSHOT @ C:\Users\abranasa\bootcamp\catalogo\pom.xml.
+2024-07-04 11:02:16,865 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 11:02:16,866 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 11:02:16,871 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 11:02:17,063 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 11:02:17,064 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 11:02:17,069 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 11:02:17,069 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 11:02:17,966 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 11:02:17,975 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:02:17,983 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 11:02:18,871 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:02:18,882 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:02:18,891 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 11:04:04,212 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 11:04:04,213 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 11:04:04,219 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 11:04:04,220 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 11:04:04,961 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 11:04:04,978 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:04:04,986 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources
+2024-07-04 11:04:11,374 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:04:11,379 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-07-04 11:04:11,382 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-04 11:24:56,993 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for org.springframework.boot:spring-boot-starter-test
+2024-07-04 11:24:56,994 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - cannot find file for com.h2database:h2
+2024-07-04 11:24:57,000 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Processing: http://localhost:8090/ws/calculator.wsdl
+2024-07-04 11:24:57,000 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - jaxws:wsimport args: [-keep, -s, 'C:\Users\abranasa\bootcamp\demo\target\generated-sources\wsimport', -d, 'C:\Users\abranasa\bootcamp\demo\target\classes', -encoding, UTF-8, -extension, -Xnocompile, -p, com.example.webservice.schema, "http://localhost:8090/ws/calculator.wsdl"]
+2024-07-04 11:24:58,779 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-07-04 11:24:58,789 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-04 11:24:58,792 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\abranasa\bootcamp\demo\src\test\resources

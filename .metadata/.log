@@ -5084,3 +5084,747 @@ Contains: Missing org.webjars:swagger-ui:jar:javadoc:5.17.14
 !MESSAGE Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:5.17.14
 !SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-07-03 13:38:10.329
 !MESSAGE Missing org.webjars:swagger-ui:jar:javadoc:5.17.14
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 13:38:17.512
+!MESSAGE Classpath changed for project: megusta
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 13:38:17.536
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 13:38:17.536
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 13:38:17.537
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 13:38:17.538
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 13:38:17.544
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 13:38:17.547
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:21:01.784
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:21:01.785
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 14:21:02.587
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:02.605
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:02.606
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:02.606
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:02.607
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:02.613
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:02.615
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 14:21:07.093
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 14:21:07.331
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:21:09.214
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:21:09.214
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:15.129
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:15.131
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:15.132
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:15.133
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:15.139
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-03 14:21:15.143
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:27:40.130
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:27:40.133
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:29:06.035
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:29:06.037
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:54:52.714
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-03 14:54:52.714
+!MESSAGE cannot find file for com.h2database:h2
+!SESSION 2024-07-04 08:05:08.367 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-04 08:05:13.581
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-04 08:05:16.190
+!MESSAGE Logback config file: C:\Users\abranasa\bootcamp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-04 08:05:16.874
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-04 08:05:16.875
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-04 08:05:17.372
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-04 08:05:17.372
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-04 08:05:27.084
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/abranasa/bootcamp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1720073127083
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:27.086
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 08:05:27.122
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 08:05:27.123
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 08:05:27.125
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 08:05:27.127
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 08:05:27.142
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 08:05:27.148
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-04 08:05:27.182
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22004
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.342
+!MESSAGE Boot project ADDED: catalogo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.360
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-04 08:05:31.362
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\abranasa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.363
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.366
+!MESSAGE Boot project ADDED: contactos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.369
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.371
+!MESSAGE Boot project ADDED: demo-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.372
+!MESSAGE Boot project ADDED: lotes-java
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.374
+!MESSAGE Boot project ADDED: lotes-xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:31.375
+!MESSAGE Boot project ADDED: megusta
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:05:42.896
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:05:42.899
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:05:46.634
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:05:50.730
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:05:50.731
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:11:42.385
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:11:42.389
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:03.917
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:03.918
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:19.152
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:19.154
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:37.530
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:37.531
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:47.498
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:12:47.501
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:13:31.741
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:13:31.742
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:17:25.340
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:17:25.341
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:42:15.483
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:42:15.487
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:45:06.260
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:45:08.909
+!MESSAGE Classpath changed for project: contactos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 08:45:13.070
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 08:45:17.944
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:45:48.011
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:45:48.012
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:45:54.944
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 08:45:54.945
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 09:59:56.147
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 09:59:57.150
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:00:06.244
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:00:06.246
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:00:07.470
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:00:09.504
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:00:09.505
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-07-04 10:00:11.715
+!MESSAGE Could not download sources for org.webjars:swagger-ui:5.13.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:sources:5.13.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.webjars:swagger-ui:jar:sources:5.13.0
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2024-07-04 10:00:11.715
+!MESSAGE Could not resolve artifact org.webjars:swagger-ui:jar:sources:5.13.0
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-07-04 10:00:11.715
+!MESSAGE Missing org.webjars:swagger-ui:jar:sources:5.13.0
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:00:12.485
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:00:26.789
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-07-04 10:00:27.325
+!MESSAGE Marker id 4737 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/catalogo/pom.xml)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:208)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:182)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-07-04 10:00:27.329
+!MESSAGE Marker id 4737 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttributes(Marker.java:163)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers.updateMarker(LSPDiagnosticsToMarkers.java:208)
+	at org.eclipse.lsp4e.operations.diagnostics.LSPDiagnosticsToMarkers$1.runInWorkspace(LSPDiagnosticsToMarkers.java:182)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:00:37.257
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:02:10.535
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:02:10.536
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:02:10.537
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:02:10.538
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:02:10.545
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:02:10.549
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:02:53.463
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:02:53.464
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:04:19.960
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:04:19.962
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:04:19.964
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:04:19.965
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:04:19.972
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-04 10:04:19.976
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:43:14.264
+!MESSAGE [1;33mParameter '[0;1;33mannotationProcessorPaths[0;1;33m' is unknown for plugin '[0;1;33mspring-boot-maven-plugin[0;1;33m:[0;1;33m3.1.12[0;1;33m:[0;1;33mrepackage[0;1;33m ([0;1;33mrepackage[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:43:18.692
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:43:18.694
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 10:43:18.906
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-07-04 10:43:18.932
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:43:20.082
+!MESSAGE [1;33mParameter '[0;1;33mannotationProcessorPaths[0;1;33m' is unknown for plugin '[0;1;33mspring-boot-maven-plugin[0;1;33m:[0;1;33m3.3.0[0;1;33m:[0;1;33mrepackage[0;1;33m ([0;1;33mrepackage[0;1;33m)[0;1;33m'[m
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:43:20.350
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 10:43:20.552
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.reinvokeQuickfixProposalsIfNecessary(LSPCodeActionMarkerResolution.java:192)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$10(LSPCodeActionMarkerResolution.java:152)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4181)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3304)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3671)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-07-04 10:43:20.632
+!MESSAGE InterruptedException
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:45:51.761
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:45:51.992
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:46:13.793
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:46:13.794
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:46:16.342
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:46:16.602
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:46:17.885
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:46:17.885
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 10:51:22.668
+!MESSAGE Could not get hover region due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:155)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:225)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4285)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4083)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3673)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:152)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-07-04 10:51:23.673
+!MESSAGE Could not get hover information due to timeout after 1000 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:76)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:58:09.789
+!MESSAGE The POM for com.github.therapi:therapi-runtime-javadoc:jar:${therapi.version} is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:58:11.473
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-07-04 10:58:12.351
+!MESSAGE Could not download sources for com.github.therapi:therapi-runtime-javadoc:${therapi.version}
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.therapi:therapi-runtime-javadoc:jar:sources:${therapi.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.github.therapi:therapi-runtime-javadoc:jar:sources:${therapi.version}
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2024-07-04 10:58:12.351
+!MESSAGE Could not resolve artifact com.github.therapi:therapi-runtime-javadoc:jar:sources:${therapi.version}
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-07-04 10:58:12.351
+!MESSAGE Missing com.github.therapi:therapi-runtime-javadoc:jar:sources:${therapi.version}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 10:58:20.991
+!MESSAGE The POM for com.github.therapi:therapi-runtime-javadoc:jar:${therapi.version} is missing, no dependency information available
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 10:58:21.740
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2024-07-04 10:58:22.966
+!MESSAGE Could not download javadoc for com.github.therapi:therapi-runtime-javadoc:${therapi.version}
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.github.therapi:therapi-runtime-javadoc:jar:javadoc:${therapi.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing com.github.therapi:therapi-runtime-javadoc:jar:javadoc:${therapi.version}
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2024-07-04 10:58:22.966
+!MESSAGE Could not resolve artifact com.github.therapi:therapi-runtime-javadoc:jar:javadoc:${therapi.version}
+!SUBENTRY 2 org.eclipse.m2e.core 4 0 2024-07-04 10:58:22.966
+!MESSAGE Missing com.github.therapi:therapi-runtime-javadoc:jar:javadoc:${therapi.version}
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:02:10.897
+!MESSAGE The POM for com.github.therapi:therapi-runtime-javadoc:jar:${therapi.version} is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:02:12.547
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:02:12.548
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 11:02:13.618
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 11:02:13.698
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 11:02:13.699
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 11:02:15.358
+!MESSAGE Classpath changed for project: demo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:02:17.064
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:02:17.064
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-04 11:02:17.183
+!MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:04:04.212
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:04:04.214
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:24:56.994
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:24:56.995
+!MESSAGE cannot find file for com.h2database:h2
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:26:42.505
+!MESSAGE cannot find file for org.springframework.boot:spring-boot-starter-test
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2024-07-04 11:26:42.506
+!MESSAGE cannot find file for com.h2database:h2
