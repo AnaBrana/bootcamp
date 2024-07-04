@@ -2,13 +2,18 @@ package com.example.domains.entities.models;
 
 import java.io.Serializable;
 
+import org.springframework.data.rest.core.config.Projection;
+
 import com.example.domains.entities.Actor;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data @AllArgsConstructor
+@Projection(name = "actor_DTO", types = {ActorDTO.class})
+@Schema(name = "Actor DTO", description = "Datos para crear y modificar actores")
 public class ActorDTO implements Serializable {
 	@JsonProperty("id")
 	private int actorId;

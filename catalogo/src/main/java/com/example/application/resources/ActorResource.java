@@ -27,21 +27,30 @@ import com.example.exceptions.DuplicateKeyException;
 import com.example.exceptions.InvalidDataException;
 import com.example.exceptions.NotFoundException;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/actores/v1")
+@Tag(name = "Microservice Actores", 
+description = "API que permite el mantenimiento de actores")
 public class ActorResource {
 
 	private ActorService srv;
 
+	
 	public ActorResource(ActorService srv) {
 		super();
 		this.srv = srv;
 	}
 	
 	@GetMapping("")
+	@Operation(summary="Buscar todos los actores", 
+	description = "Devuelve una lista de actores")
 	public List getAll(@RequestParam(required=false,defaultValue="largo")String modo){
 		if("short".equals(modo))
 		return srv.getByProjection(ActorShort.class);
@@ -50,12 +59,19 @@ public class ActorResource {
 	}
 	
 	@GetMapping(params="page")
+	@Operation(summary="Buscar todos los actores", 
+	description = "Devuelve un pageable de actores")
 	public Page<ActorShort>getAll(Pageable page){
 		return srv.getByProjection(page,ActorShort.class);
 	}
 	
 	@GetMapping(path="/{id}")
-	public ActorDTO getOne(@PathVariable int id) throws NotFoundException{
+	@Operation(summary="Buscar un actor", 
+	description = "Devuelve un actor por su identificador")
+	@ApiResponse(responseCode = "200", description = "Actor encontrado")
+	@ApiResponse(responseCode = "404", description = "Actor no encontrado")
+	public ActorDTO getOne(@Parameter(description = "Identificador del actor", required = true)
+	@PathVariable int id) throws NotFoundException{
 		var item= srv.getOne(id);
 		if(item.isEmpty()) 
 			throw new NotFoundException();
@@ -67,7 +83,10 @@ public class ActorResource {
 	record Peli(int id, String titulo) {}
 	@GetMapping(path="/{id}/pelis")
 	@Transactional
-	public List<Peli> getPelis(@PathVariable int id) throws NotFoundException{
+	@Operation(summary="Buscar las pelis de un actor", 
+	description = "Devuelve la lista de pelis de un actor")
+	public List<Peli> getPelis(@Parameter(description = "Identificador del actor", required = true)
+	@PathVariable int id) throws NotFoundException{
 		var item= srv.getOne(id);
 		if(item.isEmpty()) 
 			throw new NotFoundException();
@@ -79,7 +98,10 @@ public class ActorResource {
 	
 	@PutMapping(path="/{id}/jubilacion")
 	@ResponseStatus(HttpStatus.ACCEPTED)
-	public void jubilar(@PathVariable int id) throws NotFoundException{
+	@ApiResponse(responseCode = "202", description = "Aceptada petición y realizada jubilación")
+	@Operation(summary="Jubila a un actor")
+	public void jubilar(@Parameter(description = "Identificador del actor", required = true)
+	@PathVariable int id) throws NotFoundException{
 		var item= srv.getOne(id);
 		if(item.isEmpty()) 
 			throw new NotFoundException();
@@ -88,6 +110,8 @@ public class ActorResource {
 	}
 	
 	@PostMapping
+	@ApiResponse(responseCode = "201", description = "Actor creado")
+	@ApiResponse(responseCode = "400", description = "Petición erronea")
 	public ResponseEntity<Object>create(@Valid @RequestBody ActorDTO item)throws BadRequestException,
 	DuplicateKeyException, InvalidDataException{
 		var newItem= srv.add(ActorDTO.from(item));
@@ -98,6 +122,8 @@ public class ActorResource {
 	
 	@PutMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
+	@ApiResponse(responseCode = "200", description = "Actor modificado")
+	@ApiResponse(responseCode = "204", description = "Actor no existente")
 	public void update(@PathVariable int id, @Valid @RequestBody ActorDTO item) throws BadRequestException,
 	NotFoundException, InvalidDataException {
 		if(id != item.getActorId()) 
@@ -109,7 +135,10 @@ public class ActorResource {
 	
 	@DeleteMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void delete(@PathVariable int id, @Valid @RequestBody ActorDTO item) {
+	@ApiResponse(responseCode = "200", description = "Actor modificado")
+	@ApiResponse(responseCode = "204", description = "Actor no existente")
+	public void delete(@Parameter(description = "Identificador del actor", required = true)
+	@PathVariable int id, @Valid @RequestBody ActorDTO item) {
 		srv.deleteById(id);
 	}
 	
