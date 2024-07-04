@@ -70,7 +70,8 @@ public class ActorResource {
 	description = "Devuelve un actor por su identificador")
 	@ApiResponse(responseCode = "200", description = "Actor encontrado")
 	@ApiResponse(responseCode = "404", description = "Actor no encontrado")
-	public ActorDTO getOne(@Parameter(description = "Identificador del actor", required = true)
+	public ActorDTO getOne(@Parameter(description = "Identificador del actor",
+	required = true)
 	@PathVariable int id) throws NotFoundException{
 		var item= srv.getOne(id);
 		if(item.isEmpty()) 
@@ -85,7 +86,8 @@ public class ActorResource {
 	@Transactional
 	@Operation(summary="Buscar las pelis de un actor", 
 	description = "Devuelve la lista de pelis de un actor")
-	public List<Peli> getPelis(@Parameter(description = "Identificador del actor", required = true)
+	public List<Peli> getPelis(@Parameter(description = "Identificador del actor",
+	required = true)
 	@PathVariable int id) throws NotFoundException{
 		var item= srv.getOne(id);
 		if(item.isEmpty()) 
@@ -98,9 +100,11 @@ public class ActorResource {
 	
 	@PutMapping(path="/{id}/jubilacion")
 	@ResponseStatus(HttpStatus.ACCEPTED)
-	@ApiResponse(responseCode = "202", description = "Aceptada petición y realizada jubilación")
+	@ApiResponse(responseCode = "202", description = 
+	"Aceptada petición y realizada jubilación")
 	@Operation(summary="Jubila a un actor")
-	public void jubilar(@Parameter(description = "Identificador del actor", required = true)
+	public void jubilar(@Parameter(description = 
+	"Identificador del actor", required = true)
 	@PathVariable int id) throws NotFoundException{
 		var item= srv.getOne(id);
 		if(item.isEmpty()) 
@@ -111,8 +115,11 @@ public class ActorResource {
 	
 	@PostMapping
 	@ApiResponse(responseCode = "201", description = "Actor creado")
-	@ApiResponse(responseCode = "400", description = "Petición erronea")
-	public ResponseEntity<Object>create(@Valid @RequestBody ActorDTO item)throws BadRequestException,
+	@ApiResponse(responseCode = "400", description = 
+	"Petición erronea, id duplicada o"
+			+ " algún dato es erroneo en el cuerpo")
+	public ResponseEntity<Object>create(@Valid @RequestBody ActorDTO item)
+			throws BadRequestException,
 	DuplicateKeyException, InvalidDataException{
 		var newItem= srv.add(ActorDTO.from(item));
 		URI location= ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}")
@@ -122,9 +129,15 @@ public class ActorResource {
 	
 	@PutMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	@ApiResponse(responseCode = "200", description = "Actor modificado")
-	@ApiResponse(responseCode = "204", description = "Actor no existente")
-	public void update(@PathVariable int id, @Valid @RequestBody ActorDTO item) throws BadRequestException,
+	@ApiResponse(responseCode = "204", description = "Actor modificado")
+	@ApiResponse(responseCode = "404", description = "Actor no existente")
+	@ApiResponse(responseCode = "400", description =
+	"Petición erronea, id duplicada o"
+			+ " algún dato es erroneo en el cuerpo")
+	public void update(@Parameter(description = 
+			"Identificador del actor", required = true)
+	@PathVariable int id, @Valid @RequestBody ActorDTO item) 
+			throws BadRequestException,
 	NotFoundException, InvalidDataException {
 		if(id != item.getActorId()) 
 			
@@ -135,9 +148,10 @@ public class ActorResource {
 	
 	@DeleteMapping(path="/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	@ApiResponse(responseCode = "200", description = "Actor modificado")
-	@ApiResponse(responseCode = "204", description = "Actor no existente")
-	public void delete(@Parameter(description = "Identificador del actor", required = true)
+	@ApiResponse(responseCode = "204", description = "Actor eliminado o no existe")
+	//@ApiResponse(responseCode = "404", description = "Actor no existente")
+	public void delete(@Parameter(description = "Identificador del actor", 
+	required = true)
 	@PathVariable int id, @Valid @RequestBody ActorDTO item) {
 		srv.deleteById(id);
 	}
