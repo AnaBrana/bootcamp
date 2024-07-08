@@ -11,8 +11,7 @@ import com.example.webservice.schema.DivideRequest;
 import com.example.webservice.schema.DivideResponse;
 import com.example.webservice.schema.MultiplyRequest;
 import com.example.webservice.schema.MultiplyResponse;
-//import com.example.webservice.schema.SubtractRequest;
-//import com.example.webservice.schema.SubtractResponse;
+////import com.example.webservice.schema.SubtractResponse;
 
 /*public class CalculatorProxyImpl extends WebServiceGatewaySupport implements CalculatorProxy {
 	private static final WebServiceMessageCallback requestCallback = new SoapActionCallback("http://example.com/webservices/schemas/calculator");

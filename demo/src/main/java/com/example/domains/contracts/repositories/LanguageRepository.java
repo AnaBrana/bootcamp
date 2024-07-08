@@ -8,9 +8,7 @@ import com.example.domains.entities.Language;
 
 @RepositoryRestResource(path="idiomas", itemResourceRel="idioma", collectionResourceRel="idiomas")
 public interface LanguageRepository extends JpaRepository<Language, Integer> {
-	
 	@Override
-	@RestResource(exported=false)
+	@RestResource(exported = false)
 	void deleteById(Integer id);
-
 }

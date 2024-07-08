@@ -31,4 +31,5 @@
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
     <fullyQualifiedTypeName name="com.example.domains.entities.Actor"/>
     <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
+    <fullyQualifiedTypeName name="com.example.domains.entities.models.PelisEdit"/>
 </qualifiedTypeNameHistroy>

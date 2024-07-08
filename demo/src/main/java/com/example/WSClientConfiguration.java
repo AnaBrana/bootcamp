@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
 //import com.example.application.proxies.CalculatorProxyImpl;
-import com.example.domains.contracts.proxies.CalculatorProxy;
+//import com.example.domains.contracts.proxies.CalculatorProxy;
 
 @Configuration
 public class WSClientConfiguration {
@@ -15,7 +15,7 @@ public class WSClientConfiguration {
 		marshaller.setContextPath("com.example.webservice.schema");
 		return marshaller;
 	}
-	/*@Bean
+/*	@Bean
 	public CalculatorProxy calculatorProxy(Jaxb2Marshaller marshaller) {
 		var client = new CalculatorProxyImpl();
 		client.setDefaultUri("http://localhost:8090/ws/calculator");
