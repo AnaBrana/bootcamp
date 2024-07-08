@@ -2948,3 +2948,11 @@ java.lang.Exception: File not found: C:\Users\abranasa\bootcamp\agendarteMicroSe
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2024-07-08 10:42:09.809
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2024-07-08 10:42:09.809
+!MESSAGE The project description file (.project) for 'agendarteMicroServicios' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-08 13:33:28.028
+!MESSAGE Classpath changed for project: agendarteMicroServicios
