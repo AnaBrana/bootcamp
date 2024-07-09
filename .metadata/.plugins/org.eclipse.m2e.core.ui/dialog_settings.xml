@@ -3,6 +3,7 @@
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
 			<item value="C:\Users\abranasa\bootcamp"/>
+			<item value="C:\Users\abranasa\Downloads\agendarteMicroServicios"/>
 			<item value="C:\Users\abranasa\bootcamp\demo"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -26,10 +26,10 @@
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
     <fullyQualifiedTypeName name="com.example.domains.entities.Film.Rating"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="com.example.domains.entities.Language"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
     <fullyQualifiedTypeName name="com.example.domains.entities.Actor"/>
     <fullyQualifiedTypeName name="org.springframework.boot.test.mock.mockito.MockBean"/>
     <fullyQualifiedTypeName name="com.example.domains.entities.models.PelisEdit"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
 </qualifiedTypeNameHistroy>
