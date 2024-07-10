@@ -5,11 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplos</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
+    <main class="container-fluid"></main>
     <h1>Ejemplos JavaScript</h1>
+    <div>
+        <input type="text" name="nombre" value="mundo">
+        <button type="button">Saluda</button>
+    </div>
+    <div>
+        <output id="salida"></output>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+        let txt= document.querySelector('input[name=nombre]')
+        docu,ent.querySelector('button').addEventListener('click',ev=>{
+            salida.textContent = `Hola ${txt.value}`
+        })
         // t = [10, 20, 30]
         // t[7] = "70"
         // t.push("último")
