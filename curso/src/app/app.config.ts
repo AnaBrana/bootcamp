@@ -8,8 +8,8 @@ import { environment } from 'src/environments/environment';
 export const appConfig: ApplicationConfig = {
   providers: [
     LoggerService,
-    {provide:ERROR_LEVEL,useValue:environment.ERROR_LEVEL },
+    {provide: ERROR_LEVEL, useValue: environment.ERROR_LEVEL},
     provideZoneChangeDetection({ eventCoalescing: true }),
-     provideRouter(routes),
-    ]
+    provideRouter(routes),
+  ]
 };
