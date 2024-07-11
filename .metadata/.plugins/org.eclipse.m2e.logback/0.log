@@ -12286,3 +12286,15 @@ Caused by: java.lang.Exception: File not found: C:\Users\abranasa\bootcamp\agend
 	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
 	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
 	... 27 common frames omitted
+2024-07-10 18:41:59,082 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-07-10 19:00:02,115 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.9; built: 2024-05-03T13:03:17.262Z; git: efe8023327e67287f9bfd006700e6a71d45b5dd6; jvm 21.0.3+9-LTS
+2024-07-10 19:00:02,228 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@c0d3a8{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@93003cf{STARTED}}
+2024-07-10 19:00:02,229 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-07-10 19:00:02,288 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@36e3de37{HTTP/1.1, (http/1.1)}{127.0.0.1:64097}
+2024-07-10 19:00:02,294 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@4c82ff21{STARTING}[12.0.9,sto=0] @1102470ms
+2024-07-10 19:05:16,739 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-10 19:05:16,759 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-07-10 19:05:16,769 [Worker-33: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-07-10 19:48:33,176 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@4c82ff21{STOPPING}[12.0.9,sto=0]
+2024-07-10 19:48:33,181 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@36e3de37{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-07-11 08:26:39,514 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

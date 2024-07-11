@@ -49,7 +49,7 @@ public class FilmResource {
 		if(item.isEmpty()) 
 			throw new NotFoundException();
 		
-		return  FilmEdit .from(item.get());
+		return  FilmEdit.from(item.get());
 	}
 	
 	@PostMapping
