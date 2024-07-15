@@ -5,12 +5,13 @@ import GraficoSvgComponent from 'src/lib/my-core/components/grafico-svg/grafico-
 import { NotificationComponent } from "../../main/notification/notification.component";
 import { CommonModule } from '@angular/common';
 import { CalculadoraComponent } from 'src/app/main/calculadora/calculadora.component';
+import { ContactosComponent } from 'src/app/contactos';
 import { FormularioComponent } from '../formulario/formulario.component';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [NotificationComponent, CommonModule,CalculadoraComponent,],
+  imports: [NotificationComponent, CommonModule,CalculadoraComponent,FormularioComponent,ContactosComponent,],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
