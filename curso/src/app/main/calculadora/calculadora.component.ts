@@ -9,43 +9,25 @@ import { Component } from '@angular/core';
   styleUrl: './calculadora.component.css'
 })
 export class CalculadoraComponent {
- numero1: number=0;
- numero2:number=0;
- resultado:number=0;
+  primerNumero: number = 0;
+  segundoNumero: number = 0;
+  resultado: number = 0;
 
-  sumar(): void {
-    this.mostrarResultado(this.numero1 + this.numero2);
-}
+  sumar() {
+    this.resultado = this.primerNumero + this.segundoNumero;
+  }
 
- restar(): void {
-  this.mostrarResultado(this.numero1 - this.numero2);
-}
+  restar() {
+    this.resultado = this.primerNumero - this.segundoNumero;
+  }
 
- multiplicar(): void { 
-  this.mostrarResultado(this.numero1 * this.numero2);
-}
+  multiplicar() {
+    this.resultado = this.primerNumero * this.segundoNumero;
+  }
 
- dividir(): void {
-    if(this.numero1!=0){
-      this.mostrarResultado(this.numero1 / this.numero2);
-    }
-   
-}
- mostrarResultado(resultado: number): void {
-   switch(resultado){
-    case 1:
-      this.sumar();
-    break;
-    case 2: 
-      this.restar();
-    break;
-    case 3:
-      this.multiplicar();
-    break;
-    case 4:
-      this.dividir();
-    break;
-   }
-}
+  dividir() {
+    this.resultado = this.primerNumero / this.segundoNumero;
+  }
+  
 }
 

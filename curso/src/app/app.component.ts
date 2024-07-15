@@ -5,12 +5,13 @@ import { DemosComponent } from './ejemplos';
 import { HomeComponent } from "./main/home/home.component";
 import { DashboardComponent } from "./ejemplos/dashboard/dashboard.component";
 import { CalculadoraComponent } from './main/calculadora/calculadora.component';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, NotificationComponent, NotificationModalComponent, 
-    DemosComponent, HomeComponent, DashboardComponent, CalculadoraComponent],
+    DemosComponent, HomeComponent, DashboardComponent, CalculadoraComponent, FormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
