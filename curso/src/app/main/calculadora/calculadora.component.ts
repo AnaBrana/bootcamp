@@ -15,7 +15,7 @@ export class CalculadoraComponent {
   resultado: number = 0;
 
   sumar() {
-    this.resultado = this.primerNumero + this.segundoNumero;
+    this.resultado = +this.primerNumero + +this.segundoNumero;
   }
 
   restar() {
