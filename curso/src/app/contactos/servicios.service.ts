@@ -1,149 +1,208 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { HttpClient, HttpContextToken, HttpErrorResponse } from '@angular/common/http';
-import { inject, Injectable } from '@angular/core';
+import { HttpContext, HttpErrorResponse } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 import { LoggerService } from '@my/core';
-import { NotificationService } from '../common-services';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
+import { RESTDAOService, ModoCRUD } from '../code-base';
+import { NavigationService, NotificationService } from '../common-services';
+import { AuthService, AUTH_REQUIRED } from '../security';
 
-export type ModoCRUD = 'list'|'add'|'edit'|'view'|'delete';
-export const AUTH_REQUIRED = new HttpContextToken<boolean>(() => false);
-export abstract class RESTDAOService<T, K> {
-  protected baseUrl = environment.apiURL;
-  protected http: HttpClient = inject(HttpClient)
-  constructor(entidad: string, protected option = {}) {
-  this.baseUrl += entidad;
+export interface IContacto {
+  [index: string]: any;
+  id?: number
+  tratamiento?: string
+  nombre?: string
+  apellidos?: string
+  telefono?: string
+  email?: string
+  sexo?: string
+  nacimiento?: string
+  avatar?: string
+  conflictivo?: boolean
+  icono?: string
+}
+
+export class Contacto implements IContacto {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  [index: string]: any;
+  constructor(
+    public id: number = 0,
+    private _tratamiento?: string,
+    public nombre?: string,
+    public apellidos?: string,
+    public telefono?: string,
+    public email?: string,
+    public sexo: string = 'H',
+    public nacimiento?: string,
+    public avatar?: string,
+    public conflictivo: boolean = false,
+  ) { }
+  get tratamiento() { return this._tratamiento }
+  set tratamiento(value: string | undefined) {
+    if(this._tratamiento === value) return
+    this._tratamiento = value
+    if(!this._tratamiento) return
+    this.sexo = this._tratamiento.endsWith('a.') ? 'M' : 'H'
   }
-  query(): Observable<T[]> {
-  return this.http.get<T[]>(this.baseUrl, this.option);
+}
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ContactosDAOService extends RESTDAOService<any, number> {
+  constructor() {
+    super('contactos', { context: new HttpContext().set(AUTH_REQUIRED, true) });
   }
-  get(id: K): Observable<T> {
-  return this.http.get<T>(`${this.baseUrl}/${id}`, this.option);
+  page(page: number, rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: Array<any> }> {
+    return new Observable(subscriber => {
+      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}&_sort=nombre,apellidos`
+      this.http.get<any>(url, this.option).subscribe({
+        next: data => subscriber.next({ page: data.number, pages: data.totalPages, rows: data.totalElements, list: data.content }),
+        error: err => subscriber.error(err)
+      })
+    })
   }
-  add(item: T): Observable<T> {
-  return this.http.post<T>(this.baseUrl, item, this.option);
-  }
-  change(id: K, item: T): Observable<T> {
-  return this.http.put<T>(`${this.baseUrl}/${id}`, item, this.option);
-  }
-  remove(id: K): Observable<T> {
-  return this.http.delete<T>(`${this.baseUrl}/${id}`, this.option);
-  }
-  }
-  @Injectable({
-    providedIn: 'root'
-   })
-   export class ContactosDAOService extends RESTDAOService<any, any> {
-    constructor() {
-    super('contactos');
-    }
-   }
-  
+}
+
 @Injectable({
   providedIn: 'root'
 })
 export class ContactosViewModelService {
   protected modo: ModoCRUD = 'list';
-  protected listado: any[] = [];
-  protected elemento: any = {};
-  protected idOriginal: any = null;
+  protected listado: Array<IContacto> = [];
+  protected elemento: IContacto = {};
+  protected idOriginal?: number;
+  protected listURL = '/contactos';
 
- constructor(protected notify: NotificationService,
- protected out: LoggerService,
- protected dao: ContactosDAOService) { }
+  constructor(protected notify: NotificationService,
+    protected out: LoggerService,
+    protected dao: ContactosDAOService
+    , public auth: AuthService, protected router: Router, private navigation: NavigationService
+  ) { }
 
- //Crear propiedades que expongan los atributos enlazables en las plantillas
- public get Modo(): ModoCRUD { return this.modo; }
- public get Listado(): any[] { return this.listado; }
- public get Elemento(): any { return this.elemento; }
+  public get Modo(): ModoCRUD { return this.modo; }
+  public get Listado() { return this.listado; }
+  public get Elemento() { return this.elemento; }
 
- //Comando para obtener el listado a mostrar
- public list(): void {
-  this.dao.query().subscribe({
-  next: data => {
-  this.listado = data;
-  this.modo = 'list';
-  },
-  error: err => this.handleError(err)
-  });
+  public list(): void {
+    this.dao.query().subscribe({
+      next: data => {
+        this.listado = data;
+        this.modo = 'list';
+      },
+      error: err => this.handleError(err)
+    });
   }
- //Comandos para preparar las operaciones con la entidad
- public add(): void {
-  this.elemento = {};
-  this.modo = 'add';
+
+  public add(): void {
+    this.elemento = new Contacto();
+    this.modo = 'add';
   }
   public edit(key: any): void {
-  this.dao.get(key).subscribe({
-  next: data => {
-  this.elemento = data;
-  this.idOriginal = key;
-  this.modo = 'edit';
-  },
-  error: err => this.handleError(err)
-  });
+    this.dao.get(key).subscribe({
+      next: data => {
+        this.elemento = data;
+        this.idOriginal = key;
+        this.modo = 'edit';
+      },
+      error: err => this.handleError(err)
+    });
   }
   public view(key: any): void {
     this.dao.get(key).subscribe({
-    next: data => {
-    this.elemento = data;
-    this.modo = 'view';
-    },
-    error: err => this.handleError(err)
+      next: data => {
+        this.elemento = data;
+        this.modo = 'view';
+      },
+      error: err => this.handleError(err)
     });
-    }
-    public delete(key: any): void {
+  }
+  public delete(key: any): void {
     if (!window.confirm('¿Seguro?')) { return; }
+
     this.dao.remove(key).subscribe({
-    next: () => this.list(),
-    error: err => this.handleError(err)
+      next: () => {
+        // this.list()
+        this.load()
+      },
+      error: err => this.handleError(err)
     });
-    }
-    //Comandos para cerrar la vista de detalle o el formulario
-    public cancel(): void {
-      this.elemento = {};
-      this.idOriginal = null;
-      this.list();
-      }
-      public send(): void {
-      switch (this.modo) {
+  }
+
+  clear() {
+    this.elemento = {};
+    this.idOriginal = undefined;
+    this.listado = [];
+  }
+
+  public cancel(): void {
+    this.clear()
+    // this.list();
+    this.load(this.page)
+    // this.router.navigateByUrl(this.listURL);
+    // this.navigation.back()
+  }
+  public send(): void {
+    switch (this.modo) {
       case 'add':
-      this.dao.add(this.elemento).subscribe({
-      next: () => this.cancel(),
-      error: err => this.handleError(err)
-      });
-      break;
+        this.dao.add(this.elemento).subscribe({
+          next: () => this.cancel(),
+          error: err => this.handleError(err)
+        });
+        break;
       case 'edit':
-      this.dao.change(this.idOriginal, this.elemento).subscribe({
-      next: () => this.cancel(),
-      error: err => this.handleError(err)
-      });
-      break;
-      case 'view':
-      this.cancel();
-      break;
-      }
-      }
-      //Para liberar la memoria cuando ya no sea necesaria
-      clear() {
-        this.listado = [];
+        if (!this.idOriginal) {
+          this.out.error('Falta el identificador')
+          return
         }
-        //Manipulador de errores para su notificación
-        handleError(err: HttpErrorResponse) {
-          let msg = ''
-          switch (err.status) {
-          case 0: msg = err.message; break;
-          case 404: msg = `ERROR ${err.status}: ${err.statusText}`; break;
-          default:
-          msg = `ERROR ${err.status}: ${err.error?.['title'] ?? 
-          err.statusText}.${err.error?.['detail'] ? ` Detalles: ${err.error['detail']}` : ''}`
-          break;
-          }
-          this.notify.add(msg)
-          }
-           
+        this.dao.change(this.idOriginal, this.elemento).subscribe({
+          next: () => this.cancel(),
+          error: err => this.handleError(err)
+        });
+        break;
+      case 'view':
+        this.cancel();
+        break;
+    }
+  }
 
-     
+  handleError(err: HttpErrorResponse) {
+    let msg = ''
+    switch (err.status) {
+      case 0: msg = err.message; break;
+      case 404: msg = `ERROR ${err.status}: ${err.statusText}`; break;
+      default:
+        msg = `ERROR ${err.status}: ${err.error?.['title'] ?? err.statusText}.${err.error?.['detail'] ? ` Detalles: ${err.error['detail']}` : ''}`
+        break;
+    }
+    this.notify.add(msg)
+  }
 
- 
- 
+  // Paginado
+
+  page = 0;
+  totalPages = 0;
+  totalRows = 0;
+  rowsPerPage = 8;
+  load(page: number = -1) {
+    if (page < 0) page = this.page
+    this.dao.page(page, this.rowsPerPage).subscribe({
+      next: rslt => {
+        this.page = rslt.page;
+        this.totalPages = rslt.pages;
+        this.totalRows = rslt.rows;
+        this.listado = rslt.list;
+        this.modo = 'list';
+      },
+      error: err => this.handleError(err)
+    })
+  }
+  pageChange(page: number = 0) {
+    this.router.navigate([], { queryParams: { page } })
+  }
+  imageErrorHandler(event: Event, item: any) {
+    (event.target as HTMLImageElement).src = item.sexo === 'H' ? '/images/user-not-found-male.png' : '/images/user-not-found-female.png'
+  }
+
 }

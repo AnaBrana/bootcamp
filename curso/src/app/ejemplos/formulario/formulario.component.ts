@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component, inject, Injectable } from '@angular/core';
@@ -15,8 +14,8 @@ export abstract class RESTDAOService<T, K> {
   constructor(entidad: string, protected option = {}) {
     this.baseUrl += entidad;
   }
-  query(extras = {}): Observable<T[]> {
-    return this.http.get<T[]>(this.baseUrl, Object.assign({}, this.option, extras));
+  query(extras = {}): Observable<Array<T>> {
+    return this.http.get<Array<T>>(this.baseUrl, Object.assign({}, this.option, extras));
   }
   get(id: K, extras = {}): Observable<T> {
     return this.http.get<T>(`${this.baseUrl}/${id}`, Object.assign({}, this.option, extras));
