@@ -27,13 +27,13 @@ public class CatalogoApplication implements CommandLineRunner {
 		SpringApplication.run(CatalogoApplication.class, args);
 	}
 	
-	@Bean
-	public OpenApiCustomizer sortSchemasAlphabetically() {
-	 return openApi -> {
-	 var schemas = openApi.getComponents().getSchemas();
-	 openApi.getComponents().setSchemas(new TreeMap<>(schemas));
-	 };
-	}
+//	@Bean
+//	public OpenApiCustomizer sortSchemasAlphabetically() {
+//	 return openApi -> {
+//	 var schemas = openApi.getComponents().getSchemas();
+//	 openApi.getComponents().setSchemas(new TreeMap<>(schemas));
+//	 };
+//	}
 
 	
 //	@Autowired
