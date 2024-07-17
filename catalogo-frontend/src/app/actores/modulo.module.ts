@@ -5,10 +5,10 @@ import { InRoleCanActivate } from '../security';
 
 export const routes: Routes = [
   { path: '', component: ActoresListComponent },
-  { path: 'add', component: ActoresAddComponent, canActivate: [ InRoleCanActivate('Empleados')] },
-  { path: ':id/edit', component: ActoresEditComponent, canActivate: [ InRoleCanActivate('Empleados')] },
-  { path: ':id', component: ActoresViewComponent, canActivate: [ InRoleCanActivate('Empleados')] },
-  { path: ':id/:kk', component: ActoresViewComponent, canActivate: [ InRoleCanActivate('Empleados')] },
+  { path: 'add', component: ActoresAddComponent, canActivate: [ InRoleCanActivate('Actores')] },
+  { path: ':id/edit', component: ActoresEditComponent, canActivate: [ InRoleCanActivate('Actores')] },
+  { path: ':id', component: ActoresViewComponent, canActivate: [ InRoleCanActivate('Actores')] },
+  { path: ':id/:kk', component: ActoresViewComponent, canActivate: [ InRoleCanActivate('Actores')] },
 ]
 @NgModule({
   declarations: [],

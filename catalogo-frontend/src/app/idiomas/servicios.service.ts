@@ -8,33 +8,34 @@ import { RESTDAOService, ModoCRUD } from '../code-base';
 import { NavigationService, NotificationService } from '../common-services';
 import { AuthService, AUTH_REQUIRED } from '../security';
 
-export interface IActor {
+export interface IIdioma {
   [index: string]: any;
-  id: number
-  nombre: string
-  apellidos: string
+  id?: number
+  nombre?: string
+ 
 }
 
-export class Actor implements IActor {
+export class Idioma implements IIdioma {
    
   [index: string]: any;
   constructor(
-    public id: number=0,
-    public nombre: string="",
-    public apellidos: string="",) { }
+    public id: number = 0,
+    public nombre?: string,
+ 
+  ) { }
  
 }
 
 @Injectable({
   providedIn: 'root'
 })
-export class ActoresDAOService extends RESTDAOService<any, number> {
+export class IdiomasDAOService extends RESTDAOService<any, number> {
   constructor() {
-    super('actores/v1', { context: new HttpContext().set(AUTH_REQUIRED, true) });
+    super('idiomas', { context: new HttpContext().set(AUTH_REQUIRED, true) });
   }
   page(page: number, rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: any[] }> {
     return new Observable(subscriber => {
-      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}&_sort=firstName,lastName`
+      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}&_sort=nombre`
       this.http.get<any>(url, this.option).subscribe({
         next: data => subscriber.next({ page: data.number, pages: data.totalPages, rows: data.totalElements, list: data.content }),
         error: err => subscriber.error(err)
@@ -46,20 +47,16 @@ export class ActoresDAOService extends RESTDAOService<any, number> {
 @Injectable({
   providedIn: 'root'
 })
-export class ActoresViewModelService {
+export class IdiomasViewModelService {
   protected modo: ModoCRUD = 'list';
-  protected listado: IActor[] = [];
-  protected elemento: IActor = {
-    id: 0,
-    nombre: '',
-    apellidos: ''
-  };
+  protected listado: IIdioma[] = [];
+  protected elemento: IIdioma = {};
   protected idOriginal?: number;
-  protected listURL = '/actores/v1';
+  protected listURL = '/languages/v1';
 
   constructor(protected notify: NotificationService,
     protected out: LoggerService,
-    protected dao: ActoresDAOService
+    protected dao: IdiomasDAOService
     , public auth: AuthService, protected router: Router, private navigation: NavigationService
   ) { }
 
@@ -78,7 +75,7 @@ export class ActoresViewModelService {
   }
 
   public add(): void {
-    this.elemento = new Actor();
+    this.elemento = new Idioma();
     this.modo = 'add';
   }
   public edit(key: any): void {
@@ -113,9 +110,7 @@ export class ActoresViewModelService {
   }
 
   clear() {
-    this.elemento = { id: 0,
-      nombre: '',
-      apellidos: ''};
+    this.elemento = {};
     this.idOriginal = undefined;
     this.listado = [];
   }
