@@ -19,12 +19,11 @@ import { FilmsViewModelService } from './servicios.service';
     imports: [RouterLink, PaginatorModule]
 })
 export class FilmsListComponent implements OnChanges, OnDestroy {
-  @Input() page = 0
-
+ 
   constructor(protected vm: FilmsViewModelService) { }
   public get VM(): FilmsViewModelService { return this.vm; }
   ngOnChanges(_changes: SimpleChanges): void {
-    this.vm.load(this.page)
+    this.vm.list()
   }
   ngOnDestroy(): void { this.vm.clear(); }
 }

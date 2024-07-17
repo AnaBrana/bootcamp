@@ -19,7 +19,7 @@ import { CategoriasViewModelService } from './servicios.service';
     imports: [RouterLink]
 })
 export class CategoriasListComponent implements OnChanges, OnDestroy {
-  @Input() page = 0
+  
 
   constructor(protected vm: CategoriasViewModelService) { }
   public get VM(): CategoriasViewModelService { return this.vm; }

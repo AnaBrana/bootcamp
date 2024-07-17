@@ -50,11 +50,7 @@ class ActorResourceTest {
 		int id;
 		String nombre;
 	
-		@Override
-		public String getApellidos() {
-			// TODO Auto-generated method stub
-			return null;
-		}
+		
 	}
 	
 	@Test

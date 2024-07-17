@@ -19,7 +19,7 @@ import { IdiomasViewModelService } from './servicios.service';
     imports: [RouterLink, PaginatorModule]
 })
 export class IdiomasListComponent implements OnChanges, OnDestroy {
-  @Input() page = 0
+ 
 
   constructor(protected vm: IdiomasViewModelService) { }
   public get VM(): IdiomasViewModelService { return this.vm; }

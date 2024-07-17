@@ -17,8 +17,8 @@
   
   <div class="form-floating col-md-4">
     <input class="form-control" [class.is-invalid]="nombre.invalid" type="text" name="nombre" id="nombre"
-       [(ngModel)]="VM.Elemento.nombre" #nombre="ngModel" required minlength="2"
-       maxlength="50" placeholder=" ">
+       [(ngModel)]="VM.Elemento.nombre" #nombre="ngModel" required 
+       maxlength="25" placeholder=" ">
     <label for="nombre">Nombre:</label>
     <output class="invalid-feedback" [hidden]="nombre.valid">{{nombre.errors | errormsg}}</output>
   </div>

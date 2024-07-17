@@ -105,8 +105,8 @@ export class ActoresViewModelService {
 
     this.dao.remove(key).subscribe({
       next: () => {
-        // this.list()
-        this.load()
+         this.list()
+       // this.load()
       },
       error: err => this.handleError(err)
     });

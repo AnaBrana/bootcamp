@@ -152,7 +152,7 @@ public class ActorResource {
 	//@ApiResponse(responseCode = "404", description = "Actor no existente")
 	public void delete(@Parameter(description = "Identificador del actor", 
 	required = true)
-	@PathVariable int id, @Valid @RequestBody ActorDTO item) {
+	@PathVariable int id) {
 		srv.deleteById(id);
 	}
 	

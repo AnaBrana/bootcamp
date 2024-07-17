@@ -52,11 +52,11 @@ export class Film implements IFilm {
 })
 export class FilmsDAOService extends RESTDAOService<any, number> {
   constructor() {
-    super('films', { context: new HttpContext().set(AUTH_REQUIRED, true) });
+    super('films/v1', { context: new HttpContext().set(AUTH_REQUIRED, true) });
   }
   page(page: number, rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: any[] }> {
     return new Observable(subscriber => {
-      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}&_dto=titulo`
+      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}`
       this.http.get<any>(url, this.option).subscribe({
         next: data => subscriber.next({ page: data.number, pages: data.totalPages, rows: data.totalElements, list: data.content }),
         error: err => subscriber.error(err)
@@ -73,7 +73,7 @@ export class FilmsViewModelService {
   protected listado: IFilm[] = [];
   protected elemento: IFilm = {};
   protected idOriginal?: number;
-  protected listURL = '/films';
+  protected listURL = '/films/v1';
 
   constructor(protected notify: NotificationService,
     protected out: LoggerService,
@@ -123,8 +123,8 @@ export class FilmsViewModelService {
 
     this.dao.remove(key).subscribe({
       next: () => {
-        // this.list()
-        this.load()
+         this.list()
+        //this.load()
       },
       error: err => this.handleError(err)
     });
@@ -176,30 +176,6 @@ export class FilmsViewModelService {
     this.notify.add(msg)
   }
 
-  // Paginado
-
-  page = 0;
-  totalPages = 0;
-  totalRows = 0;
-  rowsPerPage = 8;
-  load(page: number = -1) {
-    if (page < 0) page = this.page
-    this.dao.page(page, this.rowsPerPage).subscribe({
-      next: rslt => {
-        this.page = rslt.page;
-        this.totalPages = rslt.pages;
-        this.totalRows = rslt.rows;
-        this.listado = rslt.list;
-        this.modo = 'list';
-      },
-      error: err => this.handleError(err)
-    })
-  }
-  pageChange(page: number = 0) {
-    this.router.navigate([], { queryParams: { page } })
-  }
-  imageErrorHandler(event: Event, item: any) {
-    (event.target as HTMLImageElement).src = item.sexo === 'H' ? '/images/user-not-found-male.png' : '/images/user-not-found-female.png'
-  }
+  
 
 }

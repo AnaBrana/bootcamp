@@ -34,14 +34,18 @@ public class FilmDTO implements Serializable{
 	private BigDecimal replacementCost;
 	
 	private String title;
+	
 	@JsonProperty("idioma")
 	private String language;
+	
 	@JsonProperty("idiomaVO")
 	private String languageVO;
+	
 	//@JsonProperty("lista_actores")
 	//private Actor nombreActor;
 	@JsonProperty("lista-categorias")
 	private List<String> nombreCategoria;
+	
 	@JsonProperty("lista-actores")
 	private List<String> actores;
 	
