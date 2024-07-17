@@ -24,7 +24,7 @@ export class IdiomasListComponent implements OnChanges, OnDestroy {
   constructor(protected vm: IdiomasViewModelService) { }
   public get VM(): IdiomasViewModelService { return this.vm; }
   ngOnChanges(_changes: SimpleChanges): void {
-    this.vm.load(this.page)
+    this.vm.list()
   }
   ngOnDestroy(): void { this.vm.clear(); }
 }

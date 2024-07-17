@@ -1,0 +1,44 @@
+<h1>Film</h1>
+@if(VM.Elemento) {
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="well well-sm">
+          <div class="row">
+              
+              <div class="col-sm-6 col-md-8">
+                    <h4> Id: {{VM.Elemento.id}} </h4>
+                    <h4> Sinopsis: {{VM.Elemento.description}} </h4>
+                    <h4> Duración: {{VM.Elemento.length}} </h4>
+                    <h4> Rating: {{VM.Elemento.rating}} </h4>
+                    <h4> Año de estreno: {{VM.Elemento.releaseYear}} </h4>
+                    <h4> Duración de alquiler: {{VM.Elemento.rentalDuration}} </h4>
+                    <h4> Multa por retraso: {{VM.Elemento.replacementCost}} </h4>
+                    <h4> Titulo: {{VM.Elemento.title}} </h4>
+                    <h4> Idioma: {{VM.Elemento.language}} </h4>
+                    <h4> Idioma original: {{VM.Elemento.languageVO}} </h4>
+                    <h4> Categorías: {{VM.Elemento.nombreCategoria}} </h4>
+                    <h4> Actores: {{VM.Elemento.actores}} </h4>
+                  
+                  <div class="btn-group">
+                      <button type="button" class="btn btn-primary">
+                          Social</button>
+                      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                          <span class="caret"></span><span class="sr-only">Social</span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Twitter</a></li>
+                          <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                          <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Github</a></li>
+                      </ul>
+                      <input class="btn btn-secondary" type="button" value="Volver" (click)="VM.cancel()">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+} @else {
+  <h2>Sin datos</h2>
+}

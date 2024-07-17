@@ -5,8 +5,6 @@ import org.springframework.beans.factory.annotation.Value;
 public interface ActorShort {
 	@Value("#{target.ActorId}")
 	int getId();
-	@Value("#{target.amp}")
+	@Value("#{target.firstName + ' ' + target.lastName}")
 	String getNombre();
-	@Value("#{target.lastName}")
-	String getApellidos();
 }

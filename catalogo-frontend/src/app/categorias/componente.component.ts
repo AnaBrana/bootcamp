@@ -16,7 +16,7 @@ import { CategoriasViewModelService } from './servicios.service';
     templateUrl: './tmpl-list.component.html',
     styleUrls: ['./componente.component.css'],
     standalone: true,
-    imports: [RouterLink, PaginatorModule]
+    imports: [RouterLink]
 })
 export class CategoriasListComponent implements OnChanges, OnDestroy {
   @Input() page = 0
@@ -24,7 +24,7 @@ export class CategoriasListComponent implements OnChanges, OnDestroy {
   constructor(protected vm: CategoriasViewModelService) { }
   public get VM(): CategoriasViewModelService { return this.vm; }
   ngOnChanges(_changes: SimpleChanges): void {
-    this.vm.load(this.page)
+    this.vm.list()
   }
   ngOnDestroy(): void { this.vm.clear(); }
 }

@@ -34,7 +34,7 @@ export class ActoresDAOService extends RESTDAOService<any, number> {
   }
   page(page: number, rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: any[] }> {
     return new Observable(subscriber => {
-      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}&_sort=firstName,lastName`
+      const url = `${this.baseUrl}??modo=largo&page=${page}&size=${rows}`
       this.http.get<any>(url, this.option).subscribe({
         next: data => subscriber.next({ page: data.number, pages: data.totalPages, rows: data.totalElements, list: data.content }),
         error: err => subscriber.error(err)

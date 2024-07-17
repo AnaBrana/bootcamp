@@ -13,8 +13,7 @@
     @for (item of VM.Listado; track item.id) {
     <tr>
         <td>
-          ID: {{item.id}}
-          Nombre: {{item.nombre}}
+          <a routerLink="{{item.id}}">{{item.nombre}}</a>
         </td>
         <td class="align-middle text-end">
           @if (VM.auth.isAuthenticated) {
@@ -28,5 +27,4 @@
   }
   </tbody>
 </table>
-<p-paginator [first]="VM.rowsPerPage*VM.page" [rows]="VM.rowsPerPage" [totalRecords]="VM.totalRows"
-    [pageLinkSize]="5" (onPageChange)="VM.pageChange($event.page)"></p-paginator>
+

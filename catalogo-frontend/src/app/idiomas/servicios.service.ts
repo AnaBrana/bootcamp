@@ -31,11 +31,11 @@ export class Idioma implements IIdioma {
 })
 export class IdiomasDAOService extends RESTDAOService<any, number> {
   constructor() {
-    super('idiomas', { context: new HttpContext().set(AUTH_REQUIRED, true) });
+    super('languages/v1', { context: new HttpContext().set(AUTH_REQUIRED, true) });
   }
   page(page: number, rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: any[] }> {
     return new Observable(subscriber => {
-      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}&_sort=nombre`
+      const url = `${this.baseUrl}?_page=${page}&_rows=${rows}`
       this.http.get<any>(url, this.option).subscribe({
         next: data => subscriber.next({ page: data.number, pages: data.totalPages, rows: data.totalElements, list: data.content }),
         error: err => subscriber.error(err)
@@ -102,8 +102,8 @@ export class IdiomasViewModelService {
 
     this.dao.remove(key).subscribe({
       next: () => {
-        // this.list()
-        this.load()
+         this.list()
+       
       },
       error: err => this.handleError(err)
     });
@@ -154,29 +154,5 @@ export class IdiomasViewModelService {
     }
     this.notify.add(msg)
   }
-
-  // Paginado
-
-  page = 0;
-  totalPages = 0;
-  totalRows = 0;
-  rowsPerPage = 8;
-  load(page: number = -1) {
-    if (page < 0) page = this.page
-    this.dao.page(page, this.rowsPerPage).subscribe({
-      next: rslt => {
-        this.page = rslt.page;
-        this.totalPages = rslt.pages;
-        this.totalRows = rslt.rows;
-        this.listado = rslt.list;
-        this.modo = 'list';
-      },
-      error: err => this.handleError(err)
-    })
-  }
-  pageChange(page: number = 0) {
-    this.router.navigate([], { queryParams: { page } })
-  }
-  
 
 }
