@@ -58,7 +58,7 @@ public class ActorResource {
 			return srv.getByProjection(ActorDTO.class);
 	}
 	
-	@GetMapping(params="page")
+	@GetMapping(params="_page")
 	@Operation(summary="Buscar todos los actores", 
 	description = "Devuelve un pageable de actores")
 	public Page<ActorShort>getAll(Pageable page){

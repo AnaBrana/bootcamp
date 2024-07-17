@@ -3253,3 +3253,203 @@ END
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 14:23:17.493
 !MESSAGE Classpath changed for project: catalogo
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-16 14:57:25.589
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-16 14:57:25.593
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-16 14:57:25.595
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-16 14:57:25.598
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-16 14:57:25.605
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2024-07-16 14:57:25.610
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+!SESSION 2024-07-16 20:03:42.528 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-16 20:03:48.598
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-16 20:03:50.780
+!MESSAGE Logback config file: C:\Users\abranasa\bootcamp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-16 20:03:51.298
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-16 20:03:51.298
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-16 20:03:51.748
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-16 20:03:51.749
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-16 20:04:04.882
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/abranasa/bootcamp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721153044881
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:04.883
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-16 20:04:05.341
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 22508
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.883
+!MESSAGE Boot project ADDED: catalogo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.885
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.888
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.890
+!MESSAGE Boot project ADDED: contactos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.891
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.892
+!MESSAGE Boot project ADDED: demo-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.895
+!MESSAGE Boot project ADDED: lotes-java
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.896
+!MESSAGE Boot project ADDED: lotes-xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.898
+!MESSAGE Boot project ADDED: megusta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.899
+!MESSAGE Boot project ADDED: ms.apigateway.server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.901
+!MESSAGE Boot project ADDED: ms.autentication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.902
+!MESSAGE Boot project ADDED: ms.config.server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-16 20:04:07.904
+!MESSAGE Boot project ADDED: ms.eureka.server
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-16 20:04:07.937
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\abranasa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-07-17 08:16:14.561 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-17 08:16:22.192
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-17 08:16:25.450
+!MESSAGE Logback config file: C:\Users\abranasa\bootcamp\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-17 08:16:26.468
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-17 08:16:26.468
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-17 08:16:27.016
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-17 08:16:27.016
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-17 08:16:36.735
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin\javaw.exe
+-cp
+C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\abranasa\Downloads\eclipse-jee-2024-06-R-win32-x86_64\eclipse\plugins\org.springframework.tooling.boot.ls_1.55.0.202406062354\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/abranasa/bootcamp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721196996733
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:36.737
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-17 08:16:36.920
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 21036
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.321
+!MESSAGE Boot project ADDED: catalogo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.323
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.325
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.327
+!MESSAGE Boot project ADDED: contactos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.329
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.331
+!MESSAGE Boot project ADDED: demo-ws
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.332
+!MESSAGE Boot project ADDED: lotes-java
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.333
+!MESSAGE Boot project ADDED: lotes-xml
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.335
+!MESSAGE Boot project ADDED: megusta
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.336
+!MESSAGE Boot project ADDED: ms.apigateway.server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.338
+!MESSAGE Boot project ADDED: ms.autentication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.339
+!MESSAGE Boot project ADDED: ms.config.server
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-17 08:16:43.341
+!MESSAGE Boot project ADDED: ms.eureka.server
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-07-17 08:16:43.398
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\abranasa'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

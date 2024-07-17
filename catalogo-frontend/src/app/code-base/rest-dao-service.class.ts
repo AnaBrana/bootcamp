@@ -32,7 +32,7 @@ export class DAOServiceMock<T, K> extends RESTDAOService<T, K> {
   constructor(listado: T[]) {
     super('')
     this.listado = listado.map(item => ({ ...item }))
-    this.pk = Object.keys(this.listado[0] as { [i: string]: any })[0]
+    this.pk = Object.keys(this.listado[0] as Record<string, any>)[0]
   }
   override query(): Observable<T[]> {
     return of(this.listado);
@@ -45,7 +45,7 @@ export class DAOServiceMock<T, K> extends RESTDAOService<T, K> {
     return of(this.listado[index]);
   }
   override add(item: T): Observable<T> {
-    const id = (item as { [i: string]: any })[this.pk]
+    const id = (item as Record<string, any>)[this.pk]
     if (+id < 0) return this.unknownError(id)
     this.listado.push(item)
     return of(item);
@@ -67,12 +67,12 @@ export class DAOServiceMock<T, K> extends RESTDAOService<T, K> {
     this.listado.splice(index, 1)
     return of(item);
   }
-  page(page: number, _rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: Array<any> }> {
+  page(page: number, _rows: number = 20): Observable<{ page: number, pages: number, rows: number, list: any[] }> {
     return of({ page, pages: 1, rows: this.listado.length, list: this.listado });
   }
 
   private findIndex(id: K) {
-    return this.listado.findIndex(item => (item as { [i: string]: any })[this.pk] == id)
+    return this.listado.findIndex(item => (item as Record<string, any>)[this.pk] == id)
   }
 
   private unknownError(id: K) {
